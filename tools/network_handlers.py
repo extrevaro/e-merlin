@@ -1,6 +1,7 @@
 import networkx as nx
 from math import floor, sqrt
 import plotly.graph_objects as go
+from .designFunctions import get_active_rxns, get_network_data
 
 def get_subnetwork_centers(subnetworks):
     pos = []
@@ -10,6 +11,13 @@ def get_subnetwork_centers(subnetworks):
         d += sqrt(len(sg.nodes()))
             
     return pos
+
+def metabolites_to_reactions(metabolite_pair, network_df):
+    rxn_names = network_df.loc[ (network_df['sustrate'] == metabolite_pair[0]) &
+                                (network_df['product'] == metabolite_pair[1]),
+                                'reaction' ].unique().tolist()
+    return rxn_names
+
 
 def draw_subnetworks(network_list, flux_threshold=0.05):
     data = []
@@ -43,17 +51,17 @@ def draw_subnetworks(network_list, flux_threshold=0.05):
                                 y= [y for y in edge_y if edge_flux_list[floor(edge_y.index(y)/n_of_coordinates)]<=flux_threshold],
                                 mode='lines',
                                 text = [t for t in edge_text if edge_flux_list[edge_text.index(t)]<flux_threshold],
-                                line=dict(width=0.5, color= '#888'),
+                                line=dict(width=0.5, color= '#808888'),
                                 hoverinfo='text')
         data.append(low_flux_edge_trace)
 
 
         high_flux_edge_trace = go.Scatter(
-                                x= [x for x in edge_x if edge_flux_list[floor(edge_x.index(x)/n_of_coordinates)]>flux_threshold], 
-                                y= [y for y in edge_y if edge_flux_list[floor(edge_y.index(y)/n_of_coordinates)]>flux_threshold],
+                                x= [x for x in edge_x if abs(edge_flux_list[floor(edge_x.index(x)/n_of_coordinates)])>flux_threshold], 
+                                y= [y for y in edge_y if abs(edge_flux_list[floor(edge_y.index(y)/n_of_coordinates)])>flux_threshold],
                                 mode='lines',
                                 text = [t for t in edge_text if edge_flux_list[edge_text.index(t)]>flux_threshold],
-                                line=dict(width=0.5, color= '#990099'),
+                                line=dict(width=2, color= '#990099'),
                                 hoverinfo='text')
         data.append(high_flux_edge_trace)
 
@@ -87,7 +95,7 @@ def draw_subnetworks(network_list, flux_threshold=0.05):
                 colorscale='RdBu',
                 reversescale=True,
                 color=[],
-                size=10,
+                size=6,
                 opacity=0.8,
                 colorbar=dict(
                     thickness=15,
@@ -114,11 +122,11 @@ def draw_subnetworks(network_list, flux_threshold=0.05):
     fig.show()
     
 
-def extract_subnetworks(rf_media_model, target_biomass, observed_growth, gene_exp_replicates, node_threshold = 20, cutoff_range = range(1,34)):
+def extract_subnetworks(rf_media_model, gene_exp_replicates, node_threshold = 20, cutoff_range = range(1,34), parsimonious=False):
     # The function has as input:
     #
     #    Required:
-    #        'rf_media_model', 'target_biomass', 'observed_growth' and 'gene_exp_replicates'
+    #        'rf_media_model', and 'gene_exp_replicates'
     #    Optional:
     #        'node_threshold' (default -> 20) 'cutoff_range' (default -> range(1,34))
     #     
@@ -134,43 +142,17 @@ def extract_subnetworks(rf_media_model, target_biomass, observed_growth, gene_ex
 
     subnetwork_dict = {}
     for i in cutoff_range:
-        replicate_list = []
-        for replicate in gene_exp_replicates:
-            gene_exp = gene_exp_replicates[replicate]
-            gimmes_sol = GIMMES(rf_media_model, gene_exp, target_biomass, observed_growth, cutoff=i)
-            gimmes_result = gimmes_sol.to_dataframe()
-            gimmes_result = gimmes_result.rename(columns={'value': replicate+'_value'})
-            replicate_list.append(gimmes_result)
-
-        active_rxns = pd.concat(replicate_list, axis=1)
-        #delete rows whose all values are 0
-        active_rxns = active_rxns[~(active_rxns == 0).all(axis=1)]                                       
-        active_rxns = active_rxns.assign(Mean=active_rxns.mean(1), Stddev=active_rxns.std(1))
+        #Get the active reaction predicted by GIMMES for each replicate,
+        #Only reactions whose flux is 0 in all the replicates are excluded
+        active_rxns = get_active_rxns(rf_media_model, gene_exp_replicates, i, parsimonious)
 
         #generate the network(s) dataframe
         cobra_model = to_cobrapy(rf_media_model)
         for replicate in gene_exp_replicates:
-            sustrates = set([s.id for rxn_id in active_rxns.index for s in cobra_model.reactions.get_by_id(rxn_id).reactants])
-            s_l = []
-            p_l = []
-            r_l = []
-            f_l = []
-
-            for s in sustrates:
-                for r in cobra_model.metabolites.get_by_id(s).reactions:
-                    if r.id in active_rxns.index:
-                        for p in r.products:
-                            s_l.append(s)
-                            p_l.append(p.id)
-                            r_l.append(r.id)
-                            #it is correct to use the mean or it is better to use a sample value
-                            f_l.append(active_rxns.loc[r.id, replicate+'_value'])
-
-            all_metabolites = s_l+p_l
-            network_df = pd.DataFrame.from_dict({'sustrate':s_l, 
-                                                 'product':p_l, 
-                                                 'reaction':r_l,
-                                                 'flux':f_l})
+            #Compute network data for each condition. Here all reactions
+            #whose value is 0 for the given condition will be excluded
+            network_df = get_network_data(cobra_model, active_rxns, replicate)
+            
             #Find the different subnetworks and plot them:
             G=nx.from_pandas_edgelist(network_df, 'sustrate', 'product', edge_attr=['reaction', 'flux'], create_using=nx.DiGraph)
             UG=G.to_undirected()
@@ -181,7 +163,17 @@ def extract_subnetworks(rf_media_model, target_biomass, observed_growth, gene_ex
                 print('Their numbers of nodes are:')
                 print('%s | '*len(S) % tuple(str(len(sg.nodes())) for sg in S) )
                 for sg in subgraphs:
-                    graph_id = '-'.join(set(sg.nodes()))
+                    graph_id = []
+                    print(sg.edges())
+                    for m_p in sg.edges():
+                        rxns = metabolites_to_reactions(m_p, network_df)
+                        if '-'.join(rxns) not in graph_id:
+                            graph_id.append('-'.join(rxns))
+                            
+                        print(graph_id)
+                    
+                    graph_id = '-'.join(graph_id)
+                    
                     if graph_id not in subnetwork_dict.keys():
                         new_dict = { graph_id : [None, {r : [i] if r == replicate else [] for r in gene_exp_replicates}]}
                     else:
@@ -189,8 +181,12 @@ def extract_subnetworks(rf_media_model, target_biomass, observed_growth, gene_ex
 
                 print(new_dict)
                 subnetwork_dict = new_dict
-
+                
+    unique_cutoff_values = set()
     for sg in subnetwork_dict.keys():
-        subnetwork_dict[sg][0] = max([len(cutoff_list) for cutoff_list in subnetwork_dict[sg][1].values()])
+        for c_l in subnetwork_dict[sg][1].values():
+            unique_cutoff_values |= set(c_l)
+            
+        subnetwork_dict[sg][0] = len(unique_cutoff_values)
     
     return subnetwork_dict
