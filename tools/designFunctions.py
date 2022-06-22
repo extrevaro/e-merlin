@@ -1,6 +1,9 @@
 import cobra
 import pandas as pd
 from reframed.cobra.transcriptomics import GIMME
+from plotly.subplots import make_subplots
+import plotly.graph_objects as go
+
 
 supported_species = ['escherichia_coli', 'pseudomonas_putida', 'bacillus_subtilis']
 
@@ -187,4 +190,54 @@ class OD_coefficient:
     def get_predefined_media_definition(self):
         return self.definition
 
-    
+def plot_enrichments_results(enrichment_result, functional_class):
+    p_value_fig = px.bar(enrichment_result, x=functional_class, y=['p-Value_BAR', 'p-Value_NBR'],
+                 barmode='group',
+                 height=250)
+
+
+    recall_fig = px.bar(enrichment_result, x=functional_class, y=['recall_BAR', 'recall_NBR'],
+                 barmode='group',  color_discrete_sequence=px.colors.qualitative.D3,
+                 height=250)
+
+
+    # For as many traces that exist per Express figure, get the traces from each plot and store them in an array.
+    # This is essentially breaking down the Express fig into it's traces
+    figure1_traces = []
+    figure2_traces = []
+    for trace in range(len(p_value_fig["data"])):
+        figure1_traces.append(p_value_fig["data"][trace])
+
+    for trace in range(len(recall_fig["data"])):
+        figure2_traces.append(recall_fig["data"][trace])
+
+    #Create a 2x1 subplot
+    this_figure = make_subplots(rows=2, cols=1, vertical_spacing=0.02 )
+
+    # Get the Express fig broken down as traces and add the traces to the proper plot within in the subplot
+    for traces in figure1_traces:
+        this_figure.append_trace(traces, row=1, col=1)
+
+    for traces in figure2_traces:
+        this_figure.append_trace(traces, row=2, col=1)
+
+    this_figure.update_xaxes(visible=False, showticklabels=False)
+    this_figure['layout']['yaxis'].update(title='p Value')
+    this_figure['layout']['yaxis2'].update(title=functional_class+' recall')
+    this_figure['layout']['xaxis2'].update(title=functional_class, visible=True, showticklabels=True, tickangle=45)
+
+    this_figure.update_layout(
+        title=dict(
+            text='<b>'+functional_class+' enrichment analysis in BARs & NBRs</b>',
+            x=0.5,
+            y=0.95,
+            font=dict(
+                family="Arial",
+                size=20,
+                color='#000000'
+            )
+        )
+    )
+
+    return this_figure
+        
