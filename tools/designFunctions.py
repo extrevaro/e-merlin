@@ -3,7 +3,7 @@ import pandas as pd
 from reframed.cobra.transcriptomics import GIMME
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
-
+import plotly.express as px
 
 supported_species = ['escherichia_coli', 'pseudomonas_putida', 'bacillus_subtilis']
 
@@ -193,12 +193,19 @@ class OD_coefficient:
 def plot_enrichments_results(enrichment_result, functional_class):
     p_value_fig = px.bar(enrichment_result, x=functional_class, y=['p-Value_BAR', 'p-Value_NBR'],
                  barmode='group',
-                 height=250)
-
+                 height=250,
+                 opacity = [[l/max(enrichment_result.target_lenght_BAR.tolist()) 
+                             for l in enrichment_result.target_lenght_BAR.tolist()],
+                            [l/max(enrichment_result.target_lenght_NBR.tolist())
+                             for l in enrichment_result.target_lenght_NBR.tolist()]])
 
     recall_fig = px.bar(enrichment_result, x=functional_class, y=['recall_BAR', 'recall_NBR'],
                  barmode='group',  color_discrete_sequence=px.colors.qualitative.D3,
-                 height=250)
+                 height=250,
+                 opacity = [[l/max(enrichment_result.target_lenght_BAR.tolist()) 
+                             for l in enrichment_result.target_lenght_BAR.tolist()],
+                            [l/max(enrichment_result.target_lenght_NBR.tolist())
+                             for l in enrichment_result.target_lenght_NBR.tolist()]])                       )
 
 
     # For as many traces that exist per Express figure, get the traces from each plot and store them in an array.
