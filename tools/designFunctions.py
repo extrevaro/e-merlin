@@ -205,7 +205,7 @@ def plot_enrichments_results(enrichment_result, functional_class):
                  opacity = [[l/max(enrichment_result.target_lenght_BAR.tolist()) 
                              for l in enrichment_result.target_lenght_BAR.tolist()],
                             [l/max(enrichment_result.target_lenght_NBR.tolist())
-                             for l in enrichment_result.target_lenght_NBR.tolist()]])                       )
+                             for l in enrichment_result.target_lenght_NBR.tolist()]])
 
 
     # For as many traces that exist per Express figure, get the traces from each plot and store them in an array.
