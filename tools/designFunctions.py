@@ -252,7 +252,7 @@ def plot_enrichments_results(enrichment_result, functional_class):
     return this_figure
 
 
-def nbr_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_model, carbon_source):
+def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_model, carbon_source, reaction_set='NBR'):
     '''
     This function computes the set of NBRs for each cutoff value for the given expression
     data and GEM.
@@ -271,8 +271,8 @@ def nbr_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_model,
             
             returns a list containing the NBRs for each cutoff value            
     '''
-    nbr_reaction_set_list = []
-    number_of_nbr_list=[]
+    reaction_set_list = []
+    number_reactions_list=[]
     for cutoff in cutoff_range:
         print('Applying method for cutoff value of %s' % str(cutoff))
         expression_set = set()
@@ -292,7 +292,7 @@ def nbr_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_model,
             
         except:
             print('GIMME gives error with a cutoff value of %s' % str(cutoff))
-            number_of_nbr_list.append(0)
+            number_reactions_list.append(0)
             continue
             
         active_but_not_in_gimme_model  = set([rxn for rxn in expression_set if rxn not in gimme_active_rxns.index])
@@ -326,77 +326,112 @@ def nbr_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_model,
         not_biomass_reactions= set(fva_gimme.loc[~((fva_gimme['minimum']!=0) | (fva_gimme['maximum']!=0))].index)
         print('%s reactions are no related with biomass component using %s as carbon source' %
               (len(not_biomass_reactions), list(carbon_source.keys())[0]))
-        #Populate 'nbr_reaction_set_list' by adding NBRs foun for this cutoff
-        nbr_reaction_set_list.append(not_biomass_reactions)
-        number_of_nbr_list.append(len(not_biomass_reactions))
+        #Populate 'reaction_set_list' by adding NBRs found for this cutoff
+        if reaction_set == 'NBR':
+            reaction_set_list.append(not_biomass_reactions)
+            number_reactions_list.append(len(not_biomass_reactions))
+            
+        elif reaction_set == 'BAR':
+            reaction_set_list.append(biomass_reactions)
+            number_reactions_list.append(len(biomass_reactions))
+        
+        else:
+            raise Exception("reaction_set can only be 'NBR' or 'BAR', but %s was given." % reaction_set)
+            break
         
     #Plot the nº of NBRs respect the cutoff value
-    fig = px.scatter(x=[c for c in cutoff_range], y=number_of_nbr_list)
-    fig.update_layout(title=dict(text='<b>NBR Sensitivity to cutoff value<b>',
+    fig = px.scatter(x=[c for c in cutoff_range], y=number_reactions_list)
+    fig.update_layout(title=dict(text='<b>'+reaction_set+' Sensitivity to cutoff value<b>',
                                  x=0.5),
                       xaxis=dict(title='Cutoff Value'),
-                      yaxis=dict(title='Number of NBRs in GIMME model')
+                      yaxis=dict(title='Number of '+reaction_set+'s in GIMME model')
                      )
     display(fig)
     
-    return nbr_reaction_set_list
+    return reaction_set_list
 
 
-def function_sensitivity_to_cutoff(reaction_set_list, gene_presence, ica_data, rf_media_model):
+def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, functional_data):
     '''
     This function computes the set of enriched functions for each cutoff value for a given
     reaction set list, ica data, iModulon genes and a GEM.
     INPUTS:
             reaction_set_list : list containing the NBRs for each cutoff value
             
-            gene_presence : dataframe containing the genes associated to each iModulon
-            
-            ica_data : ica object generated with all available data as described in
-                       pymodulon documentation
-                                  
             rf_media_model : the GEM as a refremed model
             
+            ica_data : ica object generated with all available data as described in
+                       pymodulon documentation            
+            
+            functional_data : dict containing dataframes for all the functional classes whose
+                              analysis is permited (iModulon and Subsystem). Each dataframe has
+                              the genes associated to each functional class.                          
+                   
     OUTPUT:       
-            returns a dataframe containing the presence of each function across the cutoff values            
+            returns a list of dataframes containing the presence of each function across the 
+            cutoff values. A element of the list consist on th dateframe for a given functional class           
     '''
+    sensitivity_result = []
     all_genes = ica_data.gene_names
-    im_list = ica_data.imodulon_names
-    im_table = ica_data.imodulon
     media_model = to_cobrapy(rf_media_model)
     enriched_functions_list = []
-    for g_s in reaction_set_list:
-        nbr_gene_dict = {rxn : [g.id for g in media_model.reactions.get_by_id(rxn).genes]
-                      for rxn in g_s}
-        nbr_functional_annotation = get_reaction_functional_annotation(ica_data, nbr_gene_dict)
-        nbr_functional_annotation['Reaction_type'] = ['NBR']*len(nbr_functional_annotation)
-        nbr_genes = list(nbr_functional_annotation['Gene'].unique())
+    for functional_class in functional_data.keys():
+        if functional_class == 'iModulon':
+            class_list = ica_data.imodulon_names
+            im_table = ica_data.imodulon
+            
+        elif functional_class == 'Subsystem':
+            class_list = functional_data[functional_class].Subsystem.unique().tolist()
+         
+        else:
+            raise Exception( "Keys of functional data need to be either iModulon or Subsystem, but %s was given"
+                            % functional_class)
+            break
+        
+        for g_s in reaction_set_list:
+            nbr_gene_dict = {rxn : [g.id for g in media_model.reactions.get_by_id(rxn).genes]
+                          for rxn in g_s}
+            nbr_functional_annotation = get_reaction_functional_annotation(ica_data, nbr_gene_dict)
+            nbr_genes = list(nbr_functional_annotation['Gene'].unique())
 
-        nbr_pv_list = []
-        nbr_recall_list = []
+            nbr_pv_list = []
+            nbr_recall_list = []
+                
+            for c in class_list:
+                composition_df = functional_data[functional_class]
+                target_set = composition_df.loc[composition_df[functional_class]==c, 'Gene'].values.tolist()
+                nbr_enrichment_result = compute_enrichment(nbr_genes, target_set, all_genes)
+                nbr_pv_list.append(nbr_enrichment_result.pvalue)
+                nbr_recall_list.append(nbr_enrichment_result.recall)
 
-        for im in im_list:
-            target_set = gene_presence.loc[gene_presence['iModulon']==im, 'Gene'].values.tolist()
-            nbr_enrichment_result = compute_enrichment(nbr_genes, target_set, all_genes)
-            nbr_pv_list.append(nbr_enrichment_result.pvalue)
-            nbr_recall_list.append(nbr_enrichment_result.recall)
+            enrichment_data = {functional_class: class_list,
+                               'p-Value' : nbr_pv_list,
+                               'recall' : nbr_recall_list}
 
-        enrichment_data = {'iModulon': im_list,
-                           'p-Value_NBR' : nbr_pv_list,
-                           'recall_NBR' : nbr_recall_list}
+            enrichment_df = pd.DataFrame.from_dict(enrichment_data).sort_values(by='p-Value')
+            #Consider enriched functional classes those with p-value less than 0.05:
+            nbr_enriched_fc = enrichment_df.loc[enrichment_df['p-Value'] <= 0.05, functional_class].tolist()
+            #For each functional class that our set is enriched in, compute its function
+            if functional_class == 'iModulon':
+                nbr_enriched_functions = [ f for im in nbr_enriched_fc for f in im_table.loc[[im]].function.values ]
+                enriched_functions_list.append(nbr_enriched_functions)
+                
+            if functional_class == 'Subsystem':
+                enriched_functions_list.append(nbr_enriched_fc)
 
-        enrichment_df = pd.DataFrame.from_dict(enrichment_data).sort_values(by='p-Value_NBR')
-        #Consider enriched iModulons those with p-value less than 0.05:
-        nbr_enriched_im = enrichment_df.loc[enrichment_df['p-Value_NBR'] <= 0.05, 'iModulon'].tolist()
-        #For each iModulon that our set is enriched in, compute its function
-        nbr_enriched_functions = [ f for im in nbr_enriched_im for f in im_table.loc[[im]].function.values ]
-        enriched_functions_list.append(nbr_enriched_functions)
+        #For each iModulon function compute its presence among the NBR sets computed with different cutoff values
+        if functional_class == 'iModulon':
+            sensitivity_data = { 'Function' : [i_f for i_f in im_table.function.unique().tolist()],
+                                 'Presence' : [ [f for f_s in enriched_functions_list for f in set(f_s) ].count(i_f)/len(reaction_set_list)
+                                                for i_f in im_table.function.unique().tolist()] }
+        
+        if functional_class == 'Subsystem':
+            sensitivity_data = { 'Function' : class_list,
+                                 'Presence' : [ [f for f_s in enriched_functions_list for f in set(f_s) ].count(ss)/len(reaction_set_list)
+                                                for ss in class_list] }            
 
-    #For each iModulon function compute its presence among the NBR sets computed with different cutoff values
-    sensitivity_data = { 'Function' : [i_f for i_f in im_table.function.unique().tolist()],
-                         'Presence' : [ [f for f_s in enriched_functions_list for f in set(f_s) ].count(i_f)/len(reaction_set_list)
-                                        for i_f in im_table.function.unique().tolist()] }
-
-    sensitivity_result = pd.DataFrame.from_dict(sensitivity_data)
+        sensitivity_result.append(pd.DataFrame.from_dict(sensitivity_data))
+        
     return sensitivity_result
 
 
