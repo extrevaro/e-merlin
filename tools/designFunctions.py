@@ -252,7 +252,7 @@ def plot_enrichments_results(enrichment_result, functional_class):
     return this_figure
 
 
-def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_model, carbon_source, reaction_set='NBR'):
+def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_model, carbon_source, reaction_set='both'):
     '''
     This function computes the set of NBRs for each cutoff value for the given expression
     data and GEM.
@@ -266,13 +266,26 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
             
             carbon_source : dict with carbon source exchange reaction as key and flux as value
             
+            reaction_set : str indicating type of reaction set, could be 'NBR', 'BAR' or 'both'
+            
     OUTPUT:
             display a plot representing the variation of the number of NBRs respect the cutoff
             
-            returns a list containing the NBRs for each cutoff value            
+            returns returns a dict a list containing the reaction set for each cutoff value and 
+            with the pattern { <reaction_set> : <reaction_set_list> }
     '''
-    reaction_set_list = []
-    number_reactions_list=[]
+    reaction_set_list = dict()
+    number_reactions_list= dict()
+    if reaction_set == 'both':
+        reaction_set_list['NBR'] = list()
+        reaction_set_list['BAR'] = list()
+        number_reactions_list['NBR'] = list()
+        number_reactions_list['BAR'] = list()
+    
+    else:
+        reaction_set_list[reaction_set] = list()
+        number_reactions_list[reaction_set] = list()        
+        
     for cutoff in cutoff_range:
         print('Applying method for cutoff value of %s' % str(cutoff))
         expression_set = set()
@@ -292,7 +305,10 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
             
         except:
             print('GIMME gives error with a cutoff value of %s' % str(cutoff))
-            number_reactions_list.append(0)
+            
+            for reaction_class in number_reactions_list:
+                number_reactions_list[reaction_class].append(0)
+                
             continue
             
         active_but_not_in_gimme_model  = set([rxn for rxn in expression_set if rxn not in gimme_active_rxns.index])
@@ -327,26 +343,38 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
         print('%s reactions are no related with biomass component using %s as carbon source' %
               (len(not_biomass_reactions), list(carbon_source.keys())[0]))
         #Populate 'reaction_set_list' by adding NBRs found for this cutoff
-        if reaction_set == 'NBR':
-            reaction_set_list.append(not_biomass_reactions)
-            number_reactions_list.append(len(not_biomass_reactions))
-            
-        elif reaction_set == 'BAR':
-            reaction_set_list.append(biomass_reactions)
-            number_reactions_list.append(len(biomass_reactions))
+        if reaction_set == 'both':         
+            reaction_set_list['NBR'].append(not_biomass_reactions)
+            reaction_set_list['BAR'].append(biomass_reactions)
+            number_reactions_list['NBR'].append(len(not_biomass_reactions))
+            number_reactions_list['BAR'].append(len(biomass_reactions))
+        
+        elif reaction_set != 'both':
+            reaction_set_list[reaction_set].append(not_biomass_reactions)
+            number_reactions_list[reaction_set].append(len(not_biomass_reactions))
         
         else:
-            raise Exception("reaction_set can only be 'NBR' or 'BAR', but %s was given." % reaction_set)
+            raise Exception("reaction_set can only be 'NBR', 'BAR' or 'both', but %s was given." % reaction_set)
             break
-        
-    #Plot the nº of NBRs respect the cutoff value
-    fig = px.scatter(x=[c for c in cutoff_range], y=number_reactions_list)
-    fig.update_layout(title=dict(text='<b>'+reaction_set+' Sensitivity to cutoff value<b>',
-                                 x=0.5),
-                      xaxis=dict(title='Cutoff Value'),
-                      yaxis=dict(title='Number of '+reaction_set+'s in GIMME model')
-                     )
-    display(fig)
+            
+    condition_tag = '-'.join([exchange+str(flux) for exchange,flux in carbon_source.items()])        
+    out_filename = 'results/reaction_sensitivity_'+condition_tag+'.xlsx' if reaction_set == 'both' else reaction_set+'_reaction_sensitivity.xlsx'
+    with pd.ExcelWriter(out_filename) as writer:
+        for reaction_class in reaction_set_list:
+            sensitivity_data = {'Cutoff' : [c for c in cutoff_range], 
+                                'Reaction_number': number_reactions_list[reaction_class]}
+            print(sensitivity_data)  
+            sensitivity_df = pd.DataFrame.from_dict(sensitivity_data)
+            sensitivity_df.to_excel(writer, sheet_name=reaction_class)
+                
+            #Plot the nº of reaction_set type respect the cutoff value
+            fig = px.scatter(x=[c for c in cutoff_range], y=number_reactions_list[reaction_class])
+            fig.update_layout(title=dict(text='<b>'+reaction_class+' Sensitivity to cutoff value<b>',
+                                         x=0.5),
+                              xaxis=dict(title='Cutoff Value'),
+                              yaxis=dict(title='Number of '+reaction_set+'s in GIMME model')
+                             )
+            display(fig)            
     
     return reaction_set_list
 
@@ -356,7 +384,7 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
     This function computes the set of enriched functions for each cutoff value for a given
     reaction set list, ica data, iModulon genes and a GEM.
     INPUTS:
-            reaction_set_list : list containing the NBRs for each cutoff value
+            reaction_set_list : list containing a reaction set for each cutoff value
             
             rf_media_model : the GEM as a refremed model
             
@@ -410,16 +438,16 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
 
             enrichment_df = pd.DataFrame.from_dict(enrichment_data).sort_values(by='p-Value')
             #Consider enriched functional classes those with p-value less than 0.05:
-            nbr_enriched_fc = enrichment_df.loc[enrichment_df['p-Value'] <= 0.05, functional_class].tolist()
+            enriched_fc = enrichment_df.loc[enrichment_df['p-Value'] <= 0.05, functional_class].tolist()
             #For each functional class that our set is enriched in, compute its function
             if functional_class == 'iModulon':
-                nbr_enriched_functions = [ f for im in nbr_enriched_fc for f in im_table.loc[[im]].function.values ]
-                enriched_functions_list.append(nbr_enriched_functions)
+                enriched_functions = [ f for im in enriched_fc for f in im_table.loc[[im]].function.values ]
+                enriched_functions_list.append(enriched_functions)
                 
             if functional_class == 'Subsystem':
-                enriched_functions_list.append(nbr_enriched_fc)
+                enriched_functions_list.append(enriched_fc)
 
-        #For each iModulon function compute its presence among the NBR sets computed with different cutoff values
+        #For each functional class compute its presence among the reaction sets computed with different cutoff values
         if functional_class == 'iModulon':
             sensitivity_data = { 'Function' : [i_f for i_f in im_table.function.unique().tolist()],
                                  'Presence' : [ [f for f_s in enriched_functions_list for f in set(f_s) ].count(i_f)/len(reaction_set_list)
@@ -434,5 +462,47 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
         
     return sensitivity_result
 
+def get_functional_class_composition(functional_data, imodulon_function, reaction_sets):
 
+    fc_composition_result = {}
+
+    for functional_class in functional_data.keys():
+        fc_presence_bar = []
+        fc_presence_nbr = []
+        df = functional_data[functional_class]
+        class_list = df[functional_class].unique().tolist()
+        class_g_dict = { c : df.loc[df[functional_class]==c, 'Gene'].values.tolist()
+                         for c in class_list }
+
+        for c in class_list:
+            bar_count=0
+            nbr_count=0
+            for g in class_g_dict[c]:
+                if g in reaction_sets['BAR']:
+                    bar_count += 1
+                if g in reaction_sets['NBR']:
+                    nbr_count += 1
+
+            fc_presence_bar.append((bar_count/len(reaction_sets['BAR']))*100)
+            fc_presence_nbr.append((nbr_count/len(reaction_sets['NBR']))*100)
+
+        if functional_class == 'iModulon':
+            function_list = [f for im in class_list for f in imodulon_function[im]]
+
+        elif functional_class == 'Subsystem':
+            function_list = class_list
+
+        else:
+            raise Exception("'functional_data' keys can be only 'iModulon' or 'Subsystem' but %s was given" % functional_class)
+
+
+        fc_composition_data = { functional_class+'_function' : function_list,
+                                'BAR_Set_percentage' : fc_presence_bar,
+                                'NBR_Set_percentage' : fc_presence_nbr }
+
+        fc_composition_df = pd.DataFrame.from_dict(fc_composition_data)
+        fc_composition_df.set_index(functional_class+'_function', inplace=True)
+        fc_composition_result[functional_class] = fc_composition_df
+
+    return fc_composition_result
         
