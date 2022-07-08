@@ -336,12 +336,12 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
         fva_gimme = cobra.flux_analysis.flux_variability_analysis(GIMME_model, fraction_of_optimum=0.8)
 
         biomass_reactions = set(fva_gimme.loc[(fva_gimme['minimum']!=0) | (fva_gimme['maximum']!=0)].index)
-        print('%s reactions are related with biomass component using %s as carbon source' %
-              (len(biomass_reactions), list(carbon_source.keys())[0]))
+        print('%s reactions are related with biomass component using %s as carbon source(s)' %
+              (len(biomass_reactions), ', '.join(list(carbon_source.keys()))) )
 
         not_biomass_reactions= set(fva_gimme.loc[~((fva_gimme['minimum']!=0) | (fva_gimme['maximum']!=0))].index)
-        print('%s reactions are no related with biomass component using %s as carbon source' %
-              (len(not_biomass_reactions), list(carbon_source.keys())[0]))
+        print('%s reactions are no related with biomass component using %s as carbon source(s)' %
+              (len(biomass_reactions), ', '.join(list(carbon_source.keys()))) )
         #Populate 'reaction_set_list' by adding NBRs found for this cutoff
         if reaction_set == 'both':         
             reaction_set_list['NBR'].append(not_biomass_reactions)
