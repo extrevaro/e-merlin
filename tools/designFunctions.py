@@ -271,8 +271,8 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
     OUTPUT:
             display a plot representing the variation of the number of NBRs respect the cutoff
             
-            returns returns a dict a list containing the reaction set for each cutoff value and 
-            with the pattern { <reaction_set> : <reaction_set_list> }
+            returns returns a dict containing the reaction set for each cutoff value and with
+            the pattern { <reaction_set> : <reaction_set_list> }
     '''
     reaction_set_list = dict()
     number_reactions_list= dict()
@@ -463,6 +463,38 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
     return sensitivity_result
 
 def get_functional_class_composition(functional_data, imodulon_function, reaction_sets):
+    '''                                                     
+    This function computes the set of enriched functions for each cutoff value for a given
+    reaction set list, ica data, iModulon genes and a GEM.
+    INPUTS:
+            functional_data : dict containing dataframes for all the functional classes whose
+                              analysis is permited (iModulon and Subsystem). Each dataframe has
+                              the genes associated to each functional class. 
+            
+            imodulon_function : dict containing imodulon names as keys and a list of associated 
+                                functions as values.
+            
+            reaction_sets : dict containing reaction class as keys ('NBR' or 'BAR' only for now)
+                            and a set of the genes corresponding to the reactions of each one of 
+                            the classes.
+            
+    OUTPUT:       
+            returns a dataframe of 3 columns:
+            
+                    * <Functional class>_functions : names of the functions associated with the class
+                    
+                    * BAR_Set_percentage : % of each of the functions in the BAR set
+                    
+                    * NBR_Set_percentage : % of each of the functions in the NBR set
+                    
+           
+            The % of the functions is defined as the ratio between the number of function-specific 
+            genes and the number of total genes.
+            
+    COMMENT:
+            maybe a recall value could be interesting here in order to account for functions highly
+            present but with few associated genes.            
+    '''
 
     fc_composition_result = {}
 
