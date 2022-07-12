@@ -76,7 +76,6 @@ def get_reaction_functional_annotation(ica_data, rxn_gene_dict):
     
     return rxn_iM_cog_df
 
-
 def get_network_data(cobra_model, active_rxns, interest_condition):
     sustrates = set([s.id for rxn_id in active_rxns.index for s in cobra_model.reactions.get_by_id(rxn_id).reactants])
     s_l = []
@@ -269,10 +268,11 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
             reaction_set : str indicating type of reaction set, could be 'NBR', 'BAR' or 'both'
             
     OUTPUT:
-            display a plot representing the variation of the number of NBRs respect the cutoff
+            display a plot representing the variation of the number of reactions respect the cutoff
             
-            returns returns a dict containing the reaction set for each cutoff value and with
-            the pattern { <reaction_set> : <reaction_set_list> }
+            returns a dict containing the reaction set for each cutoff value and with the pattern:
+            
+                { <reaction_set> : <reaction_set_list> }
     '''
     reaction_set_list = dict()
     number_reactions_list= dict()
@@ -296,9 +296,7 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
             print(threshold)
             rxn_exp = {r_id for r_id, exp in rxn_exp.items() if exp > threshold}
             expression_set |= rxn_exp
-
-        expression_set
-
+ 
         #See the active reactions in at least one of the replicates according to GIMME:
         try:
             gimme_active_rxns = get_active_rxns(rf_media_model, gene_exp_replicates, cutoff, parsimonious=True)
@@ -328,7 +326,7 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
         not_active_and_not_in_gimme_model = set([rxn for rxn in not_rxn_exp if rxn not in gimme_active_rxns.index])
         print('%s reactions are not being expressed according RNAseq and GIMME' % 
               len(not_active_and_not_in_gimme_model))
-        #Generate the context model by deletio¡ng those reactions that are inactive according to GIMME and expression data
+        #Generate the context model by deletion those reactions that are inactive according to GIMME and expression data
         GIMME_model = to_cobrapy(rf_media_model)
         GIMME_model.remove_reactions(list(not_active_and_not_in_gimme_model))
         GIMME_model.optimize()
@@ -341,7 +339,7 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
 
         not_biomass_reactions= set(fva_gimme.loc[~((fva_gimme['minimum']!=0) | (fva_gimme['maximum']!=0))].index)
         print('%s reactions are no related with biomass component using %s as carbon source(s)' %
-              (len(biomass_reactions), ', '.join(list(carbon_source.keys()))) )
+              (len(not_biomass_reactions), ', '.join(list(carbon_source.keys()))) )
         #Populate 'reaction_set_list' by adding NBRs found for this cutoff
         if reaction_set == 'both':         
             reaction_set_list['NBR'].append(not_biomass_reactions)
@@ -378,6 +376,89 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
     
     return reaction_set_list
 
+def gene_sensitivity_to_cutoff(reaction_set_list, rf_media_model):
+    gene_list = []
+    media_model = to_cobrapy(rf_media_model)
+    for r_s in reaction_set_list:
+        gene_dict = {rxn : [g.id for g in media_model.reactions.get_by_id(rxn).genes]
+                              for rxn in r_s}
+
+        gene_list.append(set([g for g_s in list(gene_dict.values()) for g in g_s ]))
+
+    gene_sensitivity_data =  { 'Gene' : [gene.id for gene in media_model.genes],
+                               'Presence' : [[g for g_s in gene_list for g in g_s].count(gene.id)/len(reaction_set_list)
+                                               for gene in media_model.genes] }
+        
+    gene_sensitivity_result = pd.DataFrame.from_dict(gene_sensitivity_data)
+        
+    return gene_sensitivity_result
+
+def get_enrichment_result(query_set, functional_data, rf_media_model, ica_data, functional_class_list, functional_class='Subsystem', input_type='Gene'):
+    '''
+    This function generates a dataframe with enriched functions for a given reaction/gene
+    set within a ica data and GEM.
+    INPUTS:
+            query_set : set containing reactions/genes           
+            
+            functional_data : dict containing dataframes for all the functional classes whose
+                              analysis is permited (iModulon and Subsystem). Each dataframe has
+                              the genes associated to each functional class.
+
+            rf_media_model : the GEM as a reframed model
+            
+            ica_data : ica object generated with all available data as described in
+                       pymodulon documentation
+                       
+            functional_class_list : list containing the cathegories of a given functional class
+            
+            functional_class : string; can be either 'Subsystem' or 'iModulon'
+            
+            input_type : string; can be either 'Gene' or 'Reaction'
+                   
+    OUTPUT:       
+            returns a dataframe consisting on the enrichment result, which has the columns:
+            
+                        | <functional_class> | p-Value | recall | target_length |
+    '''
+    all_genes = ica_data.gene_names
+
+    if input_type == 'Reaction':
+        media_model = to_cobrapy(rf_media_model)
+        gene_dict = {rxn : [g.id for g in media_model.reactions.get_by_id(rxn).genes]
+                     for rxn in g_s}
+            
+        functional_annotation = get_reaction_functional_annotation(ica_data, gene_dict)
+        genes = list(functional_annotation['Gene'].unique())
+
+    pv_list = []
+    recall_list = []
+    len_list = []
+                
+    for c in functional_class_list:
+        composition_df = functional_data[functional_class]
+        target_set = composition_df.loc[composition_df[functional_class]==c, 'Gene'].values.tolist()
+        if input_type == 'Reaction':
+            enrichment_result = compute_enrichment(genes, target_set, all_genes)
+            
+        if input_type == 'Gene':
+            try:
+                enrichment_result = compute_enrichment(query_set, target_set, all_genes)
+            except:
+                query_set -= query_set-set(all_genes)
+                enrichment_result = compute_enrichment(query_set, target_set, all_genes)
+                
+        pv_list.append(enrichment_result.pvalue)
+        recall_list.append(enrichment_result.recall)
+        len_list.append(enrichment_result.TP/enrichment_result.target_set_size)
+        
+    enrichment_data = {functional_class: functional_class_list,
+                               'p-Value' : pv_list,
+                               'recall' : recall_list,
+                               'target_lenght' : len_list}
+
+    enrichment_df = pd.DataFrame.from_dict(enrichment_data).sort_values(by='p-Value')
+    
+    return enrichment_df
 
 def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, functional_data):
     '''
@@ -386,7 +467,7 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
     INPUTS:
             reaction_set_list : list containing a reaction set for each cutoff value
             
-            rf_media_model : the GEM as a refremed model
+            rf_media_model : the GEM as a reframed model
             
             ica_data : ica object generated with all available data as described in
                        pymodulon documentation            
@@ -400,7 +481,6 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
             cutoff values. A element of the list consist on th dateframe for a given functional class           
     '''
     sensitivity_result = []
-    all_genes = ica_data.gene_names
     media_model = to_cobrapy(rf_media_model)
     enriched_functions_list = []
     for functional_class in functional_data.keys():
@@ -415,28 +495,11 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
             raise Exception( "Keys of functional data need to be either iModulon or Subsystem, but %s was given"
                             % functional_class)
             break
-        
+            
+        all_genes = ica_data.gene_names
+        media_model = to_cobrapy(rf_media_model)
         for g_s in reaction_set_list:
-            nbr_gene_dict = {rxn : [g.id for g in media_model.reactions.get_by_id(rxn).genes]
-                          for rxn in g_s}
-            nbr_functional_annotation = get_reaction_functional_annotation(ica_data, nbr_gene_dict)
-            nbr_genes = list(nbr_functional_annotation['Gene'].unique())
-
-            nbr_pv_list = []
-            nbr_recall_list = []
-                
-            for c in class_list:
-                composition_df = functional_data[functional_class]
-                target_set = composition_df.loc[composition_df[functional_class]==c, 'Gene'].values.tolist()
-                nbr_enrichment_result = compute_enrichment(nbr_genes, target_set, all_genes)
-                nbr_pv_list.append(nbr_enrichment_result.pvalue)
-                nbr_recall_list.append(nbr_enrichment_result.recall)
-
-            enrichment_data = {functional_class: class_list,
-                               'p-Value' : nbr_pv_list,
-                               'recall' : nbr_recall_list}
-
-            enrichment_df = pd.DataFrame.from_dict(enrichment_data).sort_values(by='p-Value')
+            enrichment_df = get_enrichment_result(g_s, functional_data, rf_media_model, ica_data, class_list, functional_class=functional_class, input_type='Reaction')
             #Consider enriched functional classes those with p-value less than 0.05:
             enriched_fc = enrichment_df.loc[enrichment_df['p-Value'] <= 0.05, functional_class].tolist()
             #For each functional class that our set is enriched in, compute its function
@@ -449,16 +512,16 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
 
         #For each functional class compute its presence among the reaction sets computed with different cutoff values
         if functional_class == 'iModulon':
-            sensitivity_data = { 'Function' : [i_f for i_f in im_table.function.unique().tolist()],
-                                 'Presence' : [ [f for f_s in enriched_functions_list for f in set(f_s) ].count(i_f)/len(reaction_set_list)
+            rxn_sensitivity_data = { 'Function' : [i_f for i_f in im_table.function.unique().tolist()],
+                                     'Presence' : [ [f for f_s in enriched_functions_list for f in set(f_s) ].count(i_f)/len(reaction_set_list)
                                                 for i_f in im_table.function.unique().tolist()] }
         
         if functional_class == 'Subsystem':
-            sensitivity_data = { 'Function' : class_list,
-                                 'Presence' : [ [f for f_s in enriched_functions_list for f in set(f_s) ].count(ss)/len(reaction_set_list)
-                                                for ss in class_list] }            
+            rxn_sensitivity_data = { 'Function' : class_list,
+                                     'Presence' : [ [f for f_s in enriched_functions_list for f in set(f_s) ].count(ss)/len(reaction_set_list)
+                                                for ss in class_list] } 
 
-        sensitivity_result.append(pd.DataFrame.from_dict(sensitivity_data))
+        sensitivity_result.append(pd.DataFrame.from_dict(rxn_sensitivity_data))
         
     return sensitivity_result
 
