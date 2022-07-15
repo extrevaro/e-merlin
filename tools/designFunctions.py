@@ -330,7 +330,7 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
         GIMME_model = to_cobrapy(rf_media_model)
         GIMME_model.remove_reactions(list(not_active_and_not_in_gimme_model))
         GIMME_model.optimize()
-        #Compute NBRs & BARs by performin a FVA with fraction_of_optimum set to 80% of wt
+        #Compute NBRs & BARs by performing a FVA with fraction_of_optimum set to 80% of wt
         fva_gimme = cobra.flux_analysis.flux_variability_analysis(GIMME_model, fraction_of_optimum=0.8)
 
         biomass_reactions = set(fva_gimme.loc[(fva_gimme['minimum']!=0) | (fva_gimme['maximum']!=0)].index)
@@ -370,9 +370,11 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
             fig.update_layout(title=dict(text='<b>'+reaction_class+' Sensitivity to cutoff value<b>',
                                          x=0.5),
                               xaxis=dict(title='Cutoff Value'),
-                              yaxis=dict(title='Number of '+reaction_set+'s in GIMME model')
+                              yaxis=dict(title='Number of '+reaction_class+'s in GIMME model')
                              )
-            display(fig)            
+            display(fig)
+            fig_save_path = '_'.join([out_filename.replace('.xlsx',''), reaction_class+'.png']) 
+            fig.write_image(fig_save_path)
     
     return reaction_set_list
 
@@ -425,7 +427,7 @@ def get_enrichment_result(query_set, functional_data, rf_media_model, ica_data, 
     if input_type == 'Reaction':
         media_model = to_cobrapy(rf_media_model)
         gene_dict = {rxn : [g.id for g in media_model.reactions.get_by_id(rxn).genes]
-                     for rxn in g_s}
+                     for rxn in query_set}
             
         functional_annotation = get_reaction_functional_annotation(ica_data, gene_dict)
         genes = list(functional_annotation['Gene'].unique())
