@@ -1,0 +1,5488 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   class="main-svg"
+   width="1420.3802"
+   height="962.27295"
+   viewBox="0 0 1420.3802 962.27295"
+   version="1.1"
+   id="svg727"
+   sodipodi:docname="all_studies_subsystem_enrichment_composite.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:export-filename="/home/alvaro/github/e-merlin/all_studies_subsystem_enrichment_composite.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <metadata
+     id="metadata731">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     id="namedview729"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.80283816"
+     inkscape:cx="630.51753"
+     inkscape:cy="413.08356"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg727" />
+  <rect
+     x="82.2649"
+     y="2.5691121"
+     width="1300"
+     height="600"
+     style="fill:#000000;fill-opacity:0"
+     id="rect2" />
+  <defs
+     id="defs-aaef53">
+    <g
+       class="clips"
+       id="g88">
+      <clipPath
+         id="clipaaef53x7y7plot"
+         class="plotclip">
+        <rect
+           width="847.88538"
+           height="8.3999996"
+           id="rect4"
+           x="0"
+           y="0" />
+      </clipPath>
+      <clipPath
+         id="clipaaef53x9y9plot"
+         class="plotclip">
+        <rect
+           width="21.664635"
+           height="411.60001"
+           id="rect7"
+           x="0"
+           y="0" />
+      </clipPath>
+      <clipPath
+         id="clipaaef53x10y10plot"
+         class="plotclip">
+        <rect
+           width="18.700001"
+           height="411.60001"
+           id="rect10"
+           x="0"
+           y="0" />
+      </clipPath>
+      <clipPath
+         id="clipaaef53x11y11plot"
+         class="plotclip">
+        <rect
+           width="847.88538"
+           height="411.60001"
+           id="rect13"
+           x="0"
+           y="0" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x7">
+        <rect
+           x="120.36463"
+           y="0"
+           width="847.88538"
+           height="600"
+           id="rect16" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53y7">
+        <rect
+           x="0"
+           y="100"
+           width="1300"
+           height="8.3999996"
+           id="rect19" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x7y7">
+        <rect
+           x="120.36463"
+           y="100"
+           width="847.88538"
+           height="8.3999996"
+           id="rect22" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53y9">
+        <rect
+           x="0"
+           y="108.4"
+           width="1300"
+           height="411.60001"
+           id="rect25" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x7y9">
+        <rect
+           x="120.36463"
+           y="108.4"
+           width="847.88538"
+           height="411.60001"
+           id="rect28" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53y10">
+        <rect
+           x="0"
+           y="108.4"
+           width="1300"
+           height="411.60001"
+           id="rect31" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x7y10">
+        <rect
+           x="120.36463"
+           y="108.4"
+           width="847.88538"
+           height="411.60001"
+           id="rect34" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53y11">
+        <rect
+           x="0"
+           y="108.4"
+           width="1300"
+           height="411.60001"
+           id="rect37" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x7y11">
+        <rect
+           x="120.36463"
+           y="108.4"
+           width="847.88538"
+           height="411.60001"
+           id="rect40" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x9">
+        <rect
+           x="80"
+           y="0"
+           width="21.664635"
+           height="600"
+           id="rect43" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x9y7">
+        <rect
+           x="80"
+           y="100"
+           width="21.664635"
+           height="8.3999996"
+           id="rect46" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x9y9">
+        <rect
+           x="80"
+           y="108.4"
+           width="21.664635"
+           height="411.60001"
+           id="rect49" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x9y10">
+        <rect
+           x="80"
+           y="108.4"
+           width="21.664635"
+           height="411.60001"
+           id="rect52" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x9y11">
+        <rect
+           x="80"
+           y="108.4"
+           width="21.664635"
+           height="411.60001"
+           id="rect55" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x10">
+        <rect
+           x="101.66463"
+           y="0"
+           width="18.700001"
+           height="600"
+           id="rect58" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x10y7">
+        <rect
+           x="101.66463"
+           y="100"
+           width="18.700001"
+           height="8.3999996"
+           id="rect61" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x10y9">
+        <rect
+           x="101.66463"
+           y="108.4"
+           width="18.700001"
+           height="411.60001"
+           id="rect64" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x10y10">
+        <rect
+           x="101.66463"
+           y="108.4"
+           width="18.700001"
+           height="411.60001"
+           id="rect67" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x10y11">
+        <rect
+           x="101.66463"
+           y="108.4"
+           width="18.700001"
+           height="411.60001"
+           id="rect70" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x11">
+        <rect
+           x="120.36463"
+           y="0"
+           width="847.88538"
+           height="600"
+           id="rect73" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x11y7">
+        <rect
+           x="120.36463"
+           y="100"
+           width="847.88538"
+           height="8.3999996"
+           id="rect76" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x11y9">
+        <rect
+           x="120.36463"
+           y="108.4"
+           width="847.88538"
+           height="411.60001"
+           id="rect79" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x11y10">
+        <rect
+           x="120.36463"
+           y="108.4"
+           width="847.88538"
+           height="411.60001"
+           id="rect82" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaaef53x11y11">
+        <rect
+           x="120.36463"
+           y="108.4"
+           width="847.88538"
+           height="411.60001"
+           id="rect85" />
+      </clipPath>
+    </g>
+    <g
+       class="gradients"
+       id="g111">
+      <linearGradient
+         x1="3848.6638"
+         x2="3848.6638"
+         y1="109.54451"
+         y2="0"
+         id="gaaef53-cbcd1b39"
+         gradientTransform="scale(0.27386128,3.6514837)"
+         gradientUnits="userSpaceOnUse">
+        <stop
+           offset="0%"
+           stop-color="rgb(68, 1, 84)"
+           stop-opacity="1"
+           id="stop90" />
+        <stop
+           offset="11.111111%"
+           stop-color="rgb(72, 40, 120)"
+           stop-opacity="1"
+           id="stop92" />
+        <stop
+           offset="22.222222%"
+           stop-color="rgb(62, 73, 137)"
+           stop-opacity="1"
+           id="stop94" />
+        <stop
+           offset="33.333333%"
+           stop-color="rgb(49, 104, 142)"
+           stop-opacity="1"
+           id="stop96" />
+        <stop
+           offset="44.444444%"
+           stop-color="rgb(38, 130, 142)"
+           stop-opacity="1"
+           id="stop98" />
+        <stop
+           offset="55.555556%"
+           stop-color="rgb(31, 158, 137)"
+           stop-opacity="1"
+           id="stop100" />
+        <stop
+           offset="66.666667%"
+           stop-color="rgb(53, 183, 121)"
+           stop-opacity="1"
+           id="stop102" />
+        <stop
+           offset="77.777778%"
+           stop-color="rgb(110, 206, 88)"
+           stop-opacity="1"
+           id="stop104" />
+        <stop
+           offset="88.888889%"
+           stop-color="rgb(181, 222, 43)"
+           stop-opacity="1"
+           id="stop106" />
+        <stop
+           offset="100%"
+           stop-color="rgb(253, 231, 37)"
+           stop-opacity="1"
+           id="stop108" />
+      </linearGradient>
+    </g>
+    <g
+       class="patterns"
+       id="g113" />
+    <g
+       id="g3226"
+       class="clips" />
+    <g
+       id="g3228"
+       class="gradients" />
+    <g
+       id="g3230"
+       class="patterns" />
+    <g
+       id="g4385"
+       class="clips" />
+    <g
+       id="g12055"
+       class="clips" />
+    <g
+       id="g12057"
+       class="gradients" />
+    <g
+       id="g12059"
+       class="patterns" />
+    <g
+       id="g13214"
+       class="clips" />
+  </defs>
+  <g
+     class="bglayer"
+     id="g124"
+     transform="translate(-33.66464,-7.999994)">
+    <rect
+       class="bg"
+       x="120.36463"
+       y="100"
+       width="847.88538"
+       height="8.3999996"
+       style="fill:#000000;fill-opacity:0;stroke-width:0"
+       id="rect116" />
+    <rect
+       class="bg"
+       x="80"
+       y="108.4"
+       width="21.664635"
+       height="411.60001"
+       style="fill:#000000;fill-opacity:0;stroke-width:0"
+       id="rect118" />
+    <rect
+       class="bg"
+       x="101.66463"
+       y="108.4"
+       width="18.700001"
+       height="411.60001"
+       style="fill:#000000;fill-opacity:0;stroke-width:0"
+       id="rect120" />
+    <rect
+       class="bg"
+       x="120.36463"
+       y="108.4"
+       width="847.88538"
+       height="411.60001"
+       style="fill:#000000;fill-opacity:0;stroke-width:0"
+       id="rect122" />
+  </g>
+  <g
+     class="layer-below"
+     id="g130"
+     transform="translate(82.264899,2.5691121)">
+    <g
+       class="imagelayer"
+       id="g126" />
+    <g
+       class="shapelayer"
+       id="g128" />
+  </g>
+  <g
+     class="layer-subplot"
+     id="g136"
+     transform="translate(20,-8)">
+    <g
+       class="shapelayer"
+       id="g132" />
+    <g
+       class="imagelayer"
+       id="g134" />
+  </g>
+  <g
+     class="minor-gridlayer"
+     id="g142"
+     transform="translate(20,-8)">
+    <g
+       class="x7"
+       id="g138" />
+    <g
+       class="y7"
+       id="g140" />
+  </g>
+  <g
+     class="gridlayer"
+     id="g148"
+     transform="translate(20,-8)">
+    <g
+       class="x7"
+       id="g144" />
+    <g
+       class="y7"
+       id="g146" />
+  </g>
+  <g
+     class="zerolinelayer"
+     id="g150"
+     transform="translate(20,-8)" />
+  <path
+     class="xlines-below"
+     id="path152"
+     d=""
+     inkscape:connector-curvature="0" />
+  <path
+     class="ylines-below"
+     id="path154"
+     d=""
+     inkscape:connector-curvature="0" />
+  <g
+     class="overlines-below"
+     id="g156"
+     transform="translate(20,-8)" />
+  <g
+     class="xaxislayer-below"
+     id="g158"
+     transform="translate(20,-8)" />
+  <g
+     class="yaxislayer-below"
+     id="g160"
+     transform="translate(20,-8)" />
+  <g
+     class="overaxes-below"
+     id="g162"
+     transform="translate(20,-8)" />
+  <g
+     class="plot"
+     transform="matrix(1,0,0,1.770664,108.36463,85.834688)"
+     clip-path="url(#clipaaef53x7y7plot)"
+     id="g170">
+    <g
+       class="heatmaplayer mlayer"
+       id="g168">
+      <g
+         class="hm"
+         id="g166">
+        <image
+           preserveAspectRatio="none"
+           height="8"
+           width="848"
+           x="0"
+           y="0"
+           xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA1AAAAAICAYAAAD3Lh42AAAA6UlEQVR4Xu3XQQ2AMBAEQKqMBAOYQAAflCEMCeCAJg1prtzwJaV3s3y2HPt5T0me7VqTbGpNAgQIECBAoEVgmY+WY84QIJBIoChQidK2KgECBAgQIPAqoED5QQgQqAkoUDUh7wkQIECAAIE0AgpUmqgtSqBZQIFqpnOQAAECBAgQ+JuAAvW3RO1D4HsBBep7U18kQIAAAQIEBhVQoAYNztgEOgooUB2xXUWAAAECBAjEFlCgYudjOgIRBBSoCCmYgQABAgQIEAghoECFiMEQBEILKFCh4zEcAQIECBAg0FNAgeqp7S4CYwo8x/8pgVMy1TMAAAAASUVORK5CYII="
+           style="opacity:1"
+           id="image164" />
+      </g>
+    </g>
+  </g>
+  <g
+     class="overplot"
+     id="g172"
+     transform="translate(20,-8)" />
+  <path
+     class="xlines-above crisp"
+     d="M -12,-8"
+     style="fill:none"
+     id="path174"
+     inkscape:connector-curvature="0" />
+  <path
+     class="ylines-above crisp"
+     d="M -12,-8"
+     style="fill:none"
+     id="path176"
+     inkscape:connector-curvature="0" />
+  <g
+     class="overlines-above"
+     id="g178"
+     transform="translate(20,-8)" />
+  <g
+     class="xaxislayer-above"
+     id="g180"
+     transform="translate(20,-8)" />
+  <g
+     class="yaxislayer-above"
+     id="g182"
+     transform="translate(20,-8)" />
+  <g
+     class="overaxes-above"
+     id="g184"
+     transform="translate(20,-8)" />
+  <g
+     id="g448"
+     class="subplot x9y9"
+     transform="translate(-12,-8)">
+    <g
+       id="g192"
+       class="layer-subplot">
+      <g
+         id="g188"
+         class="shapelayer" />
+      <g
+         id="g190"
+         class="imagelayer" />
+    </g>
+    <g
+       id="g198"
+       class="minor-gridlayer">
+      <g
+         id="g194"
+         class="x9" />
+      <g
+         id="g196"
+         class="y9" />
+    </g>
+    <g
+       id="g204"
+       class="gridlayer">
+      <g
+         id="g200"
+         class="x9" />
+      <g
+         id="g202"
+         class="y9" />
+    </g>
+    <g
+       id="g206"
+       class="zerolinelayer" />
+    <path
+       inkscape:connector-curvature="0"
+       d=""
+       id="path208"
+       class="xlines-below" />
+    <path
+       inkscape:connector-curvature="0"
+       d=""
+       id="path210"
+       class="ylines-below" />
+    <g
+       id="g212"
+       class="overlines-below" />
+    <g
+       id="g214"
+       class="xaxislayer-below" />
+    <g
+       id="g216"
+       class="yaxislayer-below" />
+    <g
+       id="g218"
+       class="overaxes-below" />
+    <g
+       id="g432"
+       clip-path="url(#clipaaef53x9y9plot)"
+       transform="translate(80,108.4)"
+       class="plot">
+      <g
+         id="g430"
+         class="scatterlayer mlayer">
+        <g
+           id="g232"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter traced8da6c">
+          <g
+             id="g220"
+             class="fills" />
+          <g
+             id="g222"
+             class="errorbars" />
+          <g
+             id="g226"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path224"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="m 21.66,347.29 v -25.73 0"
+               class="js-line" />
+          </g>
+          <g
+             id="g228"
+             class="points" />
+          <g
+             id="g230"
+             class="text" />
+        </g>
+        <g
+           id="g246"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter trace6e6999">
+          <g
+             id="g234"
+             class="fills" />
+          <g
+             id="g236"
+             class="errorbars" />
+          <g
+             id="g240"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path238"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="m 21.66,38.59 v -25.73 0"
+               class="js-line" />
+          </g>
+          <g
+             id="g242"
+             class="points" />
+          <g
+             id="g244"
+             class="text" />
+        </g>
+        <g
+           id="g260"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter trace639fae">
+          <g
+             id="g248"
+             class="fills" />
+          <g
+             id="g250"
+             class="errorbars" />
+          <g
+             id="g254"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path252"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="m 21.66,90.04 v -25.73 0"
+               class="js-line" />
+          </g>
+          <g
+             id="g256"
+             class="points" />
+          <g
+             id="g258"
+             class="text" />
+        </g>
+        <g
+           id="g274"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter trace73607b">
+          <g
+             id="g262"
+             class="fills" />
+          <g
+             id="g264"
+             class="errorbars" />
+          <g
+             id="g268"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path266"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="m 21.66,115.76 v -38.58 0"
+               class="js-line" />
+          </g>
+          <g
+             id="g270"
+             class="points" />
+          <g
+             id="g272"
+             class="text" />
+        </g>
+        <g
+           id="g288"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter trace2cec42">
+          <g
+             id="g276"
+             class="fills" />
+          <g
+             id="g278"
+             class="errorbars" />
+          <g
+             id="g282"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path280"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="m 21.66,141.49 v -45.02 0"
+               class="js-line" />
+          </g>
+          <g
+             id="g284"
+             class="points" />
+          <g
+             id="g286"
+             class="text" />
+        </g>
+        <g
+           id="g302"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter traceb25193">
+          <g
+             id="g290"
+             class="fills" />
+          <g
+             id="g292"
+             class="errorbars" />
+          <g
+             id="g296"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path294"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="m 21.66,167.21 v -48.23 0"
+               class="js-line" />
+          </g>
+          <g
+             id="g298"
+             class="points" />
+          <g
+             id="g300"
+             class="text" />
+        </g>
+        <g
+           id="g316"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter trace4bedf3">
+          <g
+             id="g304"
+             class="fills" />
+          <g
+             id="g306"
+             class="errorbars" />
+          <g
+             id="g310"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path308"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="M 21.66,168.02 H 10.91 V 25.73 h 10.75"
+               class="js-line" />
+          </g>
+          <g
+             id="g312"
+             class="points" />
+          <g
+             id="g314"
+             class="text" />
+        </g>
+        <g
+           id="g330"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter trace3c4492">
+          <g
+             id="g318"
+             class="fills" />
+          <g
+             id="g320"
+             class="errorbars" />
+          <g
+             id="g324"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path322"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="m 21.66,192.94 v -49.84 0"
+               class="js-line" />
+          </g>
+          <g
+             id="g326"
+             class="points" />
+          <g
+             id="g328"
+             class="text" />
+        </g>
+        <g
+           id="g344"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter traced6b86c">
+          <g
+             id="g332"
+             class="fills" />
+          <g
+             id="g334"
+             class="errorbars" />
+          <g
+             id="g338"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path336"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="m 21.66,244.39 v -25.73 0"
+               class="js-line" />
+          </g>
+          <g
+             id="g340"
+             class="points" />
+          <g
+             id="g342"
+             class="text" />
+        </g>
+        <g
+           id="g358"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter tracee71800">
+          <g
+             id="g346"
+             class="fills" />
+          <g
+             id="g348"
+             class="errorbars" />
+          <g
+             id="g352"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path350"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="m 21.66,270.11 v -38.59 0"
+               class="js-line" />
+          </g>
+          <g
+             id="g354"
+             class="points" />
+          <g
+             id="g356"
+             class="text" />
+        </g>
+        <g
+           id="g372"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter trace7b82ee">
+          <g
+             id="g360"
+             class="fills" />
+          <g
+             id="g362"
+             class="errorbars" />
+          <g
+             id="g366"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path364"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="M 21.66,273.33 H 2.07 V 96.87 h 8.84"
+               class="js-line" />
+          </g>
+          <g
+             id="g368"
+             class="points" />
+          <g
+             id="g370"
+             class="text" />
+        </g>
+        <g
+           id="g386"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter trace8069d9">
+          <g
+             id="g374"
+             class="fills" />
+          <g
+             id="g376"
+             class="errorbars" />
+          <g
+             id="g380"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path378"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="m 21.66,295.84 v -45.02 0"
+               class="js-line" />
+          </g>
+          <g
+             id="g382"
+             class="points" />
+          <g
+             id="g384"
+             class="text" />
+        </g>
+        <g
+           id="g400"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter tracea02023">
+          <g
+             id="g388"
+             class="fills" />
+          <g
+             id="g390"
+             class="errorbars" />
+          <g
+             id="g394"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path392"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="m 21.66,373.01 v -38.59 0"
+               class="js-line" />
+          </g>
+          <g
+             id="g396"
+             class="points" />
+          <g
+             id="g398"
+             class="text" />
+        </g>
+        <g
+           id="g414"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter traceb026cc">
+          <g
+             id="g402"
+             class="fills" />
+          <g
+             id="g404"
+             class="errorbars" />
+          <g
+             id="g408"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path406"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="M 21.66,376.23 H 0 V 185.1 h 2.07"
+               class="js-line" />
+          </g>
+          <g
+             id="g410"
+             class="points" />
+          <g
+             id="g412"
+             class="text" />
+        </g>
+        <g
+           id="g428"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter trace2744ba">
+          <g
+             id="g416"
+             class="fills" />
+          <g
+             id="g418"
+             class="errorbars" />
+          <g
+             id="g422"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path420"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#0074d9;stroke-width:2px;stroke-opacity:1"
+               d="m 21.66,398.74 v -45.02 0"
+               class="js-line" />
+          </g>
+          <g
+             id="g424"
+             class="points" />
+          <g
+             id="g426"
+             class="text" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g434"
+       class="overplot" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path436"
+       style="fill:none"
+       d="M 0,0"
+       class="xlines-above crisp" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path438"
+       style="fill:none"
+       d="M 0,0"
+       class="ylines-above crisp" />
+    <g
+       id="g440"
+       class="overlines-above" />
+    <g
+       id="g442"
+       class="xaxislayer-above" />
+    <g
+       id="g444"
+       class="yaxislayer-above" />
+    <g
+       id="g446"
+       class="overaxes-above" />
+  </g>
+  <g
+     id="g504"
+     class="subplot x10y10"
+     transform="translate(-12,-8)">
+    <g
+       id="g454"
+       class="layer-subplot">
+      <g
+         id="g450"
+         class="shapelayer" />
+      <g
+         id="g452"
+         class="imagelayer" />
+    </g>
+    <g
+       id="g460"
+       class="minor-gridlayer">
+      <g
+         id="g456"
+         class="x10" />
+      <g
+         id="g458"
+         class="y10" />
+    </g>
+    <g
+       id="g466"
+       class="gridlayer">
+      <g
+         id="g462"
+         class="x10" />
+      <g
+         id="g464"
+         class="y10" />
+    </g>
+    <g
+       id="g468"
+       class="zerolinelayer" />
+    <path
+       inkscape:connector-curvature="0"
+       d=""
+       id="path470"
+       class="xlines-below" />
+    <path
+       inkscape:connector-curvature="0"
+       d=""
+       id="path472"
+       class="ylines-below" />
+    <g
+       id="g474"
+       class="overlines-below" />
+    <g
+       id="g476"
+       class="xaxislayer-below" />
+    <g
+       id="g478"
+       class="yaxislayer-below" />
+    <g
+       id="g480"
+       class="overaxes-below" />
+    <g
+       id="g488"
+       clip-path="url(#clipaaef53x10y10plot)"
+       transform="translate(101.66463,108.4)"
+       class="plot">
+      <g
+         id="g486"
+         class="heatmaplayer mlayer">
+        <g
+           id="g484"
+           class="hm">
+          <image
+             id="image482"
+             style="opacity:1"
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAGcCAYAAAA7wZt1AAABhUlEQVR4Xu3asY0CMRRF0XFZG9EHHZBvAVsQORINkdMAaDbGSFdygMQhRhMc3n/22Izb4fexLfoMD8uSzDLZxozZREA0REM0rOhtCrRG89q/zYyZptW0bQq+pTV+Tud10fCwFrJ9dWLG7LWAaORkGKdOxozZTEAF9WwwYzZ737TZy9kwTpnMit7JmDGzC3IWFKfA6hTBHHl1MGbM5gIqqKeDGTPv6C7+2hRojeb1/+8bR14ZjVkmk7NOxoyZIy9HXnEKrE4RzC6ogzFj5sjLu1OeAqtTJvvk94C/63HdKZWH5WwMZsxeC4hGTsbGjNns3knT5mwYp0ymgjoZM2bTg3K1ncOhtjOZCupkzJipbedncQqsThFsv6uzC8pozDKZnHUyZszsguyC4hRYnSLY8l3Q/TLWXX17WP45BzNmk6tv0RAN0cgZmF19G6dMaXXKZBszZirIS0WbAq3RvPZvM2OmaTVtmwKt0bw0bfdixuyNgArq8WDGzGbPZq9NgdZoXl+0cXkC3+0GF8zzxWIAAAAASUVORK5CYII="
+             y="0"
+             x="0"
+             width="19"
+             height="412"
+             preserveAspectRatio="none" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g490"
+       class="overplot" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path492"
+       style="fill:none"
+       d="M 0,0"
+       class="xlines-above crisp" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path494"
+       style="fill:none"
+       d="M 0,0"
+       class="ylines-above crisp" />
+    <g
+       id="g496"
+       class="overlines-above" />
+    <g
+       id="g498"
+       class="xaxislayer-above" />
+    <g
+       id="g500"
+       class="yaxislayer-above" />
+    <g
+       id="g502"
+       class="overaxes-above" />
+  </g>
+  <g
+     class="layer-subplot"
+     id="g510"
+     transform="translate(103.92954,2.569106)">
+    <g
+       class="shapelayer"
+       id="g506" />
+    <g
+       class="imagelayer"
+       id="g508" />
+  </g>
+  <g
+     class="minor-gridlayer"
+     id="g516"
+     transform="translate(103.92954,2.569106)">
+    <g
+       class="x11"
+       id="g512" />
+    <g
+       class="y11"
+       id="g514" />
+  </g>
+  <g
+     class="gridlayer"
+     id="g522"
+     transform="translate(103.92954,2.569106)">
+    <g
+       class="x11"
+       id="g518" />
+    <g
+       class="y11"
+       id="g520" />
+  </g>
+  <g
+     class="zerolinelayer"
+     id="g524"
+     transform="translate(103.92954,2.569106)" />
+  <path
+     class="xlines-below"
+     id="path526"
+     d=""
+     inkscape:connector-curvature="0" />
+  <path
+     class="ylines-below"
+     id="path528"
+     d=""
+     inkscape:connector-curvature="0" />
+  <g
+     class="overlines-below"
+     id="g530"
+     transform="translate(103.92954,2.569106)" />
+  <g
+     class="xaxislayer-below"
+     id="g532"
+     transform="translate(103.92954,2.569106)" />
+  <g
+     class="yaxislayer-below"
+     id="g534"
+     transform="translate(103.92954,2.569106)" />
+  <g
+     class="overaxes-below"
+     id="g536"
+     transform="translate(103.92954,2.569106)" />
+  <g
+     class="plot"
+     transform="translate(108.36462,100.4)"
+     clip-path="url(#clipaaef53x11y11plot)"
+     id="g544">
+    <g
+       class="heatmaplayer mlayer"
+       id="g542">
+      <g
+         class="hm"
+         id="g540">
+        <image
+           preserveAspectRatio="none"
+           height="412"
+           width="848"
+           x="0"
+           y="0"
+           xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA1AAAAGcCAYAAADXrkHXAAAgAElEQVR4Xu3df+ztdWHf8XPvBS4X75XrvSnt7QQFtCmMH51c+8O72U5stVUzIZ24CTSOWzvTsHEXW7KYYOLibVJNpmgrUBpnXayaLgtm1NLSlalDrCXYDRAYSBGq884rFy5f5Mf9sZx/9z7m89zdJ+nSPPr3i3PLm+c59/vw/f1+vuuu+PPLjy7C/93zgXPDarE4fu1I2n37J4+f3O288J7JzXKwb9cTabfnoa+l3dW/dUXaPb9zLe0uO+dLafepB145uTvrB781uVkOXnjCM2l3w6nt/7f0YovF4o5np/+7Ll/rjrUfTi/5qUemz2TvWTel17r6novS7isXfCbt6ujTT21N00s2H0i7Mvqx33xnmS2++usfTbu/qdHZt12e/uh7f+b30q6M3vb1nymzxZ2f/9G0++23/m7avebE59PujD/cnXZbtj6ddr969p9N7h59btvkZjn4w79qf088vn9zer337Grv7Vv3n5Ve7xOnfz7tHj60YXJ3+nGHJzf/N4MbDuxI88OL9Wn3O/e/Ou3Wf659Pq170/7J19v48fZaxz/Vvk5Y++HjJv/M5eA1V7a/x275d69Kr3fyL3wz7fbtP3lyd96pj05uloNPnTn9PlzuXvWvfiW93vNvezztXn9q+zrrP/zH1tO9vzL9d8rL/+Ad6f+3HbemL08XF+/94/R6N/7+L6Tdm37xv6bdn1y/K+22f2X67/a/uuSF6bXuv/T6tPv5c9vfY//wttbnJ/79z6U/d+1H2t9jP/4jD02+3su37JvcLAf/5pTW8K/+9U+k1/vT+9vfJ+sAajxPgEqNrRwB1HgsAHXsPQHUeHYANZ4JQI1nAlDjmQDUeCYANZ4JQI1nAlDjmQDUiq/tAOrYv+AFKIA69nrGfxKgAKr0BFAAVToBKIAqnQAUQJVOAAqgSid5A1AAlWMJQ4ACqJDJAqAAqnQCUABVOgEogCqdABRAlU7yBqAAKscShgAFUCETgFpxSL6FbzwUgAKo8nkCUABVOgEogCqd5A1AAVSOJQwBCqBCJgAFUCWTBUABVAkFoACqdAJQAFU6yRuAAqgcSxgCFECFTAAKoEomALXilDxEYjwUgAKo8oECUABVOskbgAKoHEsYAhRAhUwACqBKJgAFUKkTgAKoEgpAAVTpJG8ACqByLGEIUAAVMgEogCqZABRApU4ACqBKKAAFUKWTvAEogMqxhCFAAVTIBKAAqmQCUACVOgEogCqhABRAlU7yBqAAKscShgAFUCETgAKokglAAVTqBKAAqoQCUABVOskbgAKoHEsYAhRAhUwACqBKJgAFUKkTgAKoEgpAAVTpJG8ACqByLGEIUAAVMgEogCqZABRApU4ACqBKKAAFUKWTvAEogMqxhCFAAVTIBKAAqmQCUACVOgEogCqhABRAlU7yBqAAKscShgAFUCETgAKokglAAVTqBKAAqoQCUABVOskbgAKoHEsYAhRAhUwACqBKJgAFUKkTgAKoEgpAAVTpJG8ACqByLGEIUAAVMgEogCqZABRApU4ACqBKKAAFUKWTvAEogMqxhCFAAVTIBKAAqmQCUACVOgEogCqhABRAlU7yBqAAKscShgAFUCETgAKokglAAVTqBKAAqoQCUABVOskbgAKoHEsYAhRAhUwACqBKJgAFUKkTgAKoEgpAAVTpJG8ACqByLGEIUAAVMgEogCqZABRApU4ACqBKKAAFUKWTvAEogMqxhCFAAVTIBKAAqmQCUACVOgEogCqhABRAlU7yBqAAKscShgAFUCETgAKokglAAVTqBKAAqoQCUABVOskbgAKoHEsYAhRAhUwACqBKJgAFUKkTgAKoEgpAAVTpJG8ACqByLGEIUAAVMgEogCqZABRApU4ACqBKKAAFUKWTvAEogMqxhCFAAVTIBKAAqmQCUACVOgEogCqhABRAlU7yBqAAKscShgAFUCETgAKokglAAVTqBKAAqoQCUABVOskbgAKoHEsYAhRAhUwACqBKJgAFUKkTgAKoEgpAAVTpJG8ACqByLGEIUAAVMgEogCqZABRApU4ACqBKKAAFUKWTvAEogMqxhCFAAVTIBKAAqmQCUACVOgEogCqhABRAlU7yBqAAKscShgAFUCETgAKokglAAVTqBKAAqoQCUABVOskbgAKoHEsYAhRAhUwACqBKJgAFUKkTgAKoEgpAAVTpJG8ACqByLGEIUAAVMgEogCqZABRApU4ACqBKKAAFUKWTvAEogMqxhCFAAVTIBKAAqmQCUACVOgEogCqhABRAlU7yBqAAKscShgAFUCETgAKokglAAVTqBKAAqoQCUABVOskbgAKoHEsYAhRAhUwACqBKJgAFUKkTgAKo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BVAlFIACqNJJ3gAUQOVYwhCgACpkAlAAVTIBKIBKnQAUQJVQAAqgSid5A1AAlWMJQ4ACqJAJQAFUyQSgACp1AlAAVUIBKIAqneQNQAFUjiUMAQqgQiYABVAlE4ACqNQJQAFUCQWgAKp0kjcABVA5ljAEKIAKmQAUQJVMAAqgUicABVAlFIACqNJJ3gAUQOVYwhCgACpkAlAAVTIBKIBKnQAUQJVQAAqgSid5A1AAlWMJQ4ACqJAJQAFUyQSgACp1AlAAVUIBKIAqneQNQAFUjiUMAQqgQiYABVAlE4ACqNQJQAFUCQWgAKp0kjcABVA5ljAEKIAKmQAUQJVMAAqgUicABVAlFIACqNJJ3gAUQOVYwhCgACpkAlAAVTIBKIBKnQAUQJVQAAqgSid5A1AAlWMJQ4ACqJAJQAFUyQSgACp1AlAAVUIBKIAqneQNQAFUjiUMAQqgQiYABVAlE4ACqNQJQAFUCQWgAKp0kjcABVA5ljAEKIAKmQAUQJVMAAqgUicABVAlFIACqNJJ3gAUQOVYwhCgACpkAlAAVTIBKIBKnQAUQJVQAAqgSid5A1AAlWMJQ4ACqJAJQAFUyQSgACp1AlAAVUIBKIAqneQNQAFUjiUMAQqgQiYABVAlE4ACqNQJQAFUCQWgAKp0kjcABVA5ljAEKIAKmQAUQJVMAAqgUicABVAlFIACqNJJ3gAUQOVYwhCgACpkAlAAVTIBKIBKnQAUQJVQAAqgSid5A1AAlWMJQ4ACqJAJQAFUyQSgACp1AlAAVUIBKIAqneQNQAFUjiUMAQqgQiYABVAlE4ACqNQJQAFUCQWgAKp0kjcABVA5ljAEKIAKmQAUQJVMAAqgUicABVAlFIACqNJJ3gAUQOVYwhCgACpkAlAAVTIBKIBKnQAUQJVQAAqgSid5A1AAlWMJQ4ACqJAJQAFUyQSgACp1AlAAVUIBKIAqneQNQAFUjiUMAQqgQiYABVAlE4ACqNQJQAFUCQWgAKp0kjcABVA5ljAEKIAKmQAUQJVMAAqgUicABVAlFIACqNJJ3gAUQOVYwhCgACpkAlAAVTIBKIBKnQAUQJVQAAqgSid5A1AAlWMJQ4ACqJAJQAFUyQSgACp1AlAAVUIBKIAqneQNQAFUjiUMAQqgQiYABVAlE4ACqNQJQAFUCQWgAKp0kjcABVA5ljAEKIAKmQAUQJVMAAqgUicABVAlFIACqNJJ3gAUQOVYwhCgACpkAlAAVTIBKIBKnQAUQJVQAAqgSid5A1AAlWMJQ4ACqJAJQAFUyQSgACp1AlAAVUIBKIAqneQNQAFUjiUMAQqgQiYABVAlE4ACqNQJQAFUCQWgAKp0kjcABVA5ljAEKIAKmQAUQJVMAAqgUicABVAlFIACqNJJ3gAUQOVYwhCgACpkAlAAVTIBKIBKnQAUQJVQAAqgSid5A1AAlWMJQ4ACqJAJQAFUyQSgACp1AlAAVUIBKIAqneQNQAFUjiUMAQqgQiYABVAlE4ACqNQJQAFUCQWgAKp0kjcABVA5ljAEKIAKmQAUQJVMAAqgUicABVAlFIACqNJJ3gAUQOVYwhCgACpkAlAAVTIBKIBKnQAUQJVQAAqgSid5A1AAlWMJQ4ACqJAJQAFUyQSgACp1AlAAVUIBKIAqneQNQAFUjiUMAQqgQiYABVAlE4ACqNQJQAFUCQWgAKp0kjcABVA5ljAEKIAKmQAUQJVMAAqgUicABVAlFIACqNJJ3gAUQOVYwhCgACpkAlAAVTIBKIBKnQAUQJVQAAqgSid5A1AAlWMJQ4ACqJAJQAFUyQSgACp1AlAAVUIBKIAqneQNQAFUjiUMAQqgQiYABVAlE4ACqNQJQAFUCQWgAKp0kjcABVA5ljAEKIAKmQAUQJVMAAqgUicABVAlFIACqNJJ3gAUQOVYwhCgACpkAlAAVTIBKIBKnQAUQJVQAAqgSid5A1AAlWMJQ4ACqJAJQAFUyQSgACp1AlAAVUIBKIAqneQNQAFUjiUMAQqgQiYABVAlE4ACqNQJQAFUCQWgAKp0kjcABVA5ljAEKIAKmQAUQJVMAAqgUicABVAlFIACqNJJ3gAUQOVYwhCgACpkAlAAVTIBKIBKnQAUQJVQAAqgSid5A1AAlWMJQ4ACqJAJQAFUyQSgACp1AlAAVUIBKIAqneQNQAFUjiUMAQqgQiYABVAlE4ACqNQJQAFUCQWgAKp0kjcABVA5ljAEKIAKmQAUQJVMAAqgUicABVAlFIACqNJJ3gAUQOVYwhCgACpkAlAAVTIBKIBKnQAUQJVQAAqgSid5A1AAlWMJQ4ACqJAJQAFUyQSgACp1AlAAVUIBKIAqneQNQAFUjiUMAQqgQiYABVAlE4ACqNQJQAFUCQWgAKp0kjcABVA5ljAEKIAKmQAUQJVM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"
+           style="opacity:1"
+           id="image538" />
+      </g>
+    </g>
+  </g>
+  <g
+     class="overplot"
+     id="g546"
+     transform="translate(103.92954,2.569106)" />
+  <g
+     class="overlines-above"
+     id="g552"
+     transform="translate(103.92954,2.569106)" />
+  <g
+     class="xaxislayer-above"
+     id="g554"
+     transform="translate(103.92954,2.569106)" />
+  <g
+     class="yaxislayer-above"
+     id="g620"
+     transform="translate(-12,-8)">
+    <g
+       class="y11tick"
+       id="g558">
+      <text
+         x="969.25"
+         y="4.1999998"
+         transform="translate(0,507.14)"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         id="text556">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1878">m9-Ser14.88</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g562">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,481.41)"
+         id="text560">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1876">m9-Gluc7.44</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g566">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,455.69)"
+         id="text564">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1874">m9-Cit7.44</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g570">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,429.96)"
+         id="text568">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1872">m9-Fer2.91</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g574">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,404.24)"
+         id="text572">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1870">m9-Gluc7.44</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g578">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,378.51)"
+         id="text576">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1868">m9-Fer2.91</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g582">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,352.79)"
+         id="text580">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1866">m9-Cou4.04</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g586">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,327.06)"
+         id="text584">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1864">m9-Cou2.02-Fer1.4505</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g590">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,301.34)"
+         id="text588">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1862">m9-Gluc2.48-Glcn2.48-Fru0.44</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g594">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,275.61)"
+         id="text592">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1860">m9-Gluc3.72-Fru0.66</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g598">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,249.89)"
+         id="text596">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1858">m9-Gluc3.72-Glcn3.72</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g602">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,224.16)"
+         id="text600">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1856">m9-Fru1.32</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g606">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,198.44)"
+         id="text604">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1854">m9-Gluc7.44</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g610">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,172.71)"
+         id="text608">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1852">m9-Glcn7.44</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g614">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,146.99)"
+         id="text612">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1850">m9-Gluc7.44</tspan>
+      </text>
+    </g>
+    <g
+       class="y11tick"
+       id="g618">
+      <text
+         x="969.25"
+         y="4.1999998"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+         transform="translate(0,121.26)"
+         id="text616">
+        <tspan
+           style="font-size:18.66666603px"
+           id="tspan1848">m9-Cou4.04</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     class="overaxes-above"
+     id="g622"
+     transform="translate(103.92954,2.569106)" />
+  <g
+     class="polarlayer"
+     id="g628"
+     transform="translate(82.264899,2.5691121)" />
+  <g
+     class="smithlayer"
+     id="g630"
+     transform="translate(82.264899,2.5691121)" />
+  <g
+     class="ternarylayer"
+     id="g632"
+     transform="translate(82.264899,2.5691121)" />
+  <g
+     class="geolayer"
+     id="g634"
+     transform="translate(82.264899,2.5691121)" />
+  <g
+     class="funnelarealayer"
+     id="g636"
+     transform="translate(82.264899,2.5691121)" />
+  <g
+     class="pielayer"
+     id="g638"
+     transform="translate(82.264899,2.5691121)" />
+  <g
+     class="iciclelayer"
+     id="g640"
+     transform="translate(82.264899,2.5691121)" />
+  <g
+     class="treemaplayer"
+     id="g642"
+     transform="translate(82.264899,2.5691121)" />
+  <g
+     class="sunburstlayer"
+     id="g644"
+     transform="translate(82.264899,2.5691121)" />
+  <g
+     class="glimages"
+     id="g646"
+     transform="translate(82.264899,2.5691121)" />
+  <defs
+     id="topdefs-aaef53">
+    <g
+       class="clips"
+       id="g648" />
+  </defs>
+  <g
+     class="layer-above"
+     id="g655"
+     transform="translate(82.264899,2.5691121)">
+    <g
+       class="imagelayer"
+       id="g651" />
+    <g
+       class="shapelayer"
+       id="g653" />
+  </g>
+  <g
+     class="cbfills"
+     transform="translate(286.95948,110.72501)"
+     id="g661">
+    <rect
+       class="cbfill gradient_filled"
+       x="1054"
+       y="0"
+       width="30"
+       height="400"
+       style="fill:url(#gaaef53-cbcd1b39)"
+       id="rect659" />
+  </g>
+  <g
+     class="cblines"
+     transform="translate(301.14376,111.10983)"
+     id="g663" />
+  <g
+     id="g667"
+     class="ycbcd1b39tick"
+     transform="translate(286.95948,0.724999)">
+    <text
+       id="text665"
+       style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+       transform="translate(0,484.99)"
+       y="4.1999998"
+       x="1086.9">0.2</text>
+  </g>
+  <g
+     id="g671"
+     class="ycbcd1b39tick"
+     transform="translate(286.95948,0.724999)">
+    <text
+       id="text669"
+       transform="translate(0,436.3)"
+       style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+       y="4.1999998"
+       x="1086.9">0.3</text>
+  </g>
+  <g
+     id="g675"
+     class="ycbcd1b39tick"
+     transform="translate(286.95948,0.724999)">
+    <text
+       id="text673"
+       transform="translate(0,387.6)"
+       style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+       y="4.1999998"
+       x="1086.9">0.4</text>
+  </g>
+  <g
+     id="g679"
+     class="ycbcd1b39tick"
+     transform="translate(286.95948,0.724999)">
+    <text
+       id="text677"
+       transform="translate(0,338.91)"
+       style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+       y="4.1999998"
+       x="1086.9">0.5</text>
+  </g>
+  <g
+     id="g683"
+     class="ycbcd1b39tick"
+     transform="translate(286.95948,0.724999)">
+    <text
+       id="text681"
+       transform="translate(0,290.21)"
+       style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+       y="4.1999998"
+       x="1086.9">0.6</text>
+  </g>
+  <g
+     id="g687"
+     class="ycbcd1b39tick"
+     transform="translate(286.95948,0.724999)">
+    <text
+       id="text685"
+       transform="translate(0,241.51)"
+       style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+       y="4.1999998"
+       x="1086.9">0.7</text>
+  </g>
+  <g
+     id="g691"
+     class="ycbcd1b39tick"
+     transform="translate(286.95948,0.724999)">
+    <text
+       id="text689"
+       transform="translate(0,192.82)"
+       style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+       y="4.1999998"
+       x="1086.9">0.8</text>
+  </g>
+  <g
+     id="g695"
+     class="ycbcd1b39tick"
+     transform="translate(286.95948,0.724999)">
+    <text
+       id="text693"
+       transform="translate(0,144.12)"
+       style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+       y="4.1999998"
+       x="1086.9">0.9</text>
+  </g>
+  <g
+     class="cbtitleunshift"
+     transform="translate(221.14376,1.109823)"
+     id="g701">
+    <g
+       class="cbtitle"
+       id="g699" />
+  </g>
+  <rect
+     class="cboutline"
+     x="1340.9594"
+     y="110.72499"
+     width="30"
+     height="400"
+     style="fill:none;stroke:#444444;stroke-width:0;stroke-opacity:1"
+     id="rect703" />
+  <text
+     x="788.93976"
+     y="78.029137"
+     style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+     id="text616-0">
+    <tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold'"
+       id="tspan1848-8">NBR</tspan>
+  </text>
+  <text
+     x="383.31"
+     y="78.029137"
+     style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+     id="text616-0-8">
+    <tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold'"
+       id="tspan1848-8-5">BAR</tspan>
+  </text>
+  <text
+     x="113.12502"
+     y="78.029137"
+     style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+     id="text616-0-8-9">
+    <tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold'"
+       id="tspan1848-8-5-6">ATP</tspan>
+  </text>
+  <text
+     x="1319.7006"
+     y="89.68692"
+     style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+     id="text616-0-8-3">
+    <tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold'"
+       id="tspan1848-8-5-8">Recall</tspan>
+  </text>
+  <g
+     style="stroke-linejoin:round"
+     id="g3683"
+     class="slicetext"
+     transform="translate(40.537934,646.78725)" />
+  <g
+     style="stroke-linejoin:round"
+     id="g4033"
+     class="slicetext"
+     transform="translate(82.264899,602.56912)" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="161.5332"
+     y="28.314367"
+     id="text10783"><tspan
+       sodipodi:role="line"
+       id="tspan10781"
+       x="161.5332"
+       y="63.704994" /></text>
+  <g
+     class="bglayer"
+     id="g12062"
+     transform="translate(100.20596,659.01953)" />
+  <g
+     class="layer-below"
+     id="g12068"
+     transform="translate(100.20596,659.01953)">
+    <g
+       class="imagelayer"
+       id="g12064" />
+    <g
+       class="shapelayer"
+       id="g12066" />
+  </g>
+  <g
+     class="cartesianlayer"
+     id="g12070"
+     transform="translate(100.20596,659.01953)" />
+  <g
+     class="polarlayer"
+     id="g12072"
+     transform="translate(100.20596,659.01953)" />
+  <g
+     class="smithlayer"
+     id="g12074"
+     transform="translate(100.20596,659.01953)" />
+  <g
+     class="ternarylayer"
+     id="g12076"
+     transform="translate(100.20596,659.01953)" />
+  <g
+     class="geolayer"
+     id="g12078"
+     transform="translate(100.20596,659.01953)" />
+  <g
+     class="funnelarealayer"
+     id="g12080"
+     transform="translate(100.20596,659.01953)" />
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12092"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="M 282.28492,311.77709 A 64,64 0 0 0 244.66667,196 v -96 a 160,160 0 0 1 94.04564,289.44272 z"
+       style="fill:#38a6a5;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12082" />
+    <g
+       class="slicetext"
+       id="g12090">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="translate(351.185,221.58541)"
+         x="0"
+         y="0"
+         style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12088">
+        <tspan
+           style="font-size:18.66666603px"
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12084">AAM</tspan>
+        <tspan
+           style="font-size:18.66666603px"
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12086">40%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12104"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 244.66667,196 a 64,64 0 0 0 -55.42563,96 L 106.1026,340 A 160,160 0 0 1 244.66667,100 Z"
+       style="fill:#5f4690;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12094" />
+    <g
+       class="slicetext"
+       id="g12102">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="translate(147.50776,200.19531)"
+         x="0"
+         y="0"
+         style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text12100">
+        <tspan
+           style="font-size:18.66666603px"
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12096">AC</tspan>
+        <tspan
+           style="font-size:18.66666603px"
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12098">33.3%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12116"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 189.24104,292 a 64,64 0 0 0 42.11928,30.60145 L 211.4008,416.50362 A 160,160 0 0 1 106.1026,340 Z"
+       style="fill:#1d6996;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12106" />
+    <g
+       class="slicetext"
+       id="g12114">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="translate(177.64884,348.21163)"
+         x="0"
+         y="0"
+         style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text12112">
+        <tspan
+           style="font-size:18.66666603px"
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12108">FA</tspan>
+        <tspan
+           style="font-size:18.66666603px"
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12110">13.3%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12128"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 231.36032,322.60145 a 64,64 0 0 0 26.61269,0 l 19.95953,93.90217 a 160,160 0 0 1 -66.53174,0 z"
+       style="fill:#edad08;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12118" />
+    <g
+       class="slicetext"
+       id="g12126">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="translate(244.5026,388.65533)"
+         x="0"
+         y="0"
+         style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12124">
+        <tspan
+           style="font-size:18.66666603px"
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12120">TCA</tspan>
+        <tspan
+           style="font-size:18.66666603px"
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12122">6.67%</tspan>
+      </text>
+    </g>
+  </g>
+  <path
+     id="path12130"
+     style="fill:#0f8554;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-linejoin:round;stroke-opacity:1"
+     d="m 300.56379,809.56136 a 64,64 0 0 0 12.7248,-4.13454 l 39.04672,87.70036 a 160,160 0 0 1 -31.81199,10.33635 z"
+     class="surface"
+     inkscape:connector-curvature="0" />
+  <g
+     style="stroke-linejoin:round"
+     id="g12138"
+     class="slicetext"
+     transform="translate(119.49592,554.325)">
+    <text
+       id="text12136"
+       style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1;stroke-width:0.64157981"
+       y="387.59781"
+       x="283.46518"
+       transform="rotate(-0.9)"
+       class="slicetext"
+       data-notex="1">
+      <tspan
+         id="tspan12132"
+         y="387.59781"
+         x="283.46518"
+         dy="0"
+         class="line"
+         style="font-size:18.66666603px;fill:#444444;fill-opacity:1;stroke-width:0.64157981">PHAs_Metabolism</tspan>
+      <tspan
+         id="tspan12134"
+         y="387.59781"
+         x="283.46518"
+         dy="24.266666"
+         class="line"
+         style="font-size:18.66666603px;fill:#444444;fill-opacity:1;stroke-width:0.64157981">3.33%</tspan>
+    </text>
+  </g>
+  <path
+     id="path12142"
+     style="fill:#73af48;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-linejoin:round;stroke-opacity:1"
+     d="M 313.28859,805.42682 A 64,64 0 0 0 324.8757,798.737 l 56.42739,77.66563 a 160,160 0 0 1 -28.96778,16.72455 z"
+     class="surface"
+     inkscape:connector-curvature="0" />
+  <text
+     data-notex="1"
+     class="slicetext"
+     transform="rotate(0.59999968)"
+     x="417.17996"
+     y="891.31671"
+     style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1;stroke-width:0.47926816;stroke-linejoin:round"
+     id="text12148">
+    <tspan
+       style="font-size:18.66666603px;stroke-width:0.47926816"
+       class="line"
+       x="417.17996"
+       y="891.31671"
+       id="tspan12144">SSM</tspan>
+  </text>
+  <text
+     id="text15622"
+     data-notex="1"
+     class="slicetext"
+     transform="rotate(0.59999968)"
+     x="417.91495"
+     y="902.02869"
+     style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1;stroke-width:0.47926816;stroke-linejoin:round">
+    <tspan
+       id="tspan15624"
+       style="font-size:18.66666603px;stroke-width:0.47926816"
+       class="line"
+       dy="7.476583"
+       x="417.91495"
+       y="902.02869">3.33%</tspan>
+  </text>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12164"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#636efa;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12154" />
+    <g
+       class="slicetext"
+       id="g12162">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text12160">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12156">Butanoate_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12158">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12176"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#ef553b;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12166" />
+    <g
+       class="slicetext"
+       id="g12174">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12172">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12168">CEB</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12170">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12188"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#00cc96;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12178" />
+    <g
+       class="slicetext"
+       id="g12186">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12184">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12180">CPGB</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12182">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12200"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#ab63fa;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12190" />
+    <g
+       class="slicetext"
+       id="g12198">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12196">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12192">Formaldehyde_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12194">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12212"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#ffa15a;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12202" />
+    <g
+       class="slicetext"
+       id="g12210">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12208">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12204">Gluconeogenesis</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12206">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12224"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#19d3f3;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12214" />
+    <g
+       class="slicetext"
+       id="g12222">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12220">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12216">Glycerophospholipid_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12218">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12236"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#ff6692;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12226" />
+    <g
+       class="slicetext"
+       id="g12234">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12232">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12228">Glyoxylate_and_dicarboxylate_metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12230">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12248"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#b6e880;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12238" />
+    <g
+       class="slicetext"
+       id="g12246">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12244">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12240">Iron_uptake_and_metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12242">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12260"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#ff97ff;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12250" />
+    <g
+       class="slicetext"
+       id="g12258">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12256">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12252">Nucleotide_Salvage_Pathway</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12254">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12272"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#fecb52;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12262" />
+    <g
+       class="slicetext"
+       id="g12270">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12268">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12264">Oxidative_Phosphorylation</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12266">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12284"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#c6cafd;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12274" />
+    <g
+       class="slicetext"
+       id="g12282">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12280">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12276">Pentose_Phosphate_Pathway</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12278">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12296"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#f7a799;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12286" />
+    <g
+       class="slicetext"
+       id="g12294">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12292">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12288">Purine_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12290">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12308"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#33ffc9;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12298" />
+    <g
+       class="slicetext"
+       id="g12306">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12304">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12300">Pyrimidine_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12302">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12320"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#e0c6fd;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12310" />
+    <g
+       class="slicetext"
+       id="g12318">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12316">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12312">Pyruvate_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12314">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12332"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#ffdbc0;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12322" />
+    <g
+       class="slicetext"
+       id="g12330">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12328">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12324">Sulfur_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12326">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12344"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#7ae6f8;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12334" />
+    <g
+       class="slicetext"
+       id="g12342">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12340">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12336">T</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12338">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12356"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#ffccdb;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12346" />
+    <g
+       class="slicetext"
+       id="g12354">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12352">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12348">Urea_cycleamino_group_metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12350">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12368"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#e8f8d6;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12358" />
+    <g
+       class="slicetext"
+       id="g12366">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12364">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12360">Valine__Leucine__and_Isoleucine_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12362">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12380"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#fffdff;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12370" />
+    <g
+       class="slicetext"
+       id="g12378">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12376">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12372">Unassigned</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12374">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12392"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#ffe9b7;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12382" />
+    <g
+       class="slicetext"
+       id="g12390">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12388">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12384">Alginate_biosynthesis</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12386">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12404"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#0819ef;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12394" />
+    <g
+       class="slicetext"
+       id="g12402">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text12400">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12396">ACD</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12398">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12416"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12406" />
+    <g
+       class="slicetext"
+       id="g12414">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text12412">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12408">Heavy_Metal_Tolerance</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12410">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12428"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#00664b;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12418" />
+    <g
+       class="slicetext"
+       id="g12426">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text12424">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12420">Plant_growth_promoting</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12422">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12440"
+     transform="translate(42.590778,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 282.28492,311.77709 56.42739,77.66563 z"
+       style="fill:#7608ef;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12430" />
+    <g
+       class="slicetext"
+       id="g12438">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,244.66667,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text12436">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12432">Xenobiotic_tolerance</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12434">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12466"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="M 655.57797,323.75646 A 64,64 0 0 0 650,196 v -96 a 160,160 0 0 1 13.94492,319.39115 z"
+       style="fill:#00cc96;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12456" />
+    <g
+       class="slicetext"
+       id="g12464">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="translate(761.72934,251.30994)"
+         x="0"
+         y="0"
+         style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12462">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12458"
+           style="font-size:18.66666603px">CPGB</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12460"
+           style="font-size:18.66666603px">48.6%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12478"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 650,196 a 64,64 0 0 0 -64,64 H 490 A 160,160 0 0 1 650,100 Z"
+       style="fill:#38a6a5;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12468" />
+    <g
+       class="slicetext"
+       id="g12476">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="translate(570.80404,176.99935)"
+         x="0"
+         y="0"
+         style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12474">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12470"
+           style="font-size:18.66666603px">AAM</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12472"
+           style="font-size:18.66666603px">25%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12490"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 586,260 a 64,64 0 0 0 11.57427,36.70889 l -78.6386,55.06334 A 160,160 0 0 1 490,260 Z"
+       style="fill:#ef553b;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12480" />
+    <g
+       class="slicetext"
+       id="g12488">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="translate(532.51908,293.18517)"
+         x="0"
+         y="0"
+         style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12486">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12482"
+           style="font-size:18.66666603px">CEB</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12484"
+           style="font-size:18.66666603px">9.72%</tspan>
+      </text>
+    </g>
+  </g>
+  <path
+     id="path12492"
+     style="fill:#5f4690;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-linejoin:round;stroke-opacity:1"
+     d="m 680.16505,783.6688 a 64,64 0 0 0 20.42573,18.71674 l -48,83.13843 a 160,160 0 0 1 -51.06433,-46.79183 z"
+     class="surface"
+     inkscape:connector-curvature="0" />
+  <g
+     style="stroke-linejoin:round"
+     id="g12500"
+     class="slicetext"
+     transform="translate(82.590778,478.95991)">
+    <text
+       id="text12498"
+       style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+       y="0"
+       x="0"
+       transform="translate(560.97461,353.17043)"
+       class="slicetext"
+       data-notex="1">
+      <tspan
+         style="font-size:18.66666603px"
+         id="tspan12494"
+         y="0"
+         x="0"
+         dy="0em"
+         class="line">AC</tspan>
+      <tspan
+         style="font-size:18.66666603px"
+         id="tspan12496"
+         y="0"
+         x="0"
+         dy="1.3em"
+         class="line">6.94%</tspan>
+    </text>
+  </g>
+  <path
+     id="path12504"
+     style="fill:#7ae6f8;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-linejoin:round;stroke-opacity:1"
+     d="m 700.59078,802.38554 a 64,64 0 0 0 10.11071,4.7147 l -32.83393,90.21049 a 160,160 0 0 1 -25.27678,-11.78676 z"
+     class="surface"
+     inkscape:connector-curvature="0" />
+  <text
+     data-notex="1"
+     class="slicetext"
+     transform="rotate(-0.2)"
+     x="604.27295"
+     y="917.5"
+     style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1;stroke-width:0.75447804;stroke-linejoin:round"
+     id="text12510">
+    <tspan
+       class="line"
+       x="604.27295"
+       y="917.5"
+       id="tspan12506"
+       style="font-size:18.66666603px;stroke-width:0.75447804">Transport</tspan>
+  </text>
+  <text
+     data-notex="1"
+     class="slicetext"
+     transform="rotate(-0.2)"
+     x="604.29382"
+     y="911.5"
+     style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1;stroke-width:0.75447804;stroke-linejoin:round"
+     id="text15676">
+    <tspan
+       class="line"
+       x="604.29382"
+       y="911.5"
+       style="font-size:18.66666603px;stroke-width:0.75447804"
+       dy="24.266666"
+       id="tspan15678">2.78%</tspan>
+  </text>
+  <path
+     id="path12516"
+     style="fill:#1d6996;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-linejoin:round;stroke-opacity:1"
+     d="m 710.70149,807.10024 a 64,64 0 0 0 7.12987,2.13454 l -22.13912,93.41231 a 160,160 0 0 1 -17.82468,-5.33636 z"
+     class="surface"
+     inkscape:connector-curvature="0" />
+  <g
+     style="stroke-linejoin:round"
+     id="g12524"
+     class="slicetext"
+     transform="rotate(72.9,293.79711,732.06374)">
+    <text
+       id="text12522"
+       style="font-size:35.02125549px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+       y="0"
+       x="0"
+       transform="matrix(0.15286889,-0.51061767,0.51061767,0.15286889,604.93245,403.46527)"
+       class="slicetext"
+       data-notex="1">
+      <tspan
+         style="font-size:35.02125549px;fill:#444444;fill-opacity:1"
+         id="tspan12518"
+         y="0"
+         x="0"
+         dy="0em"
+         class="line">FA</tspan>
+      <tspan
+         style="font-size:35.02125549px;fill:#444444;fill-opacity:1"
+         id="tspan12520"
+         y="0"
+         x="0"
+         dy="1.3em"
+         class="line">1.85%</tspan>
+    </text>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12538"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 635.24058,322.27487 a 64,64 0 0 0 1.8175,0.40293 l -19.41289,94.0167 a 160,160 0 0 1 -4.54373,-1.00732 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12528" />
+    <g
+       class="slicetext"
+       id="g12536"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.03147547,-0.14197666,0.14197666,0.03147547,615.49886,413.06826)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12534">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12530"
+           style="fill:#b5270f;fill-opacity:1">TCA</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12532"
+           style="fill:#b5270f;fill-opacity:1">0.463%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12550"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 637.05808,322.6778 a 64,64 0 0 0 1.82844,0.3499 l -16.67023,94.54154 a 160,160 0 0 1 -4.5711,-0.87474 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12540" />
+    <g
+       class="slicetext"
+       id="g12548"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.02422768,-0.12660573,0.12660573,0.02422768,621.67311,405.41748)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12546">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12542"
+           style="fill:#b5270f;fill-opacity:1">Glycerophospholipid_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12544"
+           style="fill:#b5270f;fill-opacity:1">0.463%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12562"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 638.88652,323.0277 a 64,64 0 0 0 1.83784,0.29656 l -13.91346,94.9864 a 160,160 0 0 1 -4.59461,-0.74142 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12552" />
+    <g
+       class="slicetext"
+       id="g12560"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.02189188,-0.13566458,0.13566458,0.02189188,625.16513,410.62043)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12558">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12554"
+           style="fill:#b5270f;fill-opacity:1">Purine_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12556"
+           style="fill:#b5270f;fill-opacity:1">0.463%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12574"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 640.72436,323.32426 a 64,64 0 0 0 1.84569,0.24299 l -11.14492,95.35089 a 160,160 0 0 1 -4.61423,-0.60748 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12564" />
+    <g
+       class="slicetext"
+       id="g12572"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.01799052,-0.1366516,0.1366516,0.01799052,629.52646,411.49435)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12570">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12566"
+           style="fill:#b5270f;fill-opacity:1">Sulfur_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12568"
+           style="fill:#b5270f;fill-opacity:1">0.463%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12586"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 642.57005,323.56725 a 64,64 0 0 0 1.85198,0.18921 l -8.36695,95.63469 a 160,160 0 0 1 -4.62995,-0.47301 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12576" />
+    <g
+       class="slicetext"
+       id="g12584"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.01447499,-0.14168368,0.14168368,0.01447499,633.6774,414.43697)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12582">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12578"
+           style="fill:#b5270f;fill-opacity:1">Unassigned</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12580"
+           style="fill:#b5270f;fill-opacity:1">0.463%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12598"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 644.42203,323.75646 a 64,64 0 0 0 0.92786,0.0744 l -6.97517,95.74627 a 160,160 0 0 1 -2.31964,-0.18596 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12588" />
+    <g
+       class="slicetext"
+       id="g12596"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.00570103,-0.07111586,0.07111586,0.00570103,637.30782,414.92811)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12594">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12590"
+           style="fill:#b5270f;fill-opacity:1">Butanoate_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12592"
+           style="fill:#b5270f;fill-opacity:1">0.231%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12610"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 645.34989,323.83084 a 64,64 0 0 0 0.92884,0.0609 l -5.5819,95.83759 a 160,160 0 0 1 -2.32211,-0.1522 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12600" />
+    <g
+       class="slicetext"
+       id="g12608"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.00461905,-0.07047301,0.07047301,0.00461905,639.61494,414.33697)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12606">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12602"
+           style="fill:#b5270f;fill-opacity:1">Formaldehyde_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12604"
+           style="fill:#b5270f;fill-opacity:1">0.231%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12622"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 646.27873,323.89172 a 64,64 0 0 0 0.92963,0.0474 l -4.18746,95.90863 a 160,160 0 0 1 -2.32407,-0.11841 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12612" />
+    <g
+       class="slicetext"
+       id="g12620"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.00368139,-0.07225579,0.07225579,0.00368139,641.76131,416.29345)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12618">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12614"
+           style="fill:#b5270f;fill-opacity:1">Gluconeogenesis</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12616"
+           style="fill:#b5270f;fill-opacity:1">0.231%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12634"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 647.20836,323.93909 a 64,64 0 0 0 0.93022,0.0338 l -2.79213,95.95939 a 160,160 0 0 1 -2.32555,-0.0846 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12624" />
+    <g
+       class="slicetext"
+       id="g12632"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.00247284,-0.06797793,0.06797793,0.00247284,644.21806,411.82557)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12630">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12626"
+           style="fill:#b5270f;fill-opacity:1">Glyoxylate_and_dicarboxylate_metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12628"
+           style="fill:#b5270f;fill-opacity:1">0.231%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12646"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 648.13858,323.97292 a 64,64 0 0 0 0.93061,0.0203 l -1.39621,95.98985 a 160,160 0 0 1 -2.32653,-0.0508 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12636" />
+    <g
+       class="slicetext"
+       id="g12644"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.00153127,-0.07017698,0.07017698,0.00153127,646.36848,414.18792)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12642">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12638"
+           style="fill:#b5270f;fill-opacity:1">Iron_uptake_and_metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12640"
+           style="fill:#b5270f;fill-opacity:1">0.231%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12658"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="M 649.06919,323.99323 A 64,64 0 0 0 650,324 v 96 a 160,160 0 0 1 -2.32702,-0.0169 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12648" />
+    <g
+       class="slicetext"
+       id="g12656"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(5.1014589e-4,-0.07014886,0.07014886,5.1014589e-4,648.61185,414.17899)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12654">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12650"
+           style="fill:#b5270f;fill-opacity:1">Nucleotide_Salvage_Pathway</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12652"
+           style="fill:#b5270f;fill-opacity:1">0.231%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12670"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 650,324 a 64,64 0 0 0 0.93081,-0.007 l 1.39621,95.98985 A 160,160 0 0 1 650,420 Z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12660" />
+    <g
+       class="slicetext"
+       id="g12668"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(5.1405341e-4,0.07068617,-0.07068617,5.1405341e-4,651.39433,414.74718)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12666">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12662"
+           style="fill:#b5270f;fill-opacity:1">Oxidative_Phosphorylation</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12664"
+           style="fill:#b5270f;fill-opacity:1">0.231%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12682"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 650.93081,323.99323 a 64,64 0 0 0 0.93061,-0.0203 l 2.79213,95.95939 a 160,160 0 0 1 -2.32653,0.0508 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12672" />
+    <g
+       class="slicetext"
+       id="g12680"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.00152939,0.07009112,-0.07009112,0.00152939,653.62921,414.09713)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12678">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12674"
+           style="fill:#b5270f;fill-opacity:1">Pentose_Phosphate_Pathway</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12676"
+           style="fill:#b5270f;fill-opacity:1">0.231%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12694"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 651.86142,323.97292 a 64,64 0 0 0 0.93022,-0.0338 l 4.18746,95.90863 a 160,160 0 0 1 -2.32555,0.0846 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12684" />
+    <g
+       class="slicetext"
+       id="g12692"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.00259199,0.07125352,-0.07125352,0.00259199,655.92039,415.28847)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12690">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12686"
+           style="fill:#b5270f;fill-opacity:1">Pyrimidine_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12688"
+           style="fill:#b5270f;fill-opacity:1">0.231%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12706"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 652.79164,323.93909 a 64,64 0 0 0 0.92963,-0.0474 l 5.5819,95.83759 a 160,160 0 0 1 -2.32407,0.11841 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12696" />
+    <g
+       class="slicetext"
+       id="g12704"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.00364262,0.07149482,-0.07149482,0.00364262,658.1948,415.48889)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12702">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12698"
+           style="fill:#b5270f;fill-opacity:1">Pyruvate_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12700"
+           style="fill:#b5270f;fill-opacity:1">0.231%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12718"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 653.72127,323.89172 a 64,64 0 0 0 0.92884,-0.0609 l 6.97517,95.74627 a 160,160 0 0 1 -2.32211,0.1522 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12708" />
+    <g
+       class="slicetext"
+       id="g12716"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.00450869,0.06878924,-0.06878924,0.00450869,660.26195,412.55684)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12714">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12710"
+           style="fill:#b5270f;fill-opacity:1">Urea_cycleamino_group_metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12712"
+           style="fill:#b5270f;fill-opacity:1">0.231%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12730"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 654.65011,323.83084 a 64,64 0 0 0 0.92786,-0.0744 l 8.36695,95.63469 a 160,160 0 0 1 -2.31964,0.18596 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12720" />
+    <g
+       class="slicetext"
+       id="g12728"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.00538373,0.06715787,-0.06715787,0.00538373,662.34158,410.74381)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12726">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12722"
+           style="fill:#b5270f;fill-opacity:1">Valine__Leucine__and_Isoleucine_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12724"
+           style="fill:#b5270f;fill-opacity:1">0.231%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12742"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 655.57797,323.75646 8.36695,95.63469 z"
+       style="fill:#0f8554;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12732" />
+    <g
+       class="slicetext"
+       id="g12740">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,650,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text12738">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12734">PHAs_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12736">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12754"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 655.57797,323.75646 8.36695,95.63469 z"
+       style="fill:#73af48;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12744" />
+    <g
+       class="slicetext"
+       id="g12752">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,650,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12750">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12746">Starch_and_Sucrose_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12748">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12766"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 655.57797,323.75646 8.36695,95.63469 z"
+       style="fill:#ffe9b7;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12756" />
+    <g
+       class="slicetext"
+       id="g12764">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,650,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12762">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12758">Alginate_biosynthesis</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12760">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12778"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 655.57797,323.75646 8.36695,95.63469 z"
+       style="fill:#0819ef;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12768" />
+    <g
+       class="slicetext"
+       id="g12776">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,650,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text12774">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12770">ACD</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12772">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12790"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 655.57797,323.75646 8.36695,95.63469 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12780" />
+    <g
+       class="slicetext"
+       id="g12788">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,650,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text12786">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12782">Heavy_Metal_Tolerance</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12784">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12802"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 655.57797,323.75646 8.36695,95.63469 z"
+       style="fill:#00664b;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12792" />
+    <g
+       class="slicetext"
+       id="g12800">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,650,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text12798">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12794">Plant_growth_promoting</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12796">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12814"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 655.57797,323.75646 8.36695,95.63469 z"
+       style="fill:#7608ef;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12804" />
+    <g
+       class="slicetext"
+       id="g12812">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,650,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text12810">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12806">Xenobiotic_tolerance</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12808">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12826"
+     transform="translate(82.590779,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 655.57797,323.75646 8.36695,95.63469 z"
+       style="fill:#f36900;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12816" />
+    <g
+       class="slicetext"
+       id="g12824">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,650,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12822">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12818">tRNA_Charging</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12820">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12840"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="M 1097.7732,307.90469 A 64,64 0 0 0 1055.3333,196 v -96 a 160,160 0 0 1 106.0997,279.76172 z"
+       style="fill:#5f4690;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12830" />
+    <g
+       class="slicetext"
+       id="g12838">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="translate(1159.8911,216.47957)"
+         x="0"
+         y="0"
+         style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text12836">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12832"
+           style="font-size:18.66666603px">AC</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12834"
+           style="font-size:18.66666603px">38.5%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12852"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1055.3333,196 a 64,64 0 0 0 -52.6709,27.64386 L 923.65591,169.10964 A 160,160 0 0 1 1055.3333,100 Z"
+       style="fill:#38a6a5;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12842" />
+    <g
+       class="slicetext"
+       id="g12850">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="translate(1003.1203,157.02424)"
+         x="0"
+         y="0"
+         style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12848">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12844"
+           style="font-size:18.66666603px">AAM</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12846"
+           style="font-size:18.66666603px">15.4%</tspan>
+      </text>
+    </g>
+  </g>
+  <path
+     id="path12854"
+     style="fill:#7ae6f8;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-linejoin:round;stroke-opacity:1"
+     d="m 1125.2532,710.60377 a 64,64 0 0 0 -7.1701,59.05085 l -89.7616,34.04207 a 160,160 0 0 1 17.9252,-147.62714 z"
+     class="surface"
+     inkscape:connector-curvature="0" />
+  <g
+     style="stroke-linejoin:round"
+     id="g12862"
+     class="slicetext"
+     transform="translate(122.59078,486.95991)">
+    <text
+       id="text12860"
+       style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+       y="0"
+       x="0"
+       transform="translate(943.98588,242.6952)"
+       class="slicetext"
+       data-notex="1">
+      <tspan
+         style="font-size:18.66666603px"
+         id="tspan12856"
+         y="0"
+         x="0"
+         dy="0em"
+         class="line">Transport</tspan>
+      <tspan
+         style="font-size:18.66666603px"
+         id="tspan12858"
+         y="0"
+         x="0"
+         dy="1.3em"
+         class="line">15.4%</tspan>
+    </text>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12876"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 995.49229,282.69471 a 64,64 0 0 0 23.48491,29.97626 l -54.53423,79.00645 a 160,160 0 0 1 -58.71224,-74.94064 z"
+       style="fill:#00cc96;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12866" />
+    <g
+       class="slicetext"
+       id="g12874">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="translate(958.0987,332.24524)"
+         x="0"
+         y="0"
+         style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text12872">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12868"
+           style="font-size:18.66666603px">CPGB</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12870"
+           style="font-size:18.66666603px">9.62%</tspan>
+      </text>
+    </g>
+  </g>
+  <path
+     id="path12878"
+     style="fill:#0819ef;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-linejoin:round;stroke-opacity:1"
+     d="m 1141.568,799.63088 a 64,64 0 0 0 21.0399,9.46931 l -22.9743,93.21041 a 160,160 0 0 1 -52.5998,-23.67327 z"
+     class="surface"
+     inkscape:connector-curvature="0" />
+  <g
+     style="stroke-linejoin:round"
+     id="g12886"
+     class="slicetext"
+     transform="translate(102.09484,487.43687)">
+    <text
+       id="text12884"
+       style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+       y="422.16577"
+       x="968.08118"
+       class="slicetext"
+       data-notex="1">
+      <tspan
+         style="font-size:18.66666603px;fill:#444444;fill-opacity:1"
+         id="tspan12880"
+         y="422.16577"
+         x="968.08118"
+         dy="0"
+         class="line">ACD</tspan>
+      <tspan
+         style="font-size:18.66666603px;fill:#444444;fill-opacity:1"
+         id="tspan12882"
+         y="422.16577"
+         x="968.08118"
+         dy="24.266665"
+         class="line">5.77%</tspan>
+    </text>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12900"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1040.0171,322.14028 a 64,64 0 0 0 17.8933,1.80782 l 3.8655,95.92214 a 160,160 0 0 1 -44.7331,-4.51955 z"
+       style="fill:#ef553b;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12890" />
+    <text
+       id="text12896"
+       style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+       y="1073.7969"
+       x="-280.49625"
+       transform="rotate(-84.230769)"
+       class="slicetext"
+       data-notex="1">
+      <tspan
+         style="font-size:18.66666603px"
+         id="tspan12892"
+         y="1073.7969"
+         x="-280.49625"
+         dy="0"
+         class="line">CEB</tspan>
+      <tspan
+         style="font-size:18.66666603px"
+         id="tspan12894"
+         y="1073.7969"
+         x="-280.49625"
+         dy="15.599999"
+         class="line">4.49%</tspan>
+    </text>
+  </g>
+  <path
+     id="path12902"
+     style="fill:#1d6996;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-linejoin:round;stroke-opacity:1"
+     d="m 1180.5012,810.90801 a 64,64 0 0 0 10.2246,-1.2415 l 19.2024,94.0599 a 160,160 0 0 1 -25.5615,3.10374 z"
+     class="surface"
+     inkscape:connector-curvature="0" />
+  <g
+     style="fill:#444444;fill-opacity:1;stroke-linejoin:round"
+     id="g12910"
+     class="slicetext"
+     transform="rotate(-82.8,1446.9426,584.20063)">
+    <text
+       id="text12908"
+       style="font-size:26.45460129px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+       y="0"
+       x="0"
+       transform="matrix(0.08505205,0.70046663,-0.70046663,0.08505205,1075.7079,405.52697)"
+       class="slicetext"
+       data-notex="1">
+      <tspan
+         id="tspan12904"
+         y="0"
+         x="0"
+         dy="0em"
+         class="line"
+         style="font-size:26.45460129px;fill:#444444;fill-opacity:1">FA</tspan>
+      <tspan
+         id="tspan12906"
+         y="0"
+         x="0"
+         dy="1.3em"
+         class="line"
+         style="font-size:26.45460129px;fill:#444444;fill-opacity:1">2.56%</tspan>
+    </text>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12924"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1068.135,322.7066 a 64,64 0 0 0 5.0043,-1.23344 l 26.7088,92.20974 a 160,160 0 0 1 -12.5107,3.0836 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12914" />
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12936"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1073.1393,321.47316 a 64,64 0 0 0 4.8887,-1.63212 l 34.0421,89.76156 a 160,160 0 0 1 -12.222,4.0803 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12926" />
+    <g
+       class="slicetext"
+       id="g12934"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.10368387,0.31057112,-0.31057112,0.10368387,1101.6225,394.71903)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12932">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12928"
+           style="fill:#b5270f;fill-opacity:1">Purine_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12930"
+           style="fill:#b5270f;fill-opacity:1">1.28%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12948"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1078.028,319.84104 a 64,64 0 0 0 4.7417,-2.02021 l 41.1544,86.73124 a 160,160 0 0 1 -11.854,5.05053 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12938" />
+    <g
+       class="slicetext"
+       id="g12946"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.1292567,0.30337663,-0.30337663,0.1292567,1112.496,390.96481)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12944">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12940"
+           style="fill:#b5270f;fill-opacity:1">Sulfur_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12942"
+           style="fill:#b5270f;fill-opacity:1">1.28%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12960"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1082.7697,317.82083 a 64,64 0 0 0 4.5636,-2.3952 l 48,83.13843 a 160,160 0 0 1 -11.4092,5.98801 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12950" />
+    <g
+       class="slicetext"
+       id="g12958"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.16604812,0.31637825,-0.31637825,0.16604812,1125.3823,390.5418)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12956">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12952"
+           style="fill:#b5270f;fill-opacity:1">Unassigned</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12954"
+           style="fill:#b5270f;fill-opacity:1">1.28%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12972"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1087.3333,315.42563 a 64,64 0 0 0 2.2058,-1.33346 l 51.3088,81.13824 a 160,160 0 0 1 -5.5146,3.33365 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12962" />
+    <g
+       class="slicetext"
+       id="g12970"
+       style="fill:#b5270f;fill-opacity:1">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0.09358963,0.15481617,-0.15481617,0.09358963,1133.0396,387.2115)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#b5270f;fill-opacity:1"
+         id="text12968">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan12964"
+           style="fill:#b5270f;fill-opacity:1">Alginate_biosynthesis</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan12966"
+           style="fill:#b5270f;fill-opacity:1">0.641%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g12984"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1089.5391,314.09217 a 64,64 0 0 0 2.1504,-1.4212 l 54.5342,79.00645 a 160,160 0 0 1 -5.3758,3.55299 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12974" />
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g12996"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1091.6895,312.67097 a 64,64 0 0 0 2.0913,-1.50663 l 57.6713,76.7465 a 160,160 0 0 1 -5.2284,3.76658 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12986" />
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g13008"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1093.7808,311.16434 a 64,64 0 0 0 2.029,-1.58962 l 60.7148,74.36207 a 160,160 0 0 1 -5.0725,3.97405 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path12998" />
+  </g>
+  <g
+     style="fill:#b5270f;fill-opacity:1;stroke-linejoin:round"
+     class="slice"
+     id="g13020"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1095.8098,309.57472 a 64,64 0 0 0 1.9634,-1.67003 l 63.6598,71.85703 a 160,160 0 0 1 -4.9084,4.17507 z"
+       style="fill:#b5270f;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13010" />
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13032"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#0f8554;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13022" />
+    <g
+       class="slicetext"
+       id="g13030">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text13028">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13024">PHAs_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13026">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13044"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#73af48;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13034" />
+    <g
+       class="slicetext"
+       id="g13042">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text13040">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13036">Starch_and_Sucrose_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13038">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13056"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#edad08;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13046" />
+    <g
+       class="slicetext"
+       id="g13054">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text13052">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13048">TCA</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13050">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13068"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#636efa;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13058" />
+    <g
+       class="slicetext"
+       id="g13066">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+         id="text13064">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13060">Butanoate_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13062">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13080"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#ab63fa;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13070" />
+    <g
+       class="slicetext"
+       id="g13078">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text13076">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13072">Formaldehyde_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13074">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13092"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#ffa15a;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13082" />
+    <g
+       class="slicetext"
+       id="g13090">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text13088">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13084">Gluconeogenesis</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13086">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13104"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#ff6692;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13094" />
+    <g
+       class="slicetext"
+       id="g13102">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text13100">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13096">Glyoxylate_and_dicarboxylate_metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13098">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13116"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#b6e880;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13106" />
+    <g
+       class="slicetext"
+       id="g13114">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text13112">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13108">Iron_uptake_and_metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13110">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13128"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#ff97ff;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13118" />
+    <g
+       class="slicetext"
+       id="g13126">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text13124">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13120">Nucleotide_Salvage_Pathway</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13122">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13140"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#fecb52;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13130" />
+    <g
+       class="slicetext"
+       id="g13138">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text13136">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13132">Oxidative_Phosphorylation</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13134">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13152"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#c6cafd;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13142" />
+    <g
+       class="slicetext"
+       id="g13150">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text13148">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13144">Pentose_Phosphate_Pathway</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13146">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13164"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#33ffc9;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13154" />
+    <g
+       class="slicetext"
+       id="g13162">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text13160">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13156">Pyrimidine_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13158">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13176"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#e0c6fd;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13166" />
+    <g
+       class="slicetext"
+       id="g13174">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text13172">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13168">Pyruvate_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13170">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13188"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#ffccdb;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13178" />
+    <g
+       class="slicetext"
+       id="g13186">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text13184">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13180">Urea_cycleamino_group_metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13182">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="stroke-linejoin:round"
+     class="slice"
+     id="g13200"
+     transform="translate(122.59078,486.95991)">
+    <path
+       inkscape:connector-curvature="0"
+       class="surface"
+       d="m 1097.7732,307.90469 63.6598,71.85703 z"
+       style="fill:#e8f8d6;fill-opacity:1;stroke:#444444;stroke-width:0;stroke-opacity:1"
+       id="path13190" />
+    <g
+       class="slicetext"
+       id="g13198">
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="matrix(0,0,0,0,1055.3333,100)"
+         x="0"
+         y="0"
+         style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1"
+         id="text13196">
+        <tspan
+           class="line"
+           dy="0em"
+           x="0"
+           y="0"
+           id="tspan13192">Valine__Leucine__and_Isoleucine_Metabolism</tspan>
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="0"
+           y="0"
+           id="tspan13194">0%</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     class="iciclelayer"
+     id="g13206"
+     transform="translate(100.20596,659.01953)" />
+  <g
+     class="treemaplayer"
+     id="g13208"
+     transform="translate(100.20596,659.01953)" />
+  <g
+     class="sunburstlayer"
+     id="g13210"
+     transform="translate(100.20596,659.01953)" />
+  <g
+     class="glimages"
+     id="g13212"
+     transform="translate(100.20596,659.01953)" />
+  <g
+     class="layer-above"
+     id="g13221"
+     transform="translate(100.20596,659.01953)">
+    <g
+       class="imagelayer"
+       id="g13217" />
+    <g
+       class="shapelayer"
+       id="g13219" />
+  </g>
+  <g
+     id="g13223"
+     class="g-gtitle"
+     transform="translate(100.20596,659.01953)" />
+  <g
+     id="g13233"
+     style="opacity:1"
+     data-index="0"
+     class="annotation"
+     transform="translate(44.590778,486.95991)">
+    <g
+       id="g13231"
+       class="annotation-text-g">
+      <g
+         id="g13229"
+         transform="translate(217,247)"
+         class="cursor-pointer">
+        <rect
+           id="rect13225"
+           style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:1px;stroke-opacity:0"
+           height="25"
+           width="40"
+           y="0.5"
+           x="0.5"
+           class="bg" />
+        <text
+           id="text13227"
+           style="font-size:20px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#2a3f5f;fill-opacity:1"
+           y="20"
+           x="22.71875"
+           class="annotation-text">
+          <tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold'"
+             id="tspan15417">ATP</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+  <g
+     id="g13243"
+     style="opacity:1"
+     data-index="1"
+     class="annotation"
+     transform="translate(82.590779,486.95991)">
+    <g
+       id="g13241"
+       class="annotation-text-g">
+      <g
+         id="g13239"
+         transform="translate(628,247)"
+         class="cursor-pointer">
+        <rect
+           id="rect13235"
+           style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:1px;stroke-opacity:0"
+           height="25"
+           width="44"
+           y="0.5"
+           x="0.5"
+           class="bg" />
+        <text
+           id="text13237"
+           style="font-size:20px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#2a3f5f;fill-opacity:1"
+           y="20"
+           x="22.5625"
+           class="annotation-text">
+          <tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold'"
+             id="tspan15419">BAR</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+  <g
+     id="g13253"
+     style="opacity:1"
+     data-index="2"
+     class="annotation"
+     transform="translate(122.59078,486.95991)">
+    <g
+       id="g13251"
+       class="annotation-text-g">
+      <g
+         id="g13249"
+         transform="translate(1037,247)"
+         class="cursor-pointer">
+        <rect
+           id="rect13245"
+           style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:1px;stroke-opacity:0"
+           height="25"
+           width="45"
+           y="0.5"
+           x="0.5"
+           class="bg" />
+        <text
+           id="text13247"
+           style="font-size:20px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#2a3f5f;fill-opacity:1"
+           y="20"
+           x="19.125"
+           class="annotation-text">
+          <tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold'"
+             id="tspan15421">NBR</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 324.87399,903.20312 0.66056,20.91803 6.6057,7.70664"
+     id="path15660"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 372.87534,882.94567 -0.22019,4.4038 12.55081,1.9817"
+     id="path15662"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 664.11179,891.97345 v 9.68835 l -12.33062,8.58739"
+     id="path15685"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 684.58943,900.56085 -0.66057,17.61517 3.52304,4.4038"
+     id="path15687"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 1110.2756,892.67245 -0.3114,8.40767 -15.8812,1.86837"
+     id="path15694"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 1197.1549,906.68524 -0.6228,13.38999 14.0128,3.11395"
+     id="path15696"
+     inkscape:connector-curvature="0" />
+  <text
+     data-notex="1"
+     class="slicetext"
+     transform="rotate(-0.2)"
+     x="771.18152"
+     y="934.74414"
+     style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1;stroke-width:0.75447804;stroke-linejoin:round"
+     id="text12510-7">
+    <tspan
+       class="line"
+       x="771.18152"
+       y="934.74414"
+       id="tspan12506-5"
+       style="font-size:18.66666603px;stroke-width:0.75447804">Other</tspan>
+  </text>
+  <text
+     data-notex="1"
+     class="slicetext"
+     transform="rotate(-0.2)"
+     x="1312.557"
+     y="918.34064"
+     style="font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1;stroke-width:0.75447804;stroke-linejoin:round"
+     id="text12510-7-9">
+    <tspan
+       class="line"
+       x="1312.557"
+       y="918.34064"
+       id="tspan12506-5-6"
+       style="font-size:18.66666603px;stroke-width:0.75447804">Other</tspan>
+  </text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 730.26376,906.94298 -0.31525,13.65513 19.3767,4.84417"
+     id="path15744"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 1268.8145,878.63733 -0.039,19.32884 19.9293,8.71907"
+     id="path15746"
+     inkscape:connector-curvature="0" />
+  <g
+     id="g5714"
+     transform="translate(-39.729606,-93.63205)">
+    <g
+       id="g5729"
+       transform="translate(1127.0088,364.34124)">
+      <rect
+         style="opacity:1;fill:#e73f74;fill-opacity:1;stroke:#e73f74;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5575"
+         width="33.468834"
+         height="17.615175"
+         x="147.92235"
+         y="132.9057" />
+      <rect
+         style="opacity:1;fill:#3969ac;fill-opacity:1;stroke:#3969ac;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5575-3"
+         width="33.468834"
+         height="17.615175"
+         x="147.92235"
+         y="158.52087" />
+      <rect
+         style="opacity:1;fill:#80ba5a;fill-opacity:1;stroke:#80ba5a;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5575-3-6"
+         width="33.468834"
+         height="17.615175"
+         x="147.92235"
+         y="184.13605" />
+      <rect
+         style="opacity:1;fill:#f2b701;fill-opacity:1;stroke:#f2b701;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5575-3-6-7"
+         width="33.468834"
+         height="17.615175"
+         x="147.92235"
+         y="209.75122" />
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="rotate(-0.2)"
+         x="80.144241"
+         y="148.4433"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold Italic';text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1;stroke-width:0.75447804;stroke-linejoin:round"
+         id="text12510-5">
+        <tspan
+           class="line"
+           x="80.144241"
+           y="148.4433"
+           id="tspan12506-3"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold Italic';stroke-width:0.75447804">Carbon2</tspan>
+      </text>
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="rotate(-0.2)"
+         x="80.177017"
+         y="223.91571"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold Italic';text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1;stroke-width:0.75447804;stroke-linejoin:round"
+         id="text12510-5-5">
+        <tspan
+           class="line"
+           x="80.177017"
+           y="223.91571"
+           id="tspan12506-3-6"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold Italic';stroke-width:0.75447804">Carbon</tspan>
+      </text>
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="rotate(-0.2)"
+         x="80.839546"
+         y="198.42882"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold Italic';text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1;stroke-width:0.75447804;stroke-linejoin:round"
+         id="text12510-5-5-2">
+        <tspan
+           class="line"
+           x="80.839546"
+           y="198.42882"
+           id="tspan12506-3-6-9"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold Italic';stroke-width:0.75447804">Aromatics</tspan>
+      </text>
+      <text
+         data-notex="1"
+         class="slicetext"
+         transform="rotate(-0.2)"
+         x="80.514694"
+         y="172.68773"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold Italic';text-anchor:middle;white-space:pre;fill:#444444;fill-opacity:1;stroke-width:0.75447804;stroke-linejoin:round"
+         id="text12510-5-5-2-1">
+        <tspan
+           class="line"
+           x="80.514694"
+           y="172.68773"
+           id="tspan12506-3-6-9-2"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold Italic';stroke-width:0.75447804">Muconate</tspan>
+      </text>
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#2a3f5f;stroke-width:2.56048131;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5698"
+         width="168.37425"
+         height="116.62696"
+         x="25.561966"
+         y="122.15541" />
+    </g>
+  </g>
+  <text
+     x="1149.3602"
+     y="381.45731"
+     style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+     id="text616-0-8-3-7-7"
+     inkscape:transform-center-x="292.41192"
+     inkscape:transform-center-y="-24.661247">
+    <tspan
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Bold Italic'"
+       id="tspan1848-8-5-8-6-0">Studies</tspan>
+  </text>
+</svg>
