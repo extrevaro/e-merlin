@@ -402,6 +402,7 @@ def gene_sensitivity_to_cutoff(reaction_set_list, rf_media_model):
     return gene_sensitivity_result
 
 def get_enrichment_result(query_set, functional_data, rf_media_model, ica_data, functional_class_list, functional_class='Subsystem', input_type='Gene'):
+    
     '''
     This function generates a dataframe with enriched functions for a given reaction/gene
     set within a ica data and GEM.
@@ -409,8 +410,8 @@ def get_enrichment_result(query_set, functional_data, rf_media_model, ica_data, 
             query_set : set containing reactions/genes           
             
             functional_data : dict containing dataframes for all the functional classes whose
-                              analysis is permited (iModulon and Subsystem). Each dataframe has
-                              the genes associated to each functional class.
+                              analysis is permited (iModulon and Subsystem). 
+                              Each dataframe has the genes associated to each functional class. 
 
             rf_media_model : the GEM as a reframed model
             
@@ -445,7 +446,13 @@ def get_enrichment_result(query_set, functional_data, rf_media_model, ica_data, 
     for c in functional_class_list:
         print('Computing %s %s enrichment' % (c, functional_class, ))
         composition_df = functional_data[functional_class]
-        target_set = composition_df.loc[composition_df[functional_class]==c, 'Gene'].values.tolist()
+        if functional_class.startswith('iModulon'):
+            function_to_search = functional_class.split('_')[0]
+            
+        else:
+            function_to_search = functional_class
+
+        target_set = composition_df.loc[composition_df[function_to_search]==c, 'Gene'].values.tolist()
         if input_type == 'Reaction':
             enrichment_result = compute_enrichment(genes, target_set, all_genes)
             
@@ -482,8 +489,8 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
                        pymodulon documentation            
             
             functional_data : dict containing dataframes for all the functional classes whose
-                              analysis is permited (iModulon and Subsystem). Each dataframe has
-                              the genes associated to each functional class.                          
+                              analysis is permited (iModulon_<functional class column> and Subsystem). 
+                              Each dataframe has the genes associated to each functional class.                          
                    
     OUTPUT:       
             returns a list of dataframes containing the presence of each function across the 
@@ -493,12 +500,14 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
     media_model = to_cobrapy(rf_media_model)
     enriched_functions_list = []
     for functional_class in functional_data.keys():
-        if functional_class == 'iModulon':
+        if functional_class.startwith('iModulon'):
+            function_to_search, function_category = functional_class.split('_')
             class_list = ica_data.imodulon_names
             im_table = ica_data.imodulon
             
         elif functional_class == 'Subsystem':
-            class_list = functional_data[functional_class].Subsystem.unique().tolist()
+            function_to_search = functional_class
+            class_list = functional_data[function_to_search].Subsystem.unique().tolist()
          
         else:
             raise Exception( "Keys of functional data need to be either iModulon or Subsystem, but %s was given"
@@ -508,24 +517,24 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
         all_genes = ica_data.gene_names
         media_model = to_cobrapy(rf_media_model)
         for g_s in reaction_set_list:
-            enrichment_df = get_enrichment_result(g_s, functional_data, rf_media_model, ica_data, class_list, functional_class=functional_class, input_type='Reaction')
+            enrichment_df = get_enrichment_result(g_s, functional_data, rf_media_model, ica_data, class_list, functional_class=function_to_search, input_type='Reaction')
             #Consider enriched functional classes those with p-value less than 0.05:
-            enriched_fc = enrichment_df.loc[enrichment_df['p-Value'] <= 0.05, functional_class].tolist()
+            enriched_fc = enrichment_df.loc[enrichment_df['p-Value'] <= 0.05, function_to_search].tolist()
             #For each functional class that our set is enriched in, compute its function
-            if functional_class == 'iModulon':
-                enriched_functions = [ f for im in enriched_fc for f in im_table.loc[[im]].function.values ]
+            if function_to_search == 'iModulon':
+                enriched_functions = [ f for im in enriched_fc for f in im_table.loc[[im]][function_category].values ]
                 enriched_functions_list.append(enriched_functions)
                 
-            if functional_class == 'Subsystem':
+            if function_to_search == 'Subsystem':
                 enriched_functions_list.append(enriched_fc)
 
         #For each functional class compute its presence among the reaction sets computed with different cutoff values
-        if functional_class == 'iModulon':
-            rxn_sensitivity_data = { 'Function' : [i_f for i_f in im_table.function.unique().tolist()],
+        if function_to_search == 'iModulon':
+            rxn_sensitivity_data = { 'Function' : [i_f for i_f in im_table[function_category].unique().tolist()],
                                      'Presence' : [ [f for f_s in enriched_functions_list for f in set(f_s) ].count(i_f)/len(reaction_set_list)
-                                                for i_f in im_table.function.unique().tolist()] }
+                                                for i_f in im_table[function_category].unique().tolist()] }
         
-        if functional_class == 'Subsystem':
+        if function_to_search == 'Subsystem':
             rxn_sensitivity_data = { 'Function' : class_list,
                                      'Presence' : [ [f for f_s in enriched_functions_list for f in set(f_s) ].count(ss)/len(reaction_set_list)
                                                 for ss in class_list] } 
@@ -590,23 +599,25 @@ def get_functional_class_composition(functional_data, imodulon_function, reactio
             fc_presence_bar.append((bar_count/len(reaction_sets['BAR']))*100)
             fc_presence_nbr.append((nbr_count/len(reaction_sets['NBR']))*100)
 
-        if functional_class == 'iModulon':
+        if functional_class.statrtswith('iModulon'):
+            function_label = functional_class.split('_')[0]
             function_list = [f for im in class_list for f in imodulon_function[im]]
 
         elif functional_class == 'Subsystem':
+            function_label = functional_class
             function_list = class_list
 
         else:
             raise Exception("'functional_data' keys can be only 'iModulon' or 'Subsystem' but %s was given" % functional_class)
 
 
-        fc_composition_data = { functional_class+'_function' : function_list,
+        fc_composition_data = { function_label+'_function' : function_list,
                                 'BAR_Set_percentage' : fc_presence_bar,
                                 'NBR_Set_percentage' : fc_presence_nbr }
 
         fc_composition_df = pd.DataFrame.from_dict(fc_composition_data)
-        fc_composition_df.set_index(functional_class+'_function', inplace=True)
-        fc_composition_result[functional_class] = fc_composition_df
+        fc_composition_df.set_index(function_label+'_function', inplace=True)
+        fc_composition_result[function_label] = fc_composition_df
 
     return fc_composition_result
         
