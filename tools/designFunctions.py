@@ -263,12 +263,12 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
                                   
             rf_media_model : the GEM as a refremed model
             
-            carbon_source : dict with carbon source exchange reaction as key and flux as value
+            carbon_source : dict with carbon source exchange reaction(s) as key and flux(es) as value
             
             reaction_set : str indicating type of reaction set, could be 'NBR', 'BAR' or 'both'
             
     OUTPUT:
-            display a plot representing the variation of the number of reactions respect the cutoff
+            display and saves a plot representing the variation of the number of reactions respect the cutoff
             
             returns a dict containing the reaction set for each cutoff value and with the pattern:
             
@@ -348,14 +348,19 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
             number_reactions_list['BAR'].append(len(biomass_reactions))
         
         elif reaction_set != 'both':
-            reaction_set_list[reaction_set].append(not_biomass_reactions)
-            number_reactions_list[reaction_set].append(len(not_biomass_reactions))
+            if reaction_set == 'NBR':
+                target_set = not_biomass_reactions
+            else:
+                target_set = biomass_reactions
+
+            reaction_set_list[reaction_set].append(target_set)
+            number_reactions_list[reaction_set].append(len(target_set))
         
         else:
             raise Exception("reaction_set can only be 'NBR', 'BAR' or 'both', but %s was given." % reaction_set)
             break
             
-    condition_tag = '-'.join([exchange+str(flux) for exchange,flux in carbon_source.items()])        
+    condition_tag = '-'.join([exchange+str(flux) for exchange,flux in carbon_source.items()])    
     out_filename = 'results/reaction_sensitivity_'+condition_tag+'.xlsx' if reaction_set == 'both' else reaction_set+'_reaction_sensitivity.xlsx'
     with pd.ExcelWriter(out_filename) as writer:
         for reaction_class in reaction_set_list:
@@ -373,6 +378,7 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
                               yaxis=dict(title='Number of '+reaction_class+'s in GIMME model')
                              )
             display(fig)
+            #Save it
             fig_save_path = '_'.join([out_filename.replace('.xlsx',''), reaction_class+'.png']) 
             fig.write_image(fig_save_path)
     
@@ -437,6 +443,7 @@ def get_enrichment_result(query_set, functional_data, rf_media_model, ica_data, 
     len_list = []
                 
     for c in functional_class_list:
+        print('Computing %s %s enrichment' % (c, functional_class, ))
         composition_df = functional_data[functional_class]
         target_set = composition_df.loc[composition_df[functional_class]==c, 'Gene'].values.tolist()
         if input_type == 'Reaction':
