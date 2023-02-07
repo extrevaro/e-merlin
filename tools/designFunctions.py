@@ -500,7 +500,7 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
     media_model = to_cobrapy(rf_media_model)
     enriched_functions_list = []
     for functional_class in functional_data.keys():
-        if functional_class.startwith('iModulon'):
+        if functional_class.startswith('iModulon'):
             function_to_search, function_category = functional_class.split('_')
             class_list = ica_data.imodulon_names
             im_table = ica_data.imodulon
@@ -517,9 +517,9 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
         all_genes = ica_data.gene_names
         media_model = to_cobrapy(rf_media_model)
         for g_s in reaction_set_list:
-            enrichment_df = get_enrichment_result(g_s, functional_data, rf_media_model, ica_data, class_list, functional_class=function_to_search, input_type='Reaction')
+            enrichment_df = get_enrichment_result(g_s, functional_data, rf_media_model, ica_data, class_list, functional_class=functional_class, input_type='Reaction')
             #Consider enriched functional classes those with p-value less than 0.05:
-            enriched_fc = enrichment_df.loc[enrichment_df['p-Value'] <= 0.05, function_to_search].tolist()
+            enriched_fc = enrichment_df.loc[enrichment_df['p-Value'] <= 0.05, functional_class].tolist()
             #For each functional class that our set is enriched in, compute its function
             if function_to_search == 'iModulon':
                 enriched_functions = [ f for im in enriched_fc for f in im_table.loc[[im]][function_category].values ]
@@ -578,14 +578,33 @@ def get_functional_class_composition(functional_data, imodulon_function, reactio
     '''
 
     fc_composition_result = {}
+    category = None
 
     for functional_class in functional_data.keys():
         fc_presence_bar = []
         fc_presence_nbr = []
         df = functional_data[functional_class]
-        class_list = df[functional_class].unique().tolist()
-        class_g_dict = { c : df.loc[df[functional_class]==c, 'Gene'].values.tolist()
+        
+        if functional_class.startswith('iModulon'):
+            function_label, category = functional_class.split('_')
+            
+        elif functional_class == 'Subsystem':
+            function_label = functional_class
+            
+        else:
+            raise Exception("'functional_data' keys can be only 'iModulon' or 'Subsystem' but %s was given" % functional_class)
+            break
+            
+        
+        class_list = df[function_label].unique().tolist()
+        class_g_dict = { c : df.loc[df[function_label]==c, 'Gene'].values.tolist()
                          for c in class_list }
+
+        if functional_class.startswith('iModulon'):
+            function_list = [f for im in class_list for f in imodulon_function[im]]
+
+        elif functional_class == 'Subsystem':
+            function_list = class_list
 
         for c in class_list:
             bar_count=0
@@ -598,18 +617,6 @@ def get_functional_class_composition(functional_data, imodulon_function, reactio
 
             fc_presence_bar.append((bar_count/len(reaction_sets['BAR']))*100)
             fc_presence_nbr.append((nbr_count/len(reaction_sets['NBR']))*100)
-
-        if functional_class.statrtswith('iModulon'):
-            function_label = functional_class.split('_')[0]
-            function_list = [f for im in class_list for f in imodulon_function[im]]
-
-        elif functional_class == 'Subsystem':
-            function_label = functional_class
-            function_list = class_list
-
-        else:
-            raise Exception("'functional_data' keys can be only 'iModulon' or 'Subsystem' but %s was given" % functional_class)
-
 
         fc_composition_data = { function_label+'_function' : function_list,
                                 'BAR_Set_percentage' : fc_presence_bar,
