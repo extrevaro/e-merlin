@@ -7,6 +7,9 @@ import plotly.graph_objects as go
 import plotly.express as px
 from numpy import percentile
 from pymodulon.enrichment import *
+from itertools import compress
+import itertools
+
 
 supported_species = ['escherichia_coli', 'pseudomonas_putida', 'bacillus_subtilis']
 
@@ -269,10 +272,16 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
             
     OUTPUT:
             display and saves a plot representing the variation of the number of reactions respect the cutoff
+            and returns:
             
-            returns a dict containing the reaction set for each cutoff value and with the pattern:
+            - GIMME_model : a GIMME model containing BAR and NBR set of the most restrictive threshold
+
+            - reaction_set_list : a dict containing the reaction set for each cutoff value and with the pattern:
             
                 { <reaction_set> : <reaction_set_list> }
+            
+            - number_reactions_list : the same as reaction_set_list but containing the lenght of the sets instead
+                
     '''
     reaction_set_list = dict()
     number_reactions_list= dict()
@@ -329,7 +338,6 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
         #Generate the context model by deletion those reactions that are inactive according to GIMME and expression data
         GIMME_model = to_cobrapy(rf_media_model)
         GIMME_model.remove_reactions(list(not_active_and_not_in_gimme_model))
-        GIMME_model.optimize()
         #Compute NBRs & BARs by performing a FVA with fraction_of_optimum set to 80% of wt
         fva_gimme = cobra.flux_analysis.flux_variability_analysis(GIMME_model, fraction_of_optimum=0.8)
 
@@ -359,30 +367,8 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
         else:
             raise Exception("reaction_set can only be 'NBR', 'BAR' or 'both', but %s was given." % reaction_set)
             break
-            
-    condition_tag = '-'.join([exchange+str(flux) for exchange,flux in carbon_source.items()])    
-    out_filename = 'results/reaction_sensitivity_'+condition_tag+'.xlsx' if reaction_set == 'both' else reaction_set+'_reaction_sensitivity.xlsx'
-    with pd.ExcelWriter(out_filename) as writer:
-        for reaction_class in reaction_set_list:
-            sensitivity_data = {'Cutoff' : [c for c in cutoff_range], 
-                                'Reaction_number': number_reactions_list[reaction_class]}
-            print(sensitivity_data)  
-            sensitivity_df = pd.DataFrame.from_dict(sensitivity_data)
-            sensitivity_df.to_excel(writer, sheet_name=reaction_class)
-                
-            #Plot the nº of reaction_set type respect the cutoff value
-            fig = px.scatter(x=[c for c in cutoff_range], y=number_reactions_list[reaction_class])
-            fig.update_layout(title=dict(text='<b>'+reaction_class+' Sensitivity to cutoff value<b>',
-                                         x=0.5),
-                              xaxis=dict(title='Cutoff Value'),
-                              yaxis=dict(title='Number of '+reaction_class+'s in GIMME model')
-                             )
-            display(fig)
-            #Save it
-            fig_save_path = '_'.join([out_filename.replace('.xlsx',''), reaction_class+'.png']) 
-            fig.write_image(fig_save_path)
     
-    return reaction_set_list
+    return GIMME_model, reaction_set_list, number_reactions_list
 
 def gene_sensitivity_to_cutoff(reaction_set_list, rf_media_model):
     gene_list = []
@@ -627,4 +613,89 @@ def get_functional_class_composition(functional_data, imodulon_function, reactio
         fc_composition_result[function_label] = fc_composition_df
 
     return fc_composition_result
+
+def plotly_upset_plot(df):
+    # an array of dimensions d x d*2^d possible subsets where d is the number of columns
+    subsets = []
+    # the sizes of each subset (2^d array)
+    subset_sizes = [ ]
+    d = len(df.columns)
+    for i in range(1, d + 1):
+        subsets = subsets + [list(x) for x in list(itertools.combinations(df.columns, i))]
+
+    for s in subsets:
+        curr_bool = [1]*len(df)
+        for col in df.columns:
+            if col in s: curr_bool = [x and y for x, y in zip(curr_bool, list(df.loc[:, col].copy()))]
+            else: curr_bool = [x and not y for x, y in zip(curr_bool, list(df.loc[:, col].copy()))]
+        subset_sizes.append(sum(curr_bool))
+
+
+    plot_df = pd.DataFrame({'Intersection': subsets, 'Size':subset_sizes})
+    #exclude all combinations not sharing any element 
+    plot_df = plot_df.loc[plot_df['Size']!=0]
+    plot_df = plot_df.sort_values(by = 'Size', ascending = False)
+    #if there are lots of combinations (>25) just show the top25
+    if len(plot_df) > 25:
+        plot_df = plot_df[:25]
+
+    max_y = max(plot_df['Size'])+0.1*max(plot_df['Size'])
+
+    subsets = list(plot_df['Intersection'])
+    scatter_x = []
+    scatter_y = []
+    for i, s in enumerate(subsets):
+        for j in range(d):
+            scatter_x.append(i)
+            scatter_y.append(-j*max_y/d-0.1*max_y)
+
+    fig = go.Figure()
+    #     fig.add_trace(go.Scatter(x=[-1.2,len(subsets)],y= [max_y+0.1*max_y,max_y+0.1*max_y],fill='tozeroy'))
+    template =  ['' for x in scatter_x]
+    fig_width = 1000
+    marker_size = 3*(fig_width/len(scatter_x)) if len(scatter_x) >= 7 else fig_width/len(scatter_x)
         
+    fig.add_trace(go.Scatter( x = scatter_x, y = scatter_y,
+                                      mode = 'markers', showlegend=False,
+                                      marker=dict(size=marker_size,color='#C9C9C9'),
+                                      hovertemplate = template
+                            )
+                 )
+
+    fig.update_layout( xaxis=dict(showgrid=False, zeroline=False),
+                               yaxis=dict(showgrid=True, zeroline=False),
+                               plot_bgcolor = "#FFFFFF",
+                               margin=dict(t=40, l=150)
+                     ) 
+
+    for i, s in enumerate(subsets):
+        scatter_x_has = []
+        scatter_y_has = []
+        for j in range(d):
+            if df.columns[j] in s:
+                scatter_x_has.append(i)
+                scatter_y_has.append(-j*max_y/d-0.1*max_y)
+                fig.add_trace(go.Scatter( x = scatter_x_has, y = scatter_y_has,
+                                                  mode = 'markers', showlegend=False,
+                                                  marker=dict(size=marker_size,color='#000000',showscale=False),
+                                                  hovertemplate = template
+                                                )
+                                     )
+
+    fig.update_xaxes(showticklabels=False) # Hide x axis ticks 
+    fig.update_yaxes(showticklabels=False) # Hide y axis ticks
+    fig.update_traces(hoverinfo=None)
+
+    plot_df['Intersection'] = ['+'.join(x) for x in plot_df['Intersection']]
+    template =  [f'<extra><br><b>{lab}</b><br><b>N-Count</b>: {n}</extra>' for  lab, n in zip(plot_df['Intersection'], plot_df['Size'])]
+    bar = go.Bar(x = list(range(len(subsets))), y = plot_df['Size'], marker = dict(color='#000000'),  text = plot_df['Size'], hovertemplate = template, textposition='outside', hoverinfo='none')
+    fig.add_trace(bar)
+
+    template =  ['' for x in range(d)]
+    max_string_len = max([len(x) for x in df.columns])
+    fig_lab = go.Scatter(x = [-0.01*max_string_len]*d, y = scatter_y, text = df.columns, mode = 'text', textposition='middle left',showlegend=False, hovertemplate = template)
+    fig_lab = go.Scatter(x = [-0.01*max_string_len]*d, y = scatter_y, text = df.columns, mode = 'text', textposition='middle left',showlegend=False, hovertemplate = template)
+    fig.add_trace(fig_lab)
+    fig.update_layout(title = '<b>Intersections<b>',height=800, width=fig_width, yaxis_range=[-max_y-0.1*max_y-1,max_y+0.1*max_y], xaxis_range = [-0.13*max_string_len, len(subsets)], showlegend = False, title_x=0.5)
+
+    return fig 

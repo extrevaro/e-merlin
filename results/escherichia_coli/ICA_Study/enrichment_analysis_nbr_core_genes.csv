@@ -1,0 +1,38 @@
+,Subsystem,p-Value,recall,target_lenght
+2,"Transport, Outer Membrane Porin",1.0280615726486698e-08,0.5714285714285714,0.5714285714285714
+1,"Transport, Inner Membrane",4.0575232888916147e-07,0.036290322580645164,0.036290322580645164
+3,"Transport, Outer Membrane",0.00014852328414059518,0.125,0.125
+8,Cell Envelope Biosynthesis,0.02318123193940389,0.03773584905660377,0.03773584905660377
+20,Inorganic Ion Transport and Metabolism,0.050583695485614526,0.024691358024691357,0.024691358024691357
+6,Alternate Carbon Metabolism,0.5606244138915915,0.0056179775280898875,0.0056179775280898875
+7,Cofactor and Prosthetic Group Biosynthesis,0.5626943707812659,0.00558659217877095,0.00558659217877095
+23,Alanine and Aspartate Metabolism,1.0,0.0,0.0
+24,tRNA Charging,1.0,0.0,0.0
+25,Cysteine Metabolism,1.0,0.0,0.0
+26,Threonine and Lysine Metabolism,1.0,0.0,0.0
+27,Histidine Metabolism,1.0,0.0,0.0
+28,Oxidative Phosphorylation,1.0,0.0,0.0
+0,Biomass and maintenance functions,1.0,0.0,0.0
+30,Pentose Phosphate Pathway,1.0,0.0,0.0
+22,Purine and Pyrimidine Biosynthesis,1.0,0.0,0.0
+32,Folate Metabolism,1.0,0.0,0.0
+33,Glutamate Metabolism,1.0,0.0,0.0
+34,Glyoxylate Metabolism,1.0,0.0,0.0
+29,Glycine and Serine Metabolism,1.0,0.0,0.0
+31,Glycolysis/Gluconeogenesis,1.0,0.0,0.0
+18,Unassigned,1.0,0.0,0.0
+19,Citric Acid Cycle,1.0,0.0,0.0
+35,Anaplerotic Reactions,1.0,0.0,0.0
+17,Lipopolysaccharide Biosynthesis / Recycling,1.0,0.0,0.0
+16,Nitrogen Metabolism,1.0,0.0,0.0
+15,"Valine, Leucine, and Isoleucine Metabolism",1.0,0.0,0.0
+14,Murein Recycling,1.0,0.0,0.0
+13,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",1.0,0.0,0.0
+12,Pyruvate Metabolism,1.0,0.0,0.0
+11,Membrane Lipid Metabolism,1.0,0.0,0.0
+10,Arginine and Proline Metabolism,1.0,0.0,0.0
+9,Methylglyoxal Metabolism,1.0,0.0,0.0
+5,Glycerophospholipid Metabolism,1.0,0.0,0.0
+4,Nucleotide Salvage Pathway,1.0,0.0,0.0
+21,Methionine Metabolism,1.0,0.0,0.0
+36,Murein Biosynthesis,1.0,0.0,0.0
