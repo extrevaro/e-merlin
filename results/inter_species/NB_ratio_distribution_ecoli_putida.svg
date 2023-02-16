@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   class="main-svg"
+   width="571.63654"
+   height="462.81204"
+   viewBox="0 0 571.63654 462.81205"
+   version="1.1"
+   id="svg646"
+   sodipodi:docname="NB_ratio_distribution_ecoli_putida.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata650">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     id="namedview648"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.0405176"
+     inkscape:cx="297.71532"
+     inkscape:cy="119.75743"
+     inkscape:window-x="1992"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg646" />
+  <rect
+     x="15.906182"
+     y="-24.141052"
+     width="700"
+     height="500"
+     style="fill:#ffffff;fill-opacity:0"
+     id="rect2" />
+  <defs
+     id="defs-aa0cdb">
+    <g
+       class="clips"
+       id="g25">
+      <clipPath
+         id="clipaa0cdbxyplot"
+         class="plotclip">
+        <rect
+           width="438"
+           height="208"
+           id="rect4"
+           x="0"
+           y="0" />
+      </clipPath>
+      <clipPath
+         id="clipaa0cdbxy2plot"
+         class="plotclip">
+        <rect
+           width="438"
+           height="80"
+           id="rect7"
+           x="0"
+           y="0" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaa0cdbx">
+        <rect
+           x="80"
+           y="0"
+           width="438"
+           height="500"
+           id="rect10" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaa0cdby">
+        <rect
+           x="0"
+           y="100"
+           width="700"
+           height="208"
+           id="rect13" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaa0cdbxy">
+        <rect
+           x="80"
+           y="100"
+           width="438"
+           height="208"
+           id="rect16" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaa0cdby2">
+        <rect
+           x="0"
+           y="340"
+           width="700"
+           height="80"
+           id="rect19" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipaa0cdbxy2">
+        <rect
+           x="80"
+           y="340"
+           width="438"
+           height="80"
+           id="rect22" />
+      </clipPath>
+    </g>
+    <g
+       class="gradients"
+       id="g27" />
+    <g
+       class="patterns"
+       id="g29" />
+  </defs>
+  <rect
+     id="rect32"
+     style="fill:#f5f5f5;fill-opacity:1;stroke:#808080;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     height="208"
+     width="438"
+     y="75.858948"
+     x="95.906181"
+     class="bg" />
+  <rect
+     id="rect34"
+     style="fill:#f5f5f5;fill-opacity:1;stroke:#808080;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     height="80"
+     width="438"
+     y="315.85895"
+     x="95.906181"
+     class="bg" />
+  <g
+     class="layer-below"
+     id="g42"
+     transform="translate(-54.093818,-24.141051)">
+    <g
+       class="imagelayer"
+       id="g38" />
+    <g
+       class="shapelayer"
+       id="g40" />
+  </g>
+  <g
+     id="g256"
+     class="subplot xy"
+     transform="translate(15.906182,-24.141051)">
+    <g
+       id="g48"
+       class="layer-subplot">
+      <g
+         id="g44"
+         class="shapelayer" />
+      <g
+         id="g46"
+         class="imagelayer" />
+    </g>
+    <g
+       id="g54"
+       class="minor-gridlayer">
+      <g
+         id="g50"
+         class="x" />
+      <g
+         id="g52"
+         class="y" />
+    </g>
+    <g
+       id="g66"
+       class="gridlayer">
+      <g
+         id="g56"
+         class="x" />
+      <g
+         id="g64"
+         class="y">
+        <path
+           inkscape:connector-curvature="0"
+           id="path58"
+           style="stroke:#808080;stroke-width:1px;stroke-opacity:1"
+           d="M 80,0 H 518"
+           transform="translate(0,246.52)"
+           class="ygrid crisp" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path60"
+           style="stroke:#808080;stroke-width:1px;stroke-opacity:1"
+           d="M 80,0 H 518"
+           transform="translate(0,185.05)"
+           class="ygrid crisp" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path62"
+           style="stroke:#808080;stroke-width:1px;stroke-opacity:1"
+           d="M 80,0 H 518"
+           transform="translate(0,123.57)"
+           class="ygrid crisp" />
+      </g>
+    </g>
+    <g
+       id="g70"
+       class="zerolinelayer">
+      <path
+         inkscape:connector-curvature="0"
+         id="path68"
+         style="stroke:#808080;stroke-width:2px;stroke-opacity:1"
+         d="M 80,0 H 518"
+         transform="translate(0,308)"
+         class="yzl zl crisp" />
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       d=""
+       id="path72"
+       class="xlines-below" />
+    <path
+       inkscape:connector-curvature="0"
+       d=""
+       id="path74"
+       class="ylines-below" />
+    <g
+       id="g76"
+       class="overlines-below" />
+    <g
+       id="g78"
+       class="xaxislayer-below" />
+    <g
+       id="g80"
+       class="yaxislayer-below" />
+    <g
+       id="g82"
+       class="overaxes-below" />
+    <g
+       id="g224"
+       clip-path="url(#clipaa0cdbxyplot)"
+       transform="translate(80,100)"
+       class="plot">
+      <g
+         id="g192"
+         class="barlayer mlayer">
+        <g
+           id="g154"
+           style="opacity:0.7;shape-rendering:crispEdges"
+           class="trace bars">
+          <g
+             id="g152"
+             class="points">
+            <g
+               id="g86"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path84"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="M 25.65,208 V 112.76 H 44.96 V 208 Z" />
+            </g>
+            <g
+               id="g90"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path88"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="m 44.96,208 v -8.66 h 19.3 V 208 Z" />
+            </g>
+            <g
+               id="g94"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path92"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="M 64.26,208 V 182.02 H 83.57 V 208 Z" />
+            </g>
+            <g
+               id="g98"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path96"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="m 83.57,208 v -69.27 h 19.31 V 208 Z" />
+            </g>
+            <g
+               id="g102"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path100"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="m 102.88,208 v -77.93 h 19.3 V 208 Z" />
+            </g>
+            <g
+               id="g106"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path104"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="m 122.18,208 v -51.95 h 19.31 V 208 Z" />
+            </g>
+            <g
+               id="g110"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path108"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="M 141.49,208 V 121.41 H 160.8 V 208 Z" />
+            </g>
+            <g
+               id="g114"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path112"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="m 160.8,208 v -17.32 h 19.3 V 208 Z" />
+            </g>
+            <g
+               id="g118"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path116"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="m 180.1,208 v -34.63 h 19.31 V 208 Z" />
+            </g>
+            <g
+               id="g122"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path120"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="m 199.41,208 v -25.98 h 19.31 V 208 Z" />
+            </g>
+            <g
+               id="g126"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path124"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="m 218.72,208 v -25.98 h 19.3 V 208 Z" />
+            </g>
+            <g
+               id="g130"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path128"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="m 238.02,208 v -8.66 h 19.31 V 208 Z" />
+            </g>
+            <g
+               id="g134"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path132"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="m 257.33,208 v -34.63 h 19.31 V 208 Z" />
+            </g>
+            <g
+               id="g138"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path136"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="m 276.64,208 v -8.66 h 19.3 V 208 Z" />
+            </g>
+            <g
+               id="g142"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path140"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="m 295.94,208 v -17.32 h 19.31 V 208 Z" />
+            </g>
+            <g
+               id="g146"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path144"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="m 315.25,208 v -17.32 h 19.31 V 208 Z" />
+            </g>
+            <g
+               id="g150"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path148"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 d="m 334.56,208 v -8.66 h 19.3 V 208 Z" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="g190"
+           style="opacity:0.7;shape-rendering:crispEdges"
+           class="trace bars">
+          <g
+             id="g188"
+             class="points">
+            <g
+               id="g158"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path156"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#ff7f0e;fill-opacity:1;stroke-width:0px"
+                 d="m 270.31,208 v -21.96 h 19.31 V 208 Z" />
+            </g>
+            <g
+               id="g162"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path160"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#ff7f0e;fill-opacity:1;stroke-width:0px"
+                 d="m 289.62,208 v -43.91 h 19.31 V 208 Z" />
+            </g>
+            <g
+               id="g166"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path164"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#ff7f0e;fill-opacity:1;stroke-width:0px"
+                 d="M 308.93,208 V 76.27 h 19.3 V 208 Z" />
+            </g>
+            <g
+               id="g170"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path168"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#ff7f0e;fill-opacity:1;stroke-width:0px"
+                 d="M 328.23,208 V 10.4 h 19.31 V 208 Z" />
+            </g>
+            <g
+               id="g174"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path172"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#ff7f0e;fill-opacity:1;stroke-width:0px"
+                 d="M 347.54,208 V 76.27 h 19.31 V 208 Z" />
+            </g>
+            <g
+               id="g178"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path176"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#ff7f0e;fill-opacity:1;stroke-width:0px"
+                 d="m 366.85,208 v -65.87 h 19.3 V 208 Z" />
+            </g>
+            <g
+               id="g182"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path180"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#ff7f0e;fill-opacity:1;stroke-width:0px"
+                 d="M 0,0 Z" />
+            </g>
+            <g
+               id="g186"
+               class="point">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path184"
+                 style="opacity:1;vector-effect:non-scaling-stroke;fill:#ff7f0e;fill-opacity:1;stroke-width:0px"
+                 d="m 405.46,208 v -21.96 h 19.31 V 208 Z" />
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g222"
+         class="scatterlayer mlayer">
+        <g
+           id="g206"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter traceb79d16">
+          <g
+             id="g194"
+             class="fills" />
+          <g
+             id="g196"
+             class="errorbars" />
+          <g
+             id="g200"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path198"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#1f77b4;stroke-width:2px;stroke-opacity:1"
+               d="m 25.65,180.8 16.11,-5.71 0.62,-0.2 35.93,-12.28 0.62,-0.25 27.26,-9.94 0.62,-0.16 10.54,-2.03 0.61,-0.07 8.68,-0.32 0.62,0.03 9.29,1.12 0.62,0.12 10.53,2.91 0.62,0.22 13.63,5.59 0.62,0.28 34.7,15.49 0.62,0.23 17.97,5.61 0.62,0.16 17.96,3.68 0.62,0.1 20.45,2.56 0.62,0.06 63.19,6.3 0.62,0.1 14.87,2.66"
+               class="js-line" />
+          </g>
+          <g
+             id="g202"
+             class="points" />
+          <g
+             id="g204"
+             class="text" />
+        </g>
+        <g
+           id="g220"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter trace7f1a38">
+          <g
+             id="g208"
+             class="fills" />
+          <g
+             id="g210"
+             class="errorbars" />
+          <g
+             id="g214"
+             class="lines">
+            <path
+               inkscape:connector-curvature="0"
+               id="path212"
+               style="opacity:1;vector-effect:non-scaling-stroke;fill:none;stroke:#ff7f0e;stroke-width:2px;stroke-opacity:1"
+               d="m 270.31,192.99 9.66,-5.11 0.29,-0.21 4.82,-4.49 0.29,-0.34 4.26,-6.2 0.28,-0.5 4.27,-8.91 0.28,-0.69 5.4,-15.43 0.28,-0.93 7.1,-26.35 0.29,-1.16 15.05,-59.25 0.29,-0.88 4.54,-11.79 0.29,-0.57 3.4,-5.21 0.29,-0.3 2.84,-1.7 0.28,-0.05 2.28,0.35 0.28,0.14 2.84,2.37 0.29,0.33 3.69,5.58 0.28,0.51 5.68,11.87 0.29,0.64 14.2,35.26 0.29,0.79 8.52,26.14 0.28,0.95 14.21,44.43 0.28,0.7 4.83,9.92 0.28,0.46 4.26,5.54 0.29,0.27 3.98,2.89 0.28,0.14 5.11,1.73 0.29,0.07 4.83,1.01"
+               class="js-line" />
+          </g>
+          <g
+             id="g216"
+             class="points" />
+          <g
+             id="g218"
+             class="text" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g226"
+       class="overplot" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path228"
+       style="fill:none"
+       d="M 0,0"
+       class="xlines-above crisp" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path230"
+       style="fill:none"
+       d="M 0,0"
+       class="ylines-above crisp" />
+    <g
+       id="g232"
+       class="overlines-above" />
+    <g
+       id="g234"
+       class="xaxislayer-above" />
+    <g
+       transform="translate(-4)"
+       id="g252"
+       class="yaxislayer-above">
+      <g
+         id="g238"
+         class="ytick">
+        <text
+           id="text236"
+           style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:end;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+           transform="translate(0,308)"
+           y="5.5999999"
+           x="80">0</text>
+      </g>
+      <g
+         id="g242"
+         class="ytick">
+        <text
+           id="text240"
+           transform="translate(0,246.52)"
+           style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:end;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+           y="5.5999999"
+           x="80">0.1</text>
+      </g>
+      <g
+         id="g246"
+         class="ytick">
+        <text
+           id="text244"
+           transform="translate(0,185.05)"
+           style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:end;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+           y="5.5999999"
+           x="80">0.2</text>
+      </g>
+      <g
+         id="g250"
+         class="ytick">
+        <text
+           id="text248"
+           transform="translate(0,123.57)"
+           style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:end;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+           y="5.5999999"
+           x="80">0.3</text>
+      </g>
+    </g>
+    <g
+       id="g254"
+       class="overaxes-above" />
+  </g>
+  <g
+     id="g546"
+     class="subplot xy2"
+     transform="translate(15.906182,-24.141051)">
+    <g
+       id="g262"
+       class="layer-subplot">
+      <g
+         id="g258"
+         class="shapelayer" />
+      <g
+         id="g260"
+         class="imagelayer" />
+    </g>
+    <g
+       id="g268"
+       class="minor-gridlayer">
+      <g
+         id="g264"
+         class="x" />
+      <g
+         id="g266"
+         class="y2" />
+    </g>
+    <g
+       id="g278"
+       class="gridlayer">
+      <g
+         id="g270"
+         class="x" />
+      <g
+         id="g276"
+         class="y2">
+        <path
+           inkscape:connector-curvature="0"
+           id="path272"
+           style="stroke:#ffffff;stroke-width:1px;stroke-opacity:0"
+           d="M 80,0 H 518"
+           transform="translate(0,412.25)"
+           class="y2grid crisp" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path274"
+           style="stroke:#ffffff;stroke-width:1px;stroke-opacity:0"
+           d="M 80,0 H 518"
+           transform="translate(0,347.75)"
+           class="y2grid crisp" />
+      </g>
+    </g>
+    <g
+       id="g280"
+       class="zerolinelayer" />
+    <path
+       inkscape:connector-curvature="0"
+       d=""
+       id="path282"
+       class="xlines-below" />
+    <path
+       inkscape:connector-curvature="0"
+       d=""
+       id="path284"
+       class="ylines-below" />
+    <g
+       id="g286"
+       class="overlines-below" />
+    <g
+       id="g288"
+       class="xaxislayer-below" />
+    <g
+       id="g290"
+       class="yaxislayer-below" />
+    <g
+       id="g292"
+       class="overaxes-below" />
+    <g
+       id="g518"
+       clip-path="url(#clipaa0cdbxy2plot)"
+       transform="translate(80,340)"
+       class="plot">
+      <g
+         id="g516"
+         class="scatterlayer mlayer">
+        <g
+           id="g446"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter traced87290">
+          <g
+             id="g294"
+             class="fills" />
+          <g
+             id="g296"
+             class="errorbars" />
+          <g
+             id="g298"
+             class="lines" />
+          <g
+             id="g442"
+             class="points">
+            <path
+               inkscape:connector-curvature="0"
+               id="path300"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(118.59,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path302"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(195.98,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path304"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(231.71,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path306"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(225.31,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path308"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(125.11,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path310"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(71.12,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path312"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(33.5,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path314"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(155.46,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path316"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(142.92,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path318"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(191.11,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path320"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(208.8,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path322"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(274.91,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path324"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(109.91,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path326"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(335.43,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path328"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(155.57,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path330"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(97.36,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path332"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(25.65,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path334"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(173.87,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path336"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(182.26,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path338"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(243.03,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path340"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(324.42,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path342"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(292.63,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path344"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(137.93,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path346"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(142.79,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path348"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(94.67,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path350"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(31.49,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path352"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(151.17,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path354"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(157.16,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path356"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(206.28,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path358"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(332.85,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path360"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(306.41,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path362"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(101.55,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path364"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(85.53,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path366"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(26.93,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path368"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(131.45,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path370"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(104.89,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path372"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(137.32,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path374"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(165.37,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path376"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(124.1,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path378"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(92.33,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path380"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(33.5,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path382"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(92.3,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path384"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(83.26,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path386"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(71.5,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path388"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(103.86,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path390"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(54.51,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path392"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(95.26,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path394"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(28.53,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path396"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(33.5,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path398"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(30.15,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path400"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(30.22,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path402"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(33.5,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path404"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(30.63,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path406"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(122,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path408"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(146.06,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path410"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(180.81,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path412"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(158.75,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path414"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(120.45,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path416"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(134.21,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path418"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(144.34,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path420"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(154.74,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path422"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(116.97,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path424"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(233.27,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path426"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(211.2,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path428"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(118.08,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path430"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(269.26,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path432"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(115.2,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path434"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(95.7,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path436"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(265.15,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path438"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(309.8,72.25)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path440"
+               style="opacity:1;fill:none;stroke:#1f77b4;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(273.17,72.25)"
+               class="point" />
+          </g>
+          <g
+             id="g444"
+             class="text" />
+        </g>
+        <g
+           id="g514"
+           style="opacity:1;stroke-miterlimit:2"
+           class="trace scatter trace0288a4">
+          <g
+             id="g448"
+             class="fills" />
+          <g
+             id="g450"
+             class="errorbars" />
+          <g
+             id="g452"
+             class="lines" />
+          <g
+             id="g510"
+             class="points">
+            <path
+               inkscape:connector-curvature="0"
+               id="path454"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(348.43,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path456"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(355.8,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path458"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(376.72,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path460"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(338.86,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path462"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(339.67,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path464"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(366.56,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path466"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(375.22,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path468"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(312.59,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path470"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(328.25,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path472"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(362.83,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path474"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(321.38,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path476"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(357.25,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path478"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(338.33,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path480"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(343.09,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path482"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(308.13,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path484"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(337.23,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path486"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(333.81,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path488"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(320.93,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path490"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(327.51,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path492"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(295.44,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path494"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(270.31,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path496"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(314.71,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path498"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(336.97,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path500"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(320.3,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path502"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(332.49,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path504"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(368.18,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path506"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(412.35,7.75)"
+               class="point" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path508"
+               style="opacity:1;fill:none;stroke:#ff7f0e;stroke-width:1px;stroke-opacity:1"
+               d="M 0,4.2 V -4.2"
+               transform="translate(358.89,7.75)"
+               class="point" />
+          </g>
+          <g
+             id="g512"
+             class="text" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g520"
+       class="overplot" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path522"
+       style="fill:none"
+       d="M 0,0"
+       class="xlines-above crisp" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path524"
+       style="fill:none"
+       d="M 0,0"
+       class="ylines-above crisp" />
+    <g
+       id="g526"
+       class="overlines-above" />
+    <g
+       id="g540"
+       class="xaxislayer-above">
+      <g
+         id="g530"
+         class="xtick">
+        <text
+           id="text528"
+           style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+           transform="translate(198.33)"
+           y="437"
+           x="0">0.2</text>
+      </g>
+      <g
+         id="g534"
+         class="xtick">
+        <text
+           id="text532"
+           transform="translate(327.05)"
+           style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+           y="437"
+           x="0">0.4</text>
+      </g>
+      <g
+         id="g538"
+         class="xtick">
+        <text
+           id="text536"
+           transform="translate(455.76)"
+           style="font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;opacity:1;fill:#2a3f5f;fill-opacity:1"
+           y="437"
+           x="0">0.6</text>
+      </g>
+    </g>
+    <g
+       id="g542"
+       class="yaxislayer-above" />
+    <g
+       id="g544"
+       class="overaxes-above" />
+  </g>
+  <g
+     class="polarlayer"
+     id="g550"
+     transform="translate(-54.093818,-24.141051)" />
+  <g
+     class="smithlayer"
+     id="g552"
+     transform="translate(-54.093818,-24.141051)" />
+  <g
+     class="ternarylayer"
+     id="g554"
+     transform="translate(-54.093818,-24.141051)" />
+  <g
+     class="geolayer"
+     id="g556"
+     transform="translate(-54.093818,-24.141051)" />
+  <g
+     class="funnelarealayer"
+     id="g558"
+     transform="translate(-54.093818,-24.141051)" />
+  <g
+     class="pielayer"
+     id="g560"
+     transform="translate(-54.093818,-24.141051)" />
+  <g
+     class="iciclelayer"
+     id="g562"
+     transform="translate(-54.093818,-24.141051)" />
+  <g
+     class="treemaplayer"
+     id="g564"
+     transform="translate(-54.093818,-24.141051)" />
+  <g
+     class="sunburstlayer"
+     id="g566"
+     transform="translate(-54.093818,-24.141051)" />
+  <g
+     class="glimages"
+     id="g568"
+     transform="translate(-54.093818,-24.141051)" />
+  <defs
+     id="topdefs-aa0cdb">
+    <g
+       class="clips"
+       id="g570" />
+    <clipPath
+       id="legendaa0cdb">
+      <rect
+         width="161"
+         height="48"
+         x="0"
+         y="0"
+         id="rect572" />
+    </clipPath>
+  </defs>
+  <g
+     class="layer-above"
+     id="g580"
+     transform="translate(-54.093818,-24.141051)">
+    <g
+       class="imagelayer"
+       id="g576" />
+    <g
+       class="shapelayer"
+       id="g578" />
+  </g>
+  <g
+     id="g626"
+     transform="translate(39.103202,21.493175)"
+     pointer-events="all"
+     class="legend">
+    <g
+       transform="translate(85.626093,86.305665)"
+       class="groups"
+       id="g620">
+      <g
+         class="traces"
+         transform="translate(0,14.5)"
+         style="opacity:1"
+         id="g600">
+        <text
+           class="legendtext"
+           x="40"
+           y="4.6799998"
+           style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;fill:#2a3f5f;fill-opacity:1"
+           id="text584">
+          <tspan
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Italic'"
+             id="tspan1459">Pseudomonas putida</tspan>
+        </text>
+        <g
+           class="layers"
+           style="opacity:0.7"
+           id="g596">
+          <g
+             class="legendfill"
+             id="g586" />
+          <g
+             class="legendlines"
+             id="g588" />
+          <g
+             class="legendsymbols"
+             id="g594">
+            <g
+               class="legendpoints"
+               id="g592">
+              <path
+                 class="legendundefined"
+                 d="M 6,6 H -6 V -6 H 6 Z"
+                 transform="translate(20)"
+                 style="fill:#ff7f0e;fill-opacity:1;stroke-width:0px"
+                 id="path590"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+        </g>
+        <rect
+           class="legendtoggle"
+           x="0"
+           y="-9.5"
+           width="155.09375"
+           height="19"
+           style="fill:#000000;fill-opacity:0"
+           id="rect598" />
+      </g>
+      <g
+         class="traces"
+         transform="translate(0,33.5)"
+         style="opacity:1"
+         id="g618">
+        <text
+           class="legendtext"
+           x="40"
+           y="4.6799998"
+           style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:start;white-space:pre;fill:#2a3f5f;fill-opacity:1"
+           id="text602">
+          <tspan
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Open Sans', verdana, arial, sans-serif;-inkscape-font-specification:'Open Sans, verdana, arial, sans-serif Italic'"
+             id="tspan1461">Escherichia coli</tspan>
+        </text>
+        <g
+           class="layers"
+           style="opacity:0.7"
+           id="g614">
+          <g
+             class="legendfill"
+             id="g604" />
+          <g
+             class="legendlines"
+             id="g606" />
+          <g
+             class="legendsymbols"
+             id="g612">
+            <g
+               class="legendpoints"
+               id="g610">
+              <path
+                 class="legendundefined"
+                 d="M 6,6 H -6 V -6 H 6 Z"
+                 transform="translate(20)"
+                 style="fill:#1f77b4;fill-opacity:1;stroke-width:0px"
+                 id="path608"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+        </g>
+        <rect
+           class="legendtoggle"
+           x="0"
+           y="-9.5"
+           width="155.09375"
+           height="19"
+           style="fill:#000000;fill-opacity:0"
+           id="rect616" />
+      </g>
+    </g>
+    <rect
+       id="rect624"
+       y="0"
+       x="0"
+       style="fill:#808ba4;fill-opacity:1"
+       height="0"
+       width="0"
+       ry="3"
+       rx="20"
+       class="scrollbar" />
+  </g>
+  <text
+     class="gtitle"
+     x="314.56018"
+     y="38.421032"
+     dy="0"
+     style="font-weight:normal;font-size:17px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;opacity:1;fill:#2a3f5f"
+     id="text628">NB Ratio Distribution</text>
+  <text
+     class="xtitle"
+     x="314.90616"
+     y="440.65894"
+     style="font-weight:normal;font-size:14px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;opacity:1;fill:#2a3f5f"
+     id="text632">NB RATIO</text>
+  <text
+     class="ytitle"
+     transform="rotate(-90)"
+     x="-179.85895"
+     y="49.981178"
+     style="font-weight:normal;font-size:14px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;opacity:1;fill:#2a3f5f"
+     id="text636">PROBABILITY</text>
+  <text
+     class="y2title"
+     transform="rotate(-90)"
+     x="-355.85895"
+     y="49.981178"
+     style="font-weight:normal;font-size:14px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;opacity:1;fill:#2a3f5f"
+     id="text640">POINTS</text>
+  <rect
+     style="opacity:1;fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-width:1.4957062;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+     id="rect1776-6"
+     width="34.614819"
+     height="461.31635"
+     x="536.27386"
+     y="0.7478531" />
+  <rect
+     style="opacity:1;fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-width:1.4957062;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+     id="rect1776-6-1"
+     width="34.614819"
+     height="461.31635"
+     x="0.7478531"
+     y="0.7478531" />
+</svg>
