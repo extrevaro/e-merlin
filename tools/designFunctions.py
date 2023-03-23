@@ -653,7 +653,7 @@ def plotly_upset_plot(df):
     #     fig.add_trace(go.Scatter(x=[-1.2,len(subsets)],y= [max_y+0.1*max_y,max_y+0.1*max_y],fill='tozeroy'))
     template =  ['' for x in scatter_x]
     fig_width = 1000
-    marker_size = 3*(fig_width/len(scatter_x)) if len(scatter_x) >= 7 else fig_width/len(scatter_x)
+    marker_size = 3*(fig_width/len(scatter_x)) if len(scatter_x) >= 5 else 80
         
     fig.add_trace(go.Scatter( x = scatter_x, y = scatter_y,
                                       mode = 'markers', showlegend=False,
