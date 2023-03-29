@@ -1,0 +1,21 @@
+k,name,imodulon_size,explained_variance,category
+0,oxidative_stress_response,64,0.051001551389111,Global_stress
+1,ribosome_biogenesis,67,0.022769770340435,translation
+2,Unknown_1,174,0.003296067547601,uncharacterized
+3,Phosphate_ABC_transport_system,28,0.006636905483848,Element_homeostasis
+4,Metal_related_response_Manganese,14,0.005571048721749,Metal_homeostasis
+5,EPS_secretion_system,317,0.022297722095005,Extracellular_structures
+6,IsiA_related,4,0.033854548313566,Iron_starvation
+7,Transposase_related,72,0.014793013552,Recombination
+8,High_affinity_CO2_uptake,18,0.024012906135721,Carbon Metabolism
+9,Iron_uptake,33,0.02624480515701,Metal_homeostasis
+10,Unknown_2,15,0.039864962396729,uncharacterized
+11,Stringent_response,136,0.038922173272464,Global_stress
+12,Ethylene_response,68,0.010907409047857,functional
+13,Photosinthesis_via_phycocyanin,96,0.032077883800761,Photosynthetic_response
+14,Nitrogen_uptake,26,0.009535010216483,Nitrogen_metabolism
+15,Electron_transfer_via_Photosystem_II,224,0.004825065273637,Photosynthetic_response
+16,Darkness_response_via_hydrogenase,123,0.024130857955227,Light_response
+17,Photosynthesis_via_Photosystems,67,0.027163569693517,Photosynthetic_response
+18,Unknown_3,10,0.020790179355607,uncharacterized
+19,Heat_response,207,0.085740532200848,Global_stress

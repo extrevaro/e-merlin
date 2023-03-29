@@ -11,7 +11,7 @@ from itertools import compress
 import itertools
 
 
-supported_species = ['escherichia_coli', 'pseudomonas_putida', 'bacillus_subtilis']
+supported_species = ['escherichia_coli', 'pseudomonas_putida', 'bacillus_subtilis', 'synechocystis_sp_pcc_6803']
 
 def set_medium(model, media_definition, carbon_source):
     model_with_media = model.copy()
@@ -112,6 +112,11 @@ class Media:
     This a media class where different media definitions are stored
     but without the carbon source, which should be specified in the
     'set_medium' function.
+
+    In the case of autotrophic organisms, only the inorgnic carbon
+    source is provided. Thus, the only cases where a carbon source
+    should be specified for this organisms are in mixotrophic or in
+    heterotrophic conditions.
     '''
     species = supported_species
     
@@ -135,7 +140,7 @@ class Media:
                                                'EX_sel_e' : 1000,
                                                'EX_so4_e' : 1000,
                                                'EX_nh4_e' : 1000,
-                                               'EX_pi_e' : 1.024, #calculated by Blas in minimal media
+                                               'EX_pi_e' : 1.024,   #calculated by Blas in minimal media
                                                'EX_cbl1_e' : .01,
                                                'EX_o2_e' : 20 },
                   
@@ -162,7 +167,28 @@ class Media:
                                                'EX_nh4_e' : 1000,
                                                'EX_pi_e' : 1000,
                                                'EX_cbl1_e' : .01,
-                                               'EX_o2_e' : 20}
+                                               'EX_o2_e' : 20},
+
+                    'synechocystis_sp_pcc_6803_bg11' : { 'EX_photon_e': 100.0,
+                                                         'EX_ca2_e': 1000.0, 
+                                                         'EX_cobalt2_e': 1000.0, 
+                                                         'EX_ni2_e': 1000.0, 
+                                                         'EX_h_e': 1000.0, 
+                                                         'EX_h2o_e': 1000.0, 
+                                                         'EX_o2_e': 1000.0, 
+                                                         'EX_co2_e': 3.7, 
+                                                         'EX_no3_e': 1000.0, 
+                                                         'EX_k_e': 1000.0, 
+                                                         'EX_so4_e': 1000.0, 
+                                                         'EX_pi_e': 1000.0, 
+                                                         'EX_mobd_e': 1000.0, 
+                                                         'EX_fe3_e': 1000.0, 
+                                                         'EX_fe2_e': 1000.0, 
+                                                         'EX_na1_e': 1000.0, 
+                                                         'EX_mn2_e': 1000.0, 
+                                                         'EX_mg2_e': 1000.0, 
+                                                         'EX_cu2_e': 1000.0, 
+                                                         'EX_zn2_e': 1000.0}
                  }
 
     def __init__(self, s=str(), n=str()):
@@ -653,11 +679,7 @@ def plotly_upset_plot(df):
     #     fig.add_trace(go.Scatter(x=[-1.2,len(subsets)],y= [max_y+0.1*max_y,max_y+0.1*max_y],fill='tozeroy'))
     template =  ['' for x in scatter_x]
     fig_width = 1000
-<<<<<<< HEAD
     marker_size = 3*(fig_width/len(scatter_x)) if len(scatter_x) >= 5 else 80
-=======
-    marker_size = 3*(fig_width/len(scatter_x)) if len(scatter_x) > 7 else 100
->>>>>>> 38e3a675274839b4d5fdf3e6a34e3d58d40ed2eb
         
     fig.add_trace(go.Scatter( x = scatter_x, y = scatter_y,
                                       mode = 'markers', showlegend=False,
