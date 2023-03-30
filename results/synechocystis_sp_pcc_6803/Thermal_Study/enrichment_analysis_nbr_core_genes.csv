@@ -1,0 +1,52 @@
+,Subsystem,p-Value,recall,target_lenght
+37,Oxidative phosphorylation,5.24417094917656e-05,0.05714285714285714,0.05714285714285714
+8,Porphyrin and chlorophyll metabolism,0.000501360361214733,0.058823529411764705,0.058823529411764705
+0,Phenylalanine tyrosine and tryptophan biosynthesis,0.004009904834198567,0.06666666666666667,0.06666666666666667
+18,PHB byosynthesis,0.012950052988163154,0.25,0.25
+24,Sulfur Cysteine and methionine metabolism,0.05707419945893612,0.05555555555555555,0.05555555555555555
+7,Purine metabolism,0.11697736432082283,0.02631578947368421,0.02631578947368421
+49,Transport,0.34355853121509433,0.007874015748031496,0.007874015748031496
+29,Glyoxylate and dicarboxylate metabolism,1.0,0.0,0.0
+30,Pantothenate and CoA biosynthesis,1.0,0.0,0.0
+31,Glutathione metabolism,1.0,0.0,0.0
+32,Starch and sucrose metabolism,1.0,0.0,0.0
+33,Pentose phosphate pathway,1.0,0.0,0.0
+34,Ubiquinone and other pterpenoids biosynthesis,1.0,0.0,0.0
+35,Fructose and mannose metabolism,1.0,0.0,0.0
+36,Lysine metabolism,1.0,0.0,0.0
+38,Glutamate metabolism,1.0,0.0,0.0
+40,Nucleotide sugars metabolism,1.0,0.0,0.0
+41,Hydrogen production,1.0,0.0,0.0
+42,Valine leucine and isoleucine biosynthesis,1.0,0.0,0.0
+43,Carbon fixation,1.0,0.0,0.0
+44,Inositol phosphate metabolism,1.0,0.0,0.0
+45,Lipopolysaccharide biosynthesis,1.0,0.0,0.0
+46,Peptidoglycan biosynthesis,1.0,0.0,0.0
+47,Vitamin B6 metabolism,1.0,0.0,0.0
+48,Sulfolipid Biosynthesis,1.0,0.0,0.0
+39,Aminosugars metabolism,1.0,0.0,0.0
+28,Folate biosynthesis,1.0,0.0,0.0
+25,Galactolipids metabolism,1.0,0.0,0.0
+26,Sterol biosynthesis,1.0,0.0,0.0
+1,Fatty acid biosynthesis,1.0,0.0,0.0
+2,Arginine and proline metabolism,1.0,0.0,0.0
+3,Nitrogen metabolism,1.0,0.0,0.0
+4,Others,1.0,0.0,0.0
+5,Citrate cycle (TCA cycle),1.0,0.0,0.0
+6,Riboflavin metabolism,1.0,0.0,0.0
+9,Terpenoid backbone biosynthesis,1.0,0.0,0.0
+10,Photosynthesis,1.0,0.0,0.0
+11,Pyrimidine metabolism,1.0,0.0,0.0
+27,Thiamine metabolism,1.0,0.0,0.0
+12,"Alanine, aspartate and glutamate metabolism",1.0,0.0,0.0
+14,Glycerolipid metabolism,1.0,0.0,0.0
+15,Histidine metabolism,1.0,0.0,0.0
+16,Carotenoid Biosynthesis,1.0,0.0,0.0
+17,Glycolysis/Gluconeogenesis,1.0,0.0,0.0
+19,Cyanophycin metabolism,1.0,0.0,0.0
+20,Pyruvate metabolism,1.0,0.0,0.0
+21,Urea cycle and metabolism of amino groups,1.0,0.0,0.0
+22,Biotin metabolism,1.0,0.0,0.0
+23,C5-Branched dibasic acid metabolism,1.0,0.0,0.0
+13,Nicotinate and nicotinamide metabolism,1.0,0.0,0.0
+50,Steroid biosynthesis,1.0,0.0,0.0

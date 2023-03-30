@@ -1,4 +1,4 @@
-locus_tag,gene_name,accession,old_locus_tag,start,end,strand,gene_product,COG,uniprot,operon
+locus_tag,gene_name,accession,old_locus_tag,start,end,strand,gene_product,cog,uniprot,operon
 SGL_RS01370,SGL_RS01370,NC_005232.1,slr6001,243,3053,+,hybrid sensor histidine kinase/response regulator,Signal transduction mechanisms,,Op97
 SGL_RS00010,SGL_RS00010,NC_005229.1,sll5002,574,1017,-,hypothetical protein,No COG annotation,,Op712
 SGL_RS00635,SGL_RS00635,NC_005230.1,sll7002,706,1287,-,IS701 family transposase,"Replication, recombination and repair",,Op2588

@@ -530,11 +530,13 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
         media_model = to_cobrapy(rf_media_model)
         for g_s in reaction_set_list:
             enrichment_df = get_enrichment_result(g_s, functional_data, rf_media_model, ica_data, class_list, functional_class=functional_class, input_type='Reaction')
+            display(enrichment_df)
             #Consider enriched functional classes those with p-value less than 0.05:
             enriched_fc = enrichment_df.loc[enrichment_df['p-Value'] <= 0.05, functional_class].tolist()
             #For each functional class that our set is enriched in, compute its function
             if function_to_search == 'iModulon':
                 enriched_functions = [ f for im in enriched_fc for f in im_table.loc[[im]][function_category].values ]
+                print(enriched_functions)
                 enriched_functions_list.append(enriched_functions)
                 
             if function_to_search == 'Subsystem':
@@ -679,7 +681,7 @@ def plotly_upset_plot(df):
     #     fig.add_trace(go.Scatter(x=[-1.2,len(subsets)],y= [max_y+0.1*max_y,max_y+0.1*max_y],fill='tozeroy'))
     template =  ['' for x in scatter_x]
     fig_width = 1000
-    marker_size = 3*(fig_width/len(scatter_x)) if len(scatter_x) >= 5 else 80
+    marker_size = (fig_width/len(scatter_x))/2 if len(scatter_x) >= 5 else 40
         
     fig.add_trace(go.Scatter( x = scatter_x, y = scatter_y,
                                       mode = 'markers', showlegend=False,
