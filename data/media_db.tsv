@@ -1,0 +1,189 @@
+medium	description	compound	name	exchange
+LB	Lysogeny broth	adn	Adenosine	EX_adn_e
+LB	Lysogeny broth	ala__L	L-Alanine	EX_ala__L_e
+LB	Lysogeny broth	amp	AMP	EX_amp_e
+LB	Lysogeny broth	arg__L	L-Arginine	EX_arg__L_e
+LB	Lysogeny broth	aso3	Arsenite 	EX_aso3_e
+LB	Lysogeny broth	asp__L	L-Aspartate	EX_asp__L_e
+LB	Lysogeny broth	ca2	Ca2+	EX_ca2_e
+LB	Lysogeny broth	cbl1	Vitamin B12	EX_cbl1_e
+LB	Lysogeny broth	cd2	Cadmium 	EX_cd2_e
+LB	Lysogeny broth	cl	Cl-	EX_cl_e
+LB	Lysogeny broth	cmp	CMP	EX_cmp_e
+LB	Lysogeny broth	cobalt2	Co2+	EX_cobalt2_e
+LB	Lysogeny broth	cro4	Chromate 	EX_cro4_e
+LB	Lysogeny broth	cu2	Cu2+	EX_cu2_e
+LB	Lysogeny broth	cys__L	L-Cysteine	EX_cys__L_e
+LB	Lysogeny broth	dad_2	Deoxyadenosine 	EX_dad_2_e
+LB	Lysogeny broth	dcyt	Deoxycytidine	EX_dcyt_e
+LB	Lysogeny broth	fe2	Fe2+	EX_fe2_e
+LB	Lysogeny broth	fe3	Fe3+	EX_fe3_e
+LB	Lysogeny broth	fol	Folate	EX_fol_e
+LB	Lysogeny broth	glc__D	D-Glucose	EX_glc__D_e
+LB	Lysogeny broth	glu__L	L-Glutamate	EX_glu__L_e
+LB	Lysogeny broth	gly	Glycine	EX_gly_e
+LB	Lysogeny broth	gmp	GMP	EX_gmp_e
+LB	Lysogeny broth	gsn	Guanosine	EX_gsn_e
+LB	Lysogeny broth	h2o	H2O	EX_h2o_e
+LB	Lysogeny broth	h2s	Hydrogen sulfide	EX_h2s_e
+LB	Lysogeny broth	h	H+	EX_h_e
+LB	Lysogeny broth	hg2	Hg2+ 	EX_hg2_e
+LB	Lysogeny broth	his__L	L-Histidine	EX_his__L_e
+LB	Lysogeny broth	hxan	Hypoxanthine	EX_hxan_e
+LB	Lysogeny broth	ile__L	L-Isoleucine	EX_ile__L_e
+LB	Lysogeny broth	ins	Inosine	EX_ins_e
+LB	Lysogeny broth	k	K+	EX_k_e
+LB	Lysogeny broth	leu__L	L-Leucine	EX_leu__L_e
+LB	Lysogeny broth	lipoate	Lipoate	EX_lipoate_e
+LB	Lysogeny broth	lys__L	L-Lysine	EX_lys__L_e
+LB	Lysogeny broth	met__L	L-Methionine	EX_met__L_e
+LB	Lysogeny broth	mg2	Mg	EX_mg2_e
+LB	Lysogeny broth	mn2	Mn2+	EX_mn2_e
+LB	Lysogeny broth	mobd	Molybdate	EX_mobd_e
+LB	Lysogeny broth	na1	Na+	EX_na1_e
+LB	Lysogeny broth	nac	Isonicotinic acid	EX_nac_e
+LB	Lysogeny broth	nh4	Ammonium	EX_nh4_e
+LB	Lysogeny broth	ni2	Ni2+	EX_ni2_e
+LB	Lysogeny broth	o2	O2	EX_o2_e
+LB	Lysogeny broth	phe__L	L-Phenylalanine	EX_phe__L_e
+LB	Lysogeny broth	pheme	Protoheme	EX_pheme_e
+LB	Lysogeny broth	pi	Phosphate	EX_pi_e
+LB	Lysogeny broth	pnto__R	PAN	EX_pnto__R_e
+LB	Lysogeny broth	pro__L	L-Proline	EX_pro__L_e
+LB	Lysogeny broth	pydx	Pyridoxal	EX_pydx_e
+LB	Lysogeny broth	ribflv	Riboflavin	EX_ribflv_e
+LB	Lysogeny broth	ser__L	L-Serine	EX_ser__L_e
+LB	Lysogeny broth	so4	Sulfate	EX_so4_e
+LB	Lysogeny broth	thm	Thiamin	EX_thm_e
+LB	Lysogeny broth	thr__L	L-Threonine	EX_thr__L_e
+LB	Lysogeny broth	thymd	Thymidine	EX_thymd_e
+LB	Lysogeny broth	trp__L	L-Tryptophan	EX_trp__L_e
+LB	Lysogeny broth	tyr__L	L-Tyrosine	EX_tyr__L_e
+LB	Lysogeny broth	ump	UMP	EX_ump_e
+LB	Lysogeny broth	ura	Uracil	EX_ura_e
+LB	Lysogeny broth	uri	Uridine	EX_uri_e
+LB	Lysogeny broth	val__L	L-Valine	EX_val__L_e
+LB	Lysogeny broth	zn2	Zn2+	EX_zn2_e
+LB[-O2]	Lysogeny broth (anaerobic)	adn	Adenosine	EX_adn_e
+LB[-O2]	Lysogeny broth (anaerobic)	ala__L	L-Alanine	EX_ala__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	amp	AMP	EX_amp_e
+LB[-O2]	Lysogeny broth (anaerobic)	arg__L	L-Arginine	EX_arg__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	aso3	Arsenite 	EX_aso3_e
+LB[-O2]	Lysogeny broth (anaerobic)	asp__L	L-Aspartate	EX_asp__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	ca2	Ca2+	EX_ca2_e
+LB[-O2]	Lysogeny broth (anaerobic)	cbl1	Vitamin B12	EX_cbl1_e
+LB[-O2]	Lysogeny broth (anaerobic)	cd2	Cadmium 	EX_cd2_e
+LB[-O2]	Lysogeny broth (anaerobic)	cl	Cl-	EX_cl_e
+LB[-O2]	Lysogeny broth (anaerobic)	cmp	CMP	EX_cmp_e
+LB[-O2]	Lysogeny broth (anaerobic)	cobalt2	Co2+	EX_cobalt2_e
+LB[-O2]	Lysogeny broth (anaerobic)	cro4	Chromate 	EX_cro4_e
+LB[-O2]	Lysogeny broth (anaerobic)	cu2	Cu2+	EX_cu2_e
+LB[-O2]	Lysogeny broth (anaerobic)	cys__L	L-Cysteine	EX_cys__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	dad_2	Deoxyadenosine 	EX_dad_2_e
+LB[-O2]	Lysogeny broth (anaerobic)	dcyt	Deoxycytidine	EX_dcyt_e
+LB[-O2]	Lysogeny broth (anaerobic)	fe2	Fe2+	EX_fe2_e
+LB[-O2]	Lysogeny broth (anaerobic)	fe3	Fe3+	EX_fe3_e
+LB[-O2]	Lysogeny broth (anaerobic)	fol	Folate	EX_fol_e
+LB[-O2]	Lysogeny broth (anaerobic)	glc__D	D-Glucose	EX_glc__D_e
+LB[-O2]	Lysogeny broth (anaerobic)	glu__L	L-Glutamate	EX_glu__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	gly	Glycine	EX_gly_e
+LB[-O2]	Lysogeny broth (anaerobic)	gmp	GMP	EX_gmp_e
+LB[-O2]	Lysogeny broth (anaerobic)	gsn	Guanosine	EX_gsn_e
+LB[-O2]	Lysogeny broth (anaerobic)	h2o	H2O	EX_h2o_e
+LB[-O2]	Lysogeny broth (anaerobic)	h2s	Hydrogen sulfide	EX_h2s_e
+LB[-O2]	Lysogeny broth (anaerobic)	h	H+	EX_h_e
+LB[-O2]	Lysogeny broth (anaerobic)	hg2	Hg2+ 	EX_hg2_e
+LB[-O2]	Lysogeny broth (anaerobic)	his__L	L-Histidine	EX_his__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	hxan	Hypoxanthine	EX_hxan_e
+LB[-O2]	Lysogeny broth (anaerobic)	ile__L	L-Isoleucine	EX_ile__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	ins	Inosine	EX_ins_e
+LB[-O2]	Lysogeny broth (anaerobic)	k	K+	EX_k_e
+LB[-O2]	Lysogeny broth (anaerobic)	leu__L	L-Leucine	EX_leu__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	lipoate	Lipoate	EX_lipoate_e
+LB[-O2]	Lysogeny broth (anaerobic)	lys__L	L-Lysine	EX_lys__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	met__L	L-Methionine	EX_met__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	mg2	Mg	EX_mg2_e
+LB[-O2]	Lysogeny broth (anaerobic)	mn2	Mn2+	EX_mn2_e
+LB[-O2]	Lysogeny broth (anaerobic)	mobd	Molybdate	EX_mobd_e
+LB[-O2]	Lysogeny broth (anaerobic)	na1	Na+	EX_na1_e
+LB[-O2]	Lysogeny broth (anaerobic)	nac	Isonicotinic acid	EX_nac_e
+LB[-O2]	Lysogeny broth (anaerobic)	nh4	Ammonium	EX_nh4_e
+LB[-O2]	Lysogeny broth (anaerobic)	ni2	Ni2+	EX_ni2_e
+LB[-O2]	Lysogeny broth (anaerobic)	phe__L	L-Phenylalanine	EX_phe__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	pheme	Protoheme	EX_pheme_e
+LB[-O2]	Lysogeny broth (anaerobic)	pi	Phosphate	EX_pi_e
+LB[-O2]	Lysogeny broth (anaerobic)	pnto__R	PAN	EX_pnto__R_e
+LB[-O2]	Lysogeny broth (anaerobic)	pro__L	L-Proline	EX_pro__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	pydx	Pyridoxal	EX_pydx_e
+LB[-O2]	Lysogeny broth (anaerobic)	ribflv	Riboflavin	EX_ribflv_e
+LB[-O2]	Lysogeny broth (anaerobic)	ser__L	L-Serine	EX_ser__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	so4	Sulfate	EX_so4_e
+LB[-O2]	Lysogeny broth (anaerobic)	thm	Thiamin	EX_thm_e
+LB[-O2]	Lysogeny broth (anaerobic)	thr__L	L-Threonine	EX_thr__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	thymd	Thymidine	EX_thymd_e
+LB[-O2]	Lysogeny broth (anaerobic)	trp__L	L-Tryptophan	EX_trp__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	tyr__L	L-Tyrosine	EX_tyr__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	ump	UMP	EX_ump_e
+LB[-O2]	Lysogeny broth (anaerobic)	ura	Uracil	EX_ura_e
+LB[-O2]	Lysogeny broth (anaerobic)	uri	Uridine	EX_uri_e
+LB[-O2]	Lysogeny broth (anaerobic)	val__L	L-Valine	EX_val__L_e
+LB[-O2]	Lysogeny broth (anaerobic)	zn2	Zn2+	EX_zn2_e
+M9	M9 minimal medium	ca2	Ca2+	EX_ca2_e
+M9	M9 minimal medium	cl	Cl-	EX_cl_e
+M9	M9 minimal medium	cobalt2	Co2+	EX_cobalt2_e
+M9	M9 minimal medium	cu2	Cu2+	EX_cu2_e
+M9	M9 minimal medium	fe2	Fe2+	EX_fe2_e
+M9	M9 minimal medium	fe3	Fe3+	EX_fe3_e
+M9	M9 minimal medium	glc__D	D-Glucose	EX_glc__D_e
+M9	M9 minimal medium	h2o	H2O	EX_h2o_e
+M9	M9 minimal medium	h	H+	EX_h_e
+M9	M9 minimal medium	k	K+	EX_k_e
+M9	M9 minimal medium	mg2	Mg	EX_mg2_e
+M9	M9 minimal medium	mn2	Mn2+	EX_mn2_e
+M9	M9 minimal medium	mobd	Molybdate	EX_mobd_e
+M9	M9 minimal medium	na1	Na+	EX_na1_e
+M9	M9 minimal medium	nh4	Ammonium	EX_nh4_e
+M9	M9 minimal medium	ni2	Ni2+	EX_ni2_e
+M9	M9 minimal medium	o2	O2	EX_o2_e
+M9	M9 minimal medium	pi	Phosphate	EX_pi_e
+M9	M9 minimal medium	so4	Sulfate	EX_so4_e
+M9	M9 minimal medium	zn2	Zn2+	EX_zn2_e
+M9[-O2]	M9 minimal medium (anaerobic)	ca2	Ca2+	EX_ca2_e
+M9[-O2]	M9 minimal medium (anaerobic)	cl	Cl-	EX_cl_e
+M9[-O2]	M9 minimal medium (anaerobic)	cobalt2	Co2+	EX_cobalt2_e
+M9[-O2]	M9 minimal medium (anaerobic)	cu2	Cu2+	EX_cu2_e
+M9[-O2]	M9 minimal medium (anaerobic)	fe2	Fe2+	EX_fe2_e
+M9[-O2]	M9 minimal medium (anaerobic)	fe3	Fe3+	EX_fe3_e
+M9[-O2]	M9 minimal medium (anaerobic)	glc__D	D-Glucose	EX_glc__D_e
+M9[-O2]	M9 minimal medium (anaerobic)	h2o	H2O	EX_h2o_e
+M9[-O2]	M9 minimal medium (anaerobic)	h	H+	EX_h_e
+M9[-O2]	M9 minimal medium (anaerobic)	k	K+	EX_k_e
+M9[-O2]	M9 minimal medium (anaerobic)	mg2	Mg	EX_mg2_e
+M9[-O2]	M9 minimal medium (anaerobic)	mn2	Mn2+	EX_mn2_e
+M9[-O2]	M9 minimal medium (anaerobic)	mobd	Molybdate	EX_mobd_e
+M9[-O2]	M9 minimal medium (anaerobic)	na1	Na+	EX_na1_e
+M9[-O2]	M9 minimal medium (anaerobic)	nh4	Ammonium	EX_nh4_e
+M9[-O2]	M9 minimal medium (anaerobic)	ni2	Ni2+	EX_ni2_e
+M9[-O2]	M9 minimal medium (anaerobic)	pi	Phosphate	EX_pi_e
+M9[-O2]	M9 minimal medium (anaerobic)	so4	Sulfate	EX_so4_e
+M9[-O2]	M9 minimal medium (anaerobic)	zn2	Zn2+	EX_zn2_e
+M9[glyc]	M9 minimal medium (glycerol)	ca2	Ca2+	EX_ca2_e
+M9[glyc]	M9 minimal medium (glycerol)	cl	Cl-	EX_cl_e
+M9[glyc]	M9 minimal medium (glycerol)	cobalt2	Co2+	EX_cobalt2_e
+M9[glyc]	M9 minimal medium (glycerol)	cu2	Cu2+	EX_cu2_e
+M9[glyc]	M9 minimal medium (glycerol)	fe2	Fe2+	EX_fe2_e
+M9[glyc]	M9 minimal medium (glycerol)	fe3	Fe3+	EX_fe3_e
+M9[glyc]	M9 minimal medium (glycerol)	glyc	Glycerol	EX_glyc_e
+M9[glyc]	M9 minimal medium (glycerol)	h2o	H2O	EX_h2o_e
+M9[glyc]	M9 minimal medium (glycerol)	h	H+	EX_h_e
+M9[glyc]	M9 minimal medium (glycerol)	k	K+	EX_k_e
+M9[glyc]	M9 minimal medium (glycerol)	mg2	Mg	EX_mg2_e
+M9[glyc]	M9 minimal medium (glycerol)	mn2	Mn2+	EX_mn2_e
+M9[glyc]	M9 minimal medium (glycerol)	mobd	Molybdate	EX_mobd_e
+M9[glyc]	M9 minimal medium (glycerol)	na1	Na+	EX_na1_e
+M9[glyc]	M9 minimal medium (glycerol)	nh4	Ammonium	EX_nh4_e
+M9[glyc]	M9 minimal medium (glycerol)	ni2	Ni2+	EX_ni2_e
+M9[glyc]	M9 minimal medium (glycerol)	o2	O2	EX_o2_e
+M9[glyc]	M9 minimal medium (glycerol)	pi	Phosphate	EX_pi_e
+M9[glyc]	M9 minimal medium (glycerol)	so4	Sulfate	EX_so4_e
+M9[glyc]	M9 minimal medium (glycerol)	zn2	Zn2+	EX_zn2_e
