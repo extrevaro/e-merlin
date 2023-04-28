@@ -1,0 +1,56 @@
+,Subsystem,p-Value,recall,target_lenght
+35,Fatty acid biosynthesis,1.0563635279293112e-17,0.9901960784313726,102.0
+7,Galactolipids metabolism,2.0592425524815307e-05,1.0,27.0
+25,Porphyrin and chlorophyll metabolism,0.0034731998203116725,0.8541666666666666,48.0
+26,Ubiquinone and other pterpenoids biosynthesis,0.003916750578003465,1.0,14.0
+23,Carotenoid Biosynthesis,0.00584076840579464,1.0,13.0
+6,Sulfolipid Biosynthesis,0.019301960086946898,1.0,10.0
+8,Riboflavin metabolism,0.019301960086946898,1.0,10.0
+41,Terpenoid backbone biosynthesis,0.02871755037326246,1.0,9.0
+38,Pantothenate and CoA biosynthesis,0.02871755037326246,1.0,9.0
+47,Folate biosynthesis,0.08838997146247468,0.8666666666666667,15.0
+11,Citrate cycle (TCA cycle),0.09425446910910651,1.0,6.0
+20,Sterol biosynthesis,0.09425446910910651,1.0,6.0
+48,Carbon fixation,0.09425446910910651,1.0,6.0
+10,Lipopolysaccharide biosynthesis,0.13991407352182247,1.0,5.0
+30,Nitrogen metabolism,0.19677494647164354,0.8333333333333334,12.0
+13,Urea cycle and metabolism of amino groups,0.20876410532215145,0.875,8.0
+14,Glutamate metabolism,0.20876410532215145,0.875,8.0
+12,Histidine metabolism,0.2520425476449348,0.8181818181818182,11.0
+39,Lysine metabolism,0.2520425476449348,0.8181818181818182,11.0
+15,Pyrimidine metabolism,0.3057607916926609,0.7407407407407407,27.0
+45,C5-Branched dibasic acid metabolism,0.3077842971636922,1.0,3.0
+21,Peptidoglycan biosynthesis,0.3190452299843493,0.8,10.0
+31,Valine leucine and isoleucine biosynthesis,0.36570955102106356,0.75,16.0
+4,Glyoxylate and dicarboxylate metabolism,0.36570955102106356,0.75,16.0
+9,Aminosugars metabolism,0.3682120955854022,0.8333333333333334,6.0
+49,Sulfur Cysteine and methionine metabolism,0.38125793470820335,0.7368421052631579,19.0
+0,Glycolysis/Gluconeogenesis,0.41390763753112614,0.7142857142857143,28.0
+17,"Alanine, aspartate and glutamate metabolism",0.41784535116480837,0.75,12.0
+34,Phenylalanine tyrosine and tryptophan biosynthesis,0.46606356318371944,0.7037037037037037,27.0
+19,Purine metabolism,0.5316905503908966,0.6842105263157895,38.0
+28,Pyruvate metabolism,0.6475672236418684,0.6666666666666666,15.0
+44,Nicotinate and nicotinamide metabolism,0.7601464388920425,0.625,8.0
+37,Pentose phosphate pathway,0.7818103659965754,0.6153846153846154,13.0
+16,Others,0.8409807621544998,0.5714285714285714,7.0
+43,Cyanophycin metabolism,0.894986732194659,0.5,2.0
+32,Biomass and maintenance functions,0.9660932770616901,0.3333333333333333,3.0
+18,Glycerolipid metabolism,0.984569408614437,0.3333333333333333,6.0
+53,Intracellular source/sink,0.9890788811001026,0.25,4.0
+22,Intracellular demand,0.9890788811001026,0.25,4.0
+46,Arginine and proline metabolism,0.9927397319935405,0.4838709677419355,31.0
+29,Photosynthesis,0.9931531995638557,0.38461538461538464,13.0
+27,Starch and sucrose metabolism,0.9970626407118984,0.3333333333333333,12.0
+3,Oxidative phosphorylation,0.999781107532513,0.29411764705882354,17.0
+50,Extracellular exchange,0.9999949775561486,0.3877551020408163,49.0
+42,Transport,0.9999999999945128,0.3853211009174312,109.0
+36,Hydrogen production,1.0,0.0,1.0
+33,Steroid biosynthesis,1.0,0.0,3.0
+24,PHB byosynthesis,1.0,0.0,3.0
+5,Vitamin B6 metabolism,1.0,0.0,5.0
+2,Thiamine metabolism,1.0,0.0,6.0
+1,Biotin metabolism,1.0,0.0,3.0
+51,Inositol phosphate metabolism,1.0,0.0,2.0
+52,Fructose and mannose metabolism,1.0,0.0,8.0
+40,Nucleotide sugars metabolism,1.0,0.0,4.0
+54,Glutathione metabolism,1.0,0.0,3.0

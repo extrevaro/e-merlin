@@ -1,0 +1,40 @@
+,Subsystem,p-Value,recall,target_lenght
+29,"Transport, Outer Membrane Porin",1.5566771322036125e-74,0.8814814814814815,270.0
+13,Alternate Carbon Metabolism,1.2938802266972518e-16,0.6564102564102564,195.0
+15,"Transport, Inner Membrane",2.5812633038958057e-09,0.5240963855421686,332.0
+7,Murein Recycling,2.781699907691957e-08,0.8157894736842105,38.0
+3,Nitrogen Metabolism,2.808519363133787e-06,1.0,13.0
+34,tRNA Charging,2.592699786190974e-05,0.8181818181818182,22.0
+10,Glycerophospholipid Metabolism,0.00017658074809673386,0.483739837398374,246.0
+17,"Transport, Outer Membrane",0.029387309406405094,0.5217391304347826,46.0
+18,Oxidative Phosphorylation,0.0435449361732139,0.5,52.0
+38,Unassigned,0.1332769214291608,0.5,26.0
+32,Lipopolysaccharide Biosynthesis / Recycling,0.5122103643610383,0.38028169014084506,71.0
+26,Methylglyoxal Metabolism,0.9077907078585877,0.2222222222222222,9.0
+31,Nucleotide Salvage Pathway,0.9182549327034495,0.3237410071942446,139.0
+24,Cysteine Metabolism,0.9192223349745079,0.23076923076923078,13.0
+27,Pyruvate Metabolism,0.9371127143348084,0.2,10.0
+11,Glutamate Metabolism,0.9409064201492886,0.16666666666666666,6.0
+6,Glycine and Serine Metabolism,0.9424383731108928,0.21428571428571427,14.0
+5,Methionine Metabolism,0.9593285152973092,0.2,15.0
+37,Alanine and Aspartate Metabolism,0.9856801244424802,0.1111111111111111,9.0
+4,Threonine and Lysine Metabolism,0.9905299534063257,0.15789473684210525,19.0
+35,Inorganic Ion Transport and Metabolism,0.9947428403822043,0.26785714285714285,112.0
+36,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",0.9979675627231636,0.13043478260869565,23.0
+14,Murein Biosynthesis,0.9991644338784315,0.06666666666666667,15.0
+21,Arginine and Proline Metabolism,0.9999137793891143,0.125,40.0
+1,Glycolysis/Gluconeogenesis,0.9999699605080851,0.045454545454545456,22.0
+8,Membrane Lipid Metabolism,0.9999988512382008,0.07317073170731707,41.0
+12,Cell Envelope Biosynthesis,0.9999999997918904,0.1417910447761194,134.0
+23,Cofactor and Prosthetic Group Biosynthesis,0.9999999999999788,0.1552511415525114,219.0
+33,"Valine, Leucine, and Isoleucine Metabolism",1.0,0.0,16.0
+30,Citric Acid Cycle,1.0,0.0,14.0
+0,Purine and Pyrimidine Biosynthesis,1.0,0.0,25.0
+25,Folate Metabolism,1.0,0.0,9.0
+22,Biomass and maintenance functions,1.0,0.0,4.0
+20,Anaplerotic Reactions,1.0,0.0,8.0
+16,Histidine Metabolism,1.0,0.0,10.0
+9,Pentose Phosphate Pathway,1.0,0.0,12.0
+2,Intracellular demand,1.0,0.0,6.0
+28,Extracellular exchange,1.0,0.0,324.0
+19,Glyoxylate Metabolism,1.0,0.0,4.0
