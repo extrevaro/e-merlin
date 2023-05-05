@@ -46,10 +46,10 @@ def get_active_rxns(rf_media_model, gene_exp_replicates, cutoff, parsimonious=Fa
         gimmes_result = gimmes_result.rename(columns={'value': replicate+'_value'})
         replicate_list.append(gimmes_result)
 
-        active_rxns = pd.concat(replicate_list, axis=1)
-        #delete rows whose all values are 0
-        active_rxns = active_rxns[~(active_rxns == 0).all(axis=1)]                                       
-        active_rxns = active_rxns.assign(Mean=active_rxns.mean(1), Stddev=active_rxns.std(1))
+    active_rxns = pd.concat(replicate_list, axis=1)
+    #delete rows whose all values are 0
+    active_rxns = active_rxns[~(active_rxns == 0).all(axis=1)]                                       
+    active_rxns = active_rxns.assign(Mean=active_rxns.mean(1), Stddev=active_rxns.std(1))
 
     return active_rxns
 
@@ -392,7 +392,7 @@ class OD_coefficient:
         return self.definition
 
 def plot_enrichments_results(enrichment_result, functional_class):
-    p_value_fig = px.bar(enrichment_result, x=functional_class, y=['p-Value_BAR', 'p-Value_NBR'],
+    p_value_fig = px.bar(enrichment_result, x=functional_class, y=['pvalue_BAR', 'pvalue_NBR'],
                  barmode='group',
                  height=250,
                  opacity = [l/max(enrichment_result.target_lenght_BAR.tolist()) 
@@ -533,7 +533,7 @@ def reaction_sensitivity_to_cutoff(cutoff_range, gene_exp_replicates, rf_media_m
         not_active_and_not_in_gimme_model = set([rxn for rxn in not_rxn_exp if rxn not in gimme_active_rxns.index])
         print('%s reactions are not being expressed according RNAseq and GIMME' % 
               len(not_active_and_not_in_gimme_model))
-        #Generate the context model by deletion those reactions that are inactive according to GIMME and expression data
+        #Generate the context model by deletion of those reactions that are inactive according to GIMME and expression data
         GIMME_model = to_cobrapy(rf_media_model)
         GIMME_model.remove_reactions(list(not_active_and_not_in_gimme_model))
         #Compute NBRs & BARs by performing a FVA with fraction_of_optimum set to 80% of wt
@@ -648,12 +648,13 @@ def get_enrichment_result(query_set, functional_data, rf_media_model, ica_data, 
     OUTPUT:       
             returns a dataframe consisting on the enrichment result, which has the columns:
             
-                        | <functional_class> | p-Value | recall | target_length |
+                        | <functional_class> | pvalue | recall | target_length |
     '''
     media_model = to_cobrapy(rf_media_model)
     
     pv_list = []
     recall_list = []
+    precision_list = []
     len_list = []
 
     if functional_class.startswith('iModulon'):
@@ -687,17 +688,19 @@ def get_enrichment_result(query_set, functional_data, rf_media_model, ica_data, 
 
         pv_list.append(enrichment_result.pvalue)
         recall_list.append(enrichment_result.recall)
+        precision_list.append(enrichment_result.precision)
         len_list.append(enrichment_result.target_set_size)
         
     enrichment_data = {functional_class: functional_class_list,
-                               'p-Value' : pv_list,
+                               'pvalue' : pv_list,
                                'recall' : recall_list,
+                               'precision' : precision_list,
                                'target_lenght' : len_list}
 
-    enrichment_df = pd.DataFrame.from_dict(enrichment_data).sort_values(by='p-Value')
+    enrichment_df = pd.DataFrame.from_dict(enrichment_data).sort_values(by='pvalue')
     
-    return enrichment_df
-    return enrichment_df
+    return FDR(enrichment_df, fdr=0.01)
+    
 
 def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, functional_data):
     '''
@@ -747,8 +750,8 @@ def function_sensitivity_to_cutoff(reaction_set_list, rf_media_model, ica_data, 
         for r_s in reaction_set_list:
             enrichment_df = get_enrichment_result(r_s, functional_data, rf_media_model, ica_data, class_list, functional_class=functional_class, input_type='Reaction')
             display(enrichment_df)
-            #Consider enriched functional classes those with p-value less than 0.05:
-            enriched_fc = enrichment_df.loc[enrichment_df['p-Value'] <= 0.05, functional_class].tolist()
+            #Consider enriched functional classes those with pvalue less than 0.05:
+            enriched_fc = enrichment_df.loc[enrichment_df['pvalue'] <= 0.05, functional_class].tolist()
             
             #For each functional class that our set is enriched in, compute its function
             if function_to_search == 'iModulon':
